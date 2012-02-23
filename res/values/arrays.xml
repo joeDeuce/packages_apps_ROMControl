@@ -384,6 +384,7 @@
 		<item>BT</item>
 		<item>GPS</item>
 		<item>WIFI</item>
+		<item>Data</item>
 		<item>AIRPLANE_MODE</item>
 		<item>VIBRATE</item>
 		<item>SILENT</item>
@@ -396,6 +397,7 @@
 		<item>BT</item>
 		<item>GPS</item>
 		<item>Wi-Fi</item>
+		<item>Data</item>
 		<item>Airplane mode</item>
 		<item>Vibrate</item>
 		<item>Silent</item>
