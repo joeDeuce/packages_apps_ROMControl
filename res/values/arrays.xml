@@ -389,7 +389,6 @@
 		<item>SILENT</item>
 		<item>TORCH</item>
 		<item>SYNC</item>
-		<item>SWAGGER</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -402,7 +401,6 @@
 		<item>Silent</item>
 		<item>Torch</item>
 		<item>Sync</item>
-		<item>Swagger</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
