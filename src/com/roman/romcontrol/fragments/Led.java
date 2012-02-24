@@ -19,11 +19,9 @@ public class Led extends SettingsPreferenceFragment implements OnPreferenceChang
 
     private static final String PREF_LED_OFF = "led_off";
     private static final String PREF_LED_ON = "led_on";
-    private static final String PREF_COLOR_PICKER = "led_color";
 
     ListPreference mLedOffTime;
     ListPreference mLedOnTime;
-    ColorPickerPreference mColorPicker;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,18 +54,6 @@ public class Led extends SettingsPreferenceFragment implements OnPreferenceChang
         mLedOnTime.setValue(ledOnTime);
         Log.i(TAG, "led on time set to: " + ledOnTime);
 
-        mColorPicker = (ColorPickerPreference) findPreference(PREF_COLOR_PICKER);
-        mColorPicker.setOnPreferenceChangeListener(this);
-
-    }
-
-    @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
-            Preference preference) {
-        // if (preference == mColorPicker) {
-        //
-        // }
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override
@@ -87,15 +73,6 @@ public class Led extends SettingsPreferenceFragment implements OnPreferenceChang
             Log.i(TAG, "led on time new value: " + val);
             result = Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NOTIFICATION_LIGHT_ON, val);
-        } else if (preference == mColorPicker) {
-            String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
-                    .valueOf(newValue)));
-            preference.setSummary(hex);
-
-            int intHex = ColorPickerPreference.convertToColorInt(hex);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NOTIFICATION_LIGHT_COLOR, intHex);
-            Log.e("ROMAN", intHex + "");
         }
 
         return result;
