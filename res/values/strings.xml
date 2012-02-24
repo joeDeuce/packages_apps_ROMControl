@@ -77,7 +77,7 @@
 	<string name="horizontal_recents_task_panel_summary">Use WebOS style task switcher. Your UI will restart after changing this. It will come back in about 10 seconds. If it doesn\'t, just reboot the phone from the power menu.</string>
 	
 	<string name="disable_bootanimation_title">Disable boot animation</string>
-	<string name="disable_bootanimation_summary">Jerk.</string>
+	<string name="disable_bootanimation_summary">Faster Boot with AOSP Android Anim</string>
 	
 	<string name="disable_bugmailer_title">Disable bugmailer</string>
 
@@ -115,7 +115,7 @@
     <string name="summary_pref_lockscreen_octo_targets">Adds too many shortcuts on the lock screen</string>
 
     <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Legacy menu icon unlocks screen (requires reboot)</string>
+    <string name="summary_pref_lockscreen_menu_unlock">menu button unlocks PIN lockscreen (requires reboot)</string>
     <string name="title_lockscreen_user_timeout_override">Wait to lock screen</string>
     <string name="summary_lockscreen_user_timeout_override">Use Android\'s timeout setting after you manually turn the screen off. The default behavior is to use the delay only when the screen times out by itself.</string>
     <string name="lockscreen_battery_title">Lockscreen Battery Percentage</string>
