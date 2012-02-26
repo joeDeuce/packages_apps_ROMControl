@@ -17,12 +17,10 @@ public class StatusBarGeneral extends SettingsPreferenceFragment {
     private static final String PREF_SETTINGS_BUTTON_BEHAVIOR = "settings_behavior";
     private static final String PREF_AUTO_HIDE_TOGGLES = "auto_hide_toggles";
     private static final String PREF_BRIGHTNESS_TOGGLE = "status_bar_brightness_toggle";
-    private static final String PREF_ADB_ICON = "adb_icon";
 
     CheckBoxPreference mDefaultSettingsButtonBehavior;
     CheckBoxPreference mAutoHideToggles;
     CheckBoxPreference mStatusBarBrightnessToggle;
-    CheckBoxPreference mAdbIcon;
 
     Context mContext;
 
@@ -49,10 +47,6 @@ public class StatusBarGeneral extends SettingsPreferenceFragment {
         mStatusBarBrightnessToggle.setChecked(Settings.System.getInt(mContext
                 .getContentResolver(), Settings.System.STATUS_BAR_BRIGHTNESS_TOGGLE,
                 0) == 1);
-
-        mAdbIcon = (CheckBoxPreference) findPreference(PREF_ADB_ICON);
-        mAdbIcon.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(),
-                Settings.Secure.ADB_ICON, 1) == 1);
 
         if (mTablet) {
             PreferenceScreen prefs = getPreferenceScreen();
@@ -90,12 +84,6 @@ public class StatusBarGeneral extends SettingsPreferenceFragment {
                     ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
             return true;
 
-        } else if (preference == mAdbIcon) {
-
-            boolean checked = ((CheckBoxPreference) preference).isChecked();
-            Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.ADB_ICON, checked ? 1 : 0);
-            return true;
         }
 
         return super.onPreferenceTreeClick(preferenceScreen, preference);
