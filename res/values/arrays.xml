@@ -179,13 +179,6 @@
 		<item>10000</item>
 	</string-array>
 
-	<string-array name="pref_navigation_menu_display_entries">
-		<item>Default ICS behavior</item>
-		<item>Always show invisible icons</item>
-		<item>Always show</item>
-		<item>Default ICS with invisible icons when hidden</item>
-	</string-array>
-
 	<string-array name="pref_navigation_menu_display_values">
 		<item>0</item>
 		<item>1</item>
@@ -196,7 +189,7 @@
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
 		<item>Right clock</item>
-		<item>Center clock</item>
+		<item>Centered clock</item>
 		<item>No clock</item>
 	</string-array>
 
@@ -343,16 +336,12 @@
 
 	<string-array name="battery_bar_entries">
 		<item>Hide</item>
-		<item>Statusbar</item>
-		<item>Top of navbar</item>
-		<item>Bottom of navbar</item>
+		<item>Show</item>
 	</string-array>
 	
 	<string-array name="battery_bar_values">
 		<item>0</item>
 		<item>1</item>
-		<item>2</item>
-		<item>3</item>
 	</string-array>
 	
 	<string-array name="battery_bar_style_entries">
@@ -495,7 +484,7 @@
 	</string-array>
 	
 	<string-array name="signal_style_entries">
-		<item>Show signal bars</item>
+		<item>Show Signal Bars</item>
 		<item>Show Signal Text</item>
 		<item>Show w/dBm</item>
 	</string-array>
