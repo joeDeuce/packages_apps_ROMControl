@@ -2,6 +2,13 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
+	<ListPreference
+		android:entries="@array/pref_lockscreen_options_entries"
+		android:entryValues="@array/pref_lockscreen_options_values"
+		android:key="pref_lockscreen_layout"
+		android:title="@string/pref_lockscreen_layout_title"
+		android:summary="@string/pref_lockscreen_layout_summary" />
+
 	<CheckBoxPreference
 		android:key="pref_lockscreen_menu_unlock"
 		android:title="@string/title_pref_lockscreen_menu_unlock"
