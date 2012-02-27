@@ -158,6 +158,7 @@ public class WeatherService extends IntentService {
         Log.i(TAG, "Sending weather broadcast...");
         Log.i(TAG, "City: " + w.city);
         Log.i(TAG, "Condition: " + w.condition);
+        Log.i(TAG, "Condition_code: " + w.condition_code);
         Log.i(TAG, "Date: " + w.forecast_date);
         Log.i(TAG, "Humidity: " + w.humidity);
         Log.i(TAG, "Temp: " + w.temp);
