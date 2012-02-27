@@ -21,7 +21,7 @@
     <string name="signal">Signal</string>
     
     <string name="header_summary_battery">Battery bar, 1% battery mod, etc</string>
-    <string name="header_summary_general_ui">Boot animation, bug mailer, rotation, IME switcher, etc</string>
+    <string name="header_summary_general_ui">Boot animation, CRT off, rotation, IME switcher, etc</string>
     <string name="header_summary_navigation_bar">Buttons to display, nav bar color, order</string>
     <string name="header_summary_lockscreens">Custom apps to launch, layout</string>
     <string name="header_summary_power_menu">What to display in your power menu</string>
