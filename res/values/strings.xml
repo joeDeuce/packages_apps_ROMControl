@@ -188,6 +188,9 @@
     <string name="title_status_bar_brightness_toggle">Enable brightness control</string>
     <string name="summary_status_bar_brightness_toggle">Slide finger slowly across statusbar to adjust brightness setting</string>
 
+    <string name="statusbar_transparency">Statusbar Transparency</string>
+    <string name="statusbar_transparency_summary">Warning: turning this on might affect performance and battery life. Your UI will restart after changing this</string>
+
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Battery icon style</string>
     <string name="battery_summary_text_widget">@null</string>
@@ -208,6 +211,8 @@
     <string name="reset_color_title">Reset color</string>
     <string name="enable_alarm_title">Enable alarm icon</string>
     <string name="enable_alarm_summary">After disabling/enabling, you must toggle your alarms for it to show up again. Or reboot.</string>
+    <string name="enable_clock_weekday">Day of the week</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
 
     <!-- Statusbar | Toggles -->
     <string name="toggle_style_title">Toggle style</string>
