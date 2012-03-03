@@ -83,7 +83,7 @@
     <string name="title_pref_lockscreen_quad_targets">"Quatre raccourcis d\'application"</string>
     <string name="summary_pref_lockscreen_quad_targets">Activer les raccourcis vers les applications Téléphone et Messages</string>
     <string name="title_pref_lockscreen_octo_targets">Huit raccourcis d\'applications</string>
-    <string name="summary_pref_lockscreen_octo_targets">Trop de raccourcis ajoutés à l\\'écran de verrouillage</string>
+    <string name="summary_pref_lockscreen_octo_targets">Trop de raccourcis ajoutés à l\'écran de verrouillage</string>
     <string name="title_pref_lockscreen_menu_unlock">Déverrouillage avec la touche Menu</string>
     <string name="summary_pref_lockscreen_menu_unlock">"La touche Menu déverrouille l\'écran de verrouillage PIN (requiert un redémarrage)"</string>
     <string name="title_lockscreen_user_timeout_override">Délai de verrouillage</string>
@@ -91,7 +91,7 @@
     <string name="lockscreen_battery_title">Pourcentage Batterie dans l\'écran de verrouillage</string>
     <string name="lockscreen_battery_summary">Toujours montrer le pourcentage de batterie sur l\'écran de verrouillage</string>
     <string name="lockscreen_weather_title">Météo sur écran de verrouillage</string>
-    <string name="lockscreen_weather_summary">Afficher les informations Météo sur l\\'écran de verrouillage. Vous devez activer le service de météo dans le poste de pilotage de la ROM.</string>
+    <string name="lockscreen_weather_summary">Afficher les informations Météo sur \'écran de verrouillage. Vous devez activer le service de météo dans le poste de pilotage de la ROM.</string>
     <string name="volume_wake_title">"Activer l\'écran avec boutons de volume"</string>
     <string name="volume_wake_summary">"Appuyer sur les boutons de volume activera l\'écran"</string>
     <string name="volume_music_controls_title">Contrôle du lecteur audio avec les boutons de volume</string>
@@ -112,7 +112,7 @@
     <string name="lockscreen_quick_unlock_control_title">Déverrouillage code PIN rapide</string>
     <string name="lockscreen_quick_unlock_control_summary">"Déverrouille l\'écran protégé par code PIN sans devoir appuyer sur OK ou Entrée"</string>
     <string name="enable_fast_torch_title">Lampe de poche rapide</string>
-    <string name="enable_fast_torch_summary">Ecran éteint, maintenez le bouton d\\'alimentation appuyé pour allumer le flash LED. Relâchez le bouton pour éteindre la lampe de poche.</string>
+    <string name="enable_fast_torch_summary">Ecran éteint, maintenez le bouton d\'alimentation appuyé pour allumer le flash LED. Relâchez le bouton pour éteindre la lampe de poche.</string>
     <string name="title_show_power_saver">"Afficher l\'économiseur d\'énergie"</string>
     <string name="title_show_screenshot">"Afficher la capture d\'écran"</string>
     <string name="title_show_torch_toggle">Afficher la lampe de poche</string>
