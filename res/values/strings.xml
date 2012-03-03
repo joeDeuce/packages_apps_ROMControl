@@ -188,8 +188,11 @@
     <string name="title_status_bar_brightness_toggle">Enable brightness control</string>
     <string name="summary_status_bar_brightness_toggle">Slide finger slowly across statusbar to adjust brightness setting</string>
 
-    <string name="statusbar_transparency">Statusbar Transparency</string>
-    <string name="statusbar_transparency_summary">Warning: turning this on might affect performance and battery life. Your UI will restart after changing this</string>
+    <string name="statusbar_transparency">Transparency</string>
+    <string name="statusbar_transparency_summary">Turning this on might affect performance and battery life. (requires UI restart)</string>
+
+    <string name="statusbar_layout">Phone drawer layout</string>
+    <string name="statusbar_layout_summary">Change the notification drawer layout (requires UI restart)</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Battery icon style</string>
