@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">롬 설정</string>
+
+    <!-- Main -->
+    <string name="user_interface">사용자 인터페이스</string>
+    <string name="general_ui">UI 일반</string>
+    <string name="lockscreen_options">잠금해제 옵션</string>
+    <string name="power_menu_optons">전원버튼 옵션</string>
+    <string name="functionality">기능</string>
+    <string name="power_saver">절전 모드</string>
+    <string name="led_options">LED options</string>
+    <string name="statusbar">상태표시줄</string>
+    <string name="general">일반 설정</string>
+    <string name="toggles_layout">토글 스위치</string>
+    <string name="clock">시계</string>
+    <string name="battery">배터리</string>
+    <string name="nav_bar">Navigation bar</string>
+    <string name="tools">도구</string>
+    <string name="weather">날씨</string>
+    <string name="signal">신호 강도</string>
+    
+    <string name="header_summary_battery">배터리 막대, 1% 배터리 모드, 기타</string>
+    <string name="header_summary_general_ui">부트 애니메이션, CRT 효과, 화면 회전, 키보드 선택기, 기타</string>
+    <string name="header_summary_navigation_bar">표시할 버튼, nav bar 색상, 정렬 순서</string>
+    <string name="header_summary_lockscreens">잠금화면 단축 아이콘 설정, 레이아웃</string>
+    <string name="header_summary_power_menu">전원버튼을 길게 눌렀을 때 표시할 메뉴</string>
+    <string name="header_summary_powersaver">배터리를 절약하기 위해 자동으로 데이터 차단</string>
+    <string name="header_summary_led">안드로이드 기본 설정 변경</string>
+    <string name="header_summary_general">상태표시줄 동작 관련</string>
+    <string name="header_summary_toggles">토글 스위치 설정</string>
+	<string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
+	<string name="header_summary_weather">스타일, 날씨를 받아올 지역 설정, 갱신 주기</string>
+	<string name="header_summary_signal">신호 강도를 dBm 단위로 표시</string>
+	
+    <string name="advanced_settings">고급 설정</string>
+    <string name="misc_short">기타</string>
+    
+    <!-- Navigation Bar -->
+    <string name="title_pref_menu_display">Menu location</string>
+    <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
+    <string name="navigation_bar">Navigation bar</string>
+    <string name="navigation_bar_tint_title">Navigation bar color</string>
+
+    <string name="title_pref_navigation_menu_display">Menu visibility</string>
+    <string name="summary_pref_navigation_menu_display">How and when do you want the menu buttons to appear?</string>
+
+    <string name="navbar_order_title">Navigation button order</string>
+    <string name="navbar_order_summary">Customize the order of your soft keys</string>
+
+    <string name="enabled_navbar_buttons_title">Enabled buttons</string>
+    <string name="enabled_navbar_buttons_summary">Choose which soft keys you would like to see</string>
+    
+    <string name="button_transparency_title">Nav button transparency</string>
+    
+    <string name="long_press_home_title">Long press home action</string>
+    <string name="long_press_home_summary">What to do when long pressing the home softkey. Reboot required to reflect changes.</string>
+    
+    <string name="glow_times_title">Button glow animation</string>
+    <string name="glow_times_summary">Adjust how fast your buttons animate after you touch them. Lowering the speed can improve performance.</string>
+    
+    <!-- UI -->
+    <string name="rotation_animation_delay_title">화면 회전 딜레이</string>
+    <string name="rotation_animation_delay_summary">기기를 회전 시킨 후 최소 이 시간 동안 안정된 상태를 유지해야 화면이 회전됩니다. 기본값 200 ms.</string>
+
+	<string name="ime_switcher_title">키보드 선택기 표시</string>
+	<string name="ime_switcher_summary">타이핑 중일 때  상태표시줄에 키보드 선택기를 표시 (시스템 재시작 필요)</string>
+
+	<string name="custom_carrier_label_title">통신사 레이블 변경</string>
+	<string name="longpress_to_kill_title">뒤로 가기 길게 눌러 종료</string>
+	<string name="longpress_to_kill_summary">뒤로 가기 버튼을 길게 눌러 활성화된 애플리케이션을 종료할 수 있습니다.</string>
+	
+	<string name="rotate_180_title">180° 화면 회전 허용</string>
+	<string name="rotate_180_summary">기기에게 물구나무 서기의 자유를!</string>
+
+	<string name="horizontal_recents_task_panel_title">가로 방향 작업 관리자 </string>
+	<string name="horizontal_recents_task_panel_summary">WebOS 스타일의 작업 관리자를 사용합니다. 10초 이후에도 제대로 작동하지 않으면 시스템을 재시작 하세요.</string>
+	
+	<string name="disable_bootanimation_title">부트 애니메이션 끄기</string>
+	<string name="disable_bootanimation_summary">AOSP 부트 애니메이션을 대신 사용하여 부팅 속도를 단축합니다.</string>
+	
+	<string name="disable_bugmailer_title">Disable bugmailer</string>
+
+	<string name="lcd_density_title">LCD Density</string>
+	<string name="lcd_density_summary">unknown</string>
+	
+	<!-- CRT animations -->
+	<string name="crt_animations_header">CRT 애니메이션</string>
+	<string name="crt_on_title">CRT on 애니메이션</string>
+	<string name="crt_off_title">CRT off 애니메이션</string>
+	
+	<!-- LCD Density -->
+	<string name="lcd_density_wizard">LCD Density 마법사</string>
+	<string name="follow_through_title">잘 보고 따라하세요!</string>
+	<string name="follow_through_summary">한 단계씩 천천히 진행하세요. 다음 단계로 넘어가기 전에 각 단계를 완료했는지 꼭 확인하세요.</string>
+	<string name="stock_density_title">1. 저장된 기본 값으로 LCD Density 변경</string>
+	<string name="stock_density_summary">태블릿과 화면이 작은 일부 전화기는 160을 사용합니다. 대부분의 전화기는 240을 사용합니다. 갤럭시 넥서스의 기본값은 320 입니다.</string>
+	<string name="reboot_title">2. 시스템 재시작!</string>
+	<string name="reboot_summary">부팅이 완료되면 다시 여기로 돌아와 나머지 단계들을 진행하세요!</string>
+	<string name="clear_market_data_title">3. 마켓 데이너 삭제</string>
+	<string name="clear_market_data_cleared">마켓 데이터가 삭제되었습니다.</string>
+	<string name="open_market_title">4. 마켓을 열어 허용 버튼 누르기</string>
+	<string name="open_market_summary">그리고 뒤로 가기를 눌러 다시 여기로 돌아오세요.</string>
+	<string name="custom_density_title">5. 당신이 원하는 값으로 density를 변경하세요!</string>
+	<string name="custom_density_summary">만약 마켓 호환성에 관한 문제를 겪는다면 잘 읽고 다시 처음부터 해보세요.</string>
+	
+    <!-- Lockscreens -->
+    <string name="pref_lockscreen_layout_title">잠금화면 스타일</string>
+    <string name="pref_lockscreen_layout_summary">잠금화면 스타일을 변경한 뒤 아래로 스크롤 하여 단축 아이콘을 변경하세요.</string>
+    
+    <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>	
+    <string name="summary_pref_lockscreen_quad_targets">잠금화면에 전화와 메시지 단축 아이콘 추가</string>
+
+    <string name="title_pref_lockscreen_octo_targets">Octo Targets</string>	
+    <string name="summary_pref_lockscreen_octo_targets">잠금화면에 매우 많은 단축 아이콘 추가</string>
+
+    <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Menu button unlocks PIN lockscreen (requires reboot)</string>
+    <string name="title_lockscreen_user_timeout_override">Wait to lock screen</string>
+    <string name="summary_lockscreen_user_timeout_override">Use Android\'s timeout setting after you manually turn the screen off. The default behavior is to use the delay only when the screen times out by itself.</string>
+    <string name="lockscreen_battery_title">항상 배터리 표시</string>
+    <string name="lockscreen_battery_summary">충전 중이 아닐 때도 잠금화면에 배터리 잔여량을 표시</string>
+	<string name="lockscreen_weather_title">잠금화면에 날씨 표시</string>
+    <string name="lockscreen_weather_summary">잠금화면에 날씨 정보를 표시합니다. 이 기능을 사용하려면 롬 설정의 날씨 서비스가 활성화 되어 있어야 합니다.</string>
+    <string name="volume_wake_title">볼륨 버튼으로 켜기</string>
+    <string name="volume_wake_summary">전원 버튼 뿐 아니라 볼륨 버튼으로도 화면을 켤 수 있습니다.</string>
+    <string name="volume_music_controls_title">볼륨 버튼으로 음악 컨트롤</string>
+    <string name="volume_music_controls_summary">화면이 꺼진 상태에서 볼륨 버튼을 길게 누르면 음악을 넘길 수 있습니다. 음악 재생 중엔 볼륨 버튼으로 화면을 켤 수 없습니다.</string>
+    <string name="lockscreen_show_nav_title">Hide nav bar</string>
+    <string name="lockscreen_show_nav_summary">Hide the nav bar (if your device supports it) on the lockscreen.</string>
+    <string name="custom_app_n_dialog_title">단축 아이콘 %1$s 동작</string>
+    <string name="custom_app_n">단축아이콘 %1$s 동작</string>
+    <string name="lockscreen_targets">잠금화면 단축 아이콘</string>
+    <string name="lockscreen_action_unlock">잠금해제</string>
+    <string name="lockscreen_action_sound">매너모드 전환</string>
+    <string name="lockscreen_action_camera">카메라</string>
+    <string name="lockscreen_action_mms">메시지</string>
+    <string name="lockscreen_action_phone">휴대전화</string>
+    <string name="lockscreen_action_none">미지정</string>
+    <string name="lockscreen_landscape_title">가로 방향 잠금화면</string>
+    <string name="lockscreen_landscape_summary">자동 화면 회전의 방향에 맞춰 가로 또는 세로 방향 잠금화면을 사용합니다.</string>
+    <string name="lockscreen_quick_unlock_control_title">빠른 잠금해제</string>
+    <string name="lockscreen_quick_unlock_control_summary">비밀번호/PIN 모드에서 엔터키를 누르지 않아도 잠금해제</string>
+    <string name="enable_fast_torch_title">빠른 손전등 사용</string>
+    <string name="enable_fast_torch_summary">화면이 꺼진 상태에서 전원 버튼을 길게 눌러 LED 플래시를 켤 수 있습니다. 전원 버튼에서 손을 떼면 LED 플래시도 꺼집니다.</string>
+    
+    <!-- Power Menu -->
+    <string name="title_show_power_saver">절전 모드 표시</string>
+    <string name="title_show_screenshot">화면 캡쳐 표시</string>
+    <string name="title_show_torch_toggle">손전등 스위치 표시</string>
+    <string name="title_show_airplane_toggle">비행 모드 표시</string>
+    
+    <!-- Power Saving -->
+    <string name="title_pref_powersaving_pref_mode">절전 모드 켜기</string>
+    <string name="summary_pref_powersaving_pref_mode">@null</string>
+    
+    <string name="title_pref_powersaving_data_screen_off">Screen off data action</string>
+    <string name="summary_pref_powersaving_data_screen_off">What to do with the data when the screen turns off</string>
+        
+    <string name="title_pref_powersaving_data_screen_off_delay">Data action delay</string>
+    <string name="summary_pref_powersaving_data_screen_off_delay">How long to wait before applying data action?</string>
+
+    <string name="title_pref_powersaving_sync_screen_off">Sync action</string>
+    <string name="summary_pref_powersaving_sync_screen_off">What to do with your syncage?!</string>
+    
+    <string name="title_pref_powersaving_sync_screen_off_delay">Sync time interval</string>
+    <string name="summary_pref_powersaving_sync_screen_off_delay">How long to wait between each forced sync</string>
+    
+    <string name="powersaver_data_cat">데이터</string>
+    <string name="powersaver_sync_cat">동기화</string>
+
+    <!--  LED -->
+    <string name="title_led_on">LED pulse ON duration</string>
+    <string name="summary_led_on">@null</string>
+    <string name="title_led_off">LED pulse OFF duration</string>
+    <string name="summary_led_off">@null</string>
+    <string name="led_color_title">LED color</string>
+    <string name="title_led_screen_on">LED flash while screen ON</string>
+    <string name="summary_led_screen_on">@null</string>
+
+    <!--  Statusbar | General -->
+    <string name="title_settings_behavior">기본 설정 사용</string>
+    <string name="summary_settings_behavior">날짜 옆 설정 아이콘을 터치했을 때 동작. 기본값은 한 번 터치하면 시스템 설정, 길게 누르면 토글 표시 또는 해제.</string>
+
+    <string name="title_auto_hide_toggles">토글 스위치 자동 숨김</string>
+    <string name="summary_auto_hide_toggles">상태표시줄이 접히면 토글 스위치를 숨김</string>
+
+    <string name="title_status_bar_brightness_toggle">상태표시줄 밝기 조절 사용</string>
+    <string name="summary_status_bar_brightness_toggle">상태표시줄을 좌우로 천천히 슬라이드하여 화면 밝기 조절</string>
+
+    <string name="statusbar_transparency">투명도</string>
+    <string name="statusbar_transparency_summary">투명한 상태표시줄은 성능과 배터리에 영향을 줄 수 있습니다. (UI 재시작 필요)</string>
+
+    <string name="statusbar_layout">레이아웃 위치</string>
+    <string name="statusbar_layout_summary">상태표시줄을 당길 때 나타나는 레이아웃 위치 변경 (UI 재시작 필요)</string>
+
+    <!-- Statusbar | Battery -->
+    <string name="battery_icon">배터리 아이콘 스타일 </string>
+    <string name="battery_summary_text_widget">@null</string>
+    <string name="battery_bar">배터리 막대 표시</string>
+    <string name="battery_bar_color">배터리 막대 색상</string>
+    <string name="battery_bar_cat">배터리 막대 설정</string>
+    <string name="battery_bar_style_title">배터리 막대 스타일</string>
+    <string name="battery_bar_thickness_title">배터리 막대 두께</string>
+    <string name="battery_bar_animate_title">충전 애니메이션</string>
+    <string name="battery_bar_animate_summary">이 옵션은 사용자 경험의 질을 낮출 수도 있습니다. 신중히 사용하세요.</string>
+    
+
+    <!-- Statusbar | Clock -->
+    <string name="clock_title_enable">시계 위치</string>
+    <string name="title_clock_ampm_entries">오전/오후 스타일</string>
+    <string name="colors">색상</string>
+    <string name="clock_color_title">시계 색상</string>
+    <string name="reset_color_title">Reset color</string>
+    <string name="enable_alarm_title">알람 아이콘 표시</string>
+    <string name="enable_alarm_summary">변경된 설정을 적용하려면 알람을 껏다 켜거나 시스템을 재시작해야 합니다.</string>
+
+    <!-- Statusbar | Toggles -->
+    <string name="toggle_style_title">토글 스타일</string>
+    <string name="toggle_style_summary">토글 스위치를 아이콘 또는 텍스트로 표시</string>
+
+    <string name="alternate_button_layout_title">예전 방식 토글 사용</string>
+    <string name="alternate_button_layout_summary">스위치 방식이 아닌 버튼 방식을 사용합니다.</string>
+    
+    <string name="enabled_toggles_title">사용중인 토글 스위치</string>
+    <string name="enabled_toggles_summary">화면에 표시할 토글 스위치 선택</string>
+    <string name="toggles_order_title">토글 스위치 정렬</string>
+    <string name="toggles_order_summary">화면에 표시된 토글 스위치의 순서 변경</string>
+    <string name="brightness_location_title">밝기 조절 위치</string>
+
+	<!-- Statusbar | Signal -->
+	<string name="signal_style">표시 방식</string>
+	<string name="signal_color_title">신호 강도 텍스트 색상</string>
+	<string name="hide_signal_title">Hide signal bars</string>
+	<string name="hide_signal_summary">Will also hide data indicator for now. Will be able to separate later.</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">색상 선택</string>
+    <string name="press_color_to_apply">적용할 색상을 터치하세요</string>   
+    <string name="arrow_right">→</string> 
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">기본값</string>
+    
+    <!-- Shortcut picker -->
+    <string name="use_custom_app_title">Use custom application</string>
+	<string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
+	<string name="select_custom_app_title">Select custom application</string>
+	<string name="group_applications">Applications</string>
+	
+	<!-- Weather -->
+	<string name="weather_enable">날씨 정보 표시하기</string>
+	<string name="weather_enable_summary">상태표시줄 또는 잠금화면에 날씨 정보를 표시하려면 체크하세요.</string>
+	<string name="weather_use_custom_location">수동으로 지역 설정</string>
+	<string name="weather_use_custom_location_summary">직접 지역을 설정하면 배터리를 조금 절약할 수 있습니다. 체크하지 않으면 자동으로 네트워크의 현재 위치를 사용합니다.</string>
+	<string name="weather_custom_location_dialog_title">날씨를 받아올 지역 설정</string>
+	<string name="weather_custom_location_dialog_message">Be sure to follow the examples! Setting an invalid location will stop you from getting weather updates and may cause unexpected behavior.\n\nExamples: New York,NY // New York, NY // 10033 // London, England</string>
+	<string name="weather_custom_location_title">지역 설정</string>
+	<string name="weather_show_location_title">위치 표시</string>
+	<string name="weather_show_location_summary">날씨 정보에 위치를 같이 표시</string>
+	<string name="weather_refresh_interval">갱신 주기</string>
+	<string name="weather_use_celcius">미터법 사용</string>
+	<string name="weather_use_celcius_summary">화씨가 아닌 섭씨 단위로 온도를 표시하며 풍속을 표시할 때 mph 대신 km/h 단위 사용</string>
+	<string name="weather_statusbar_style">스타일</string>
+	
+	<!-- Dialog Titles -->
+	<string name="dt_free_memory">Minfree Taskkiller</string>
+
+	<!-- Preference Categories -->
+	<string name="prefcat_cpu">CPU 설정</string>
+	<string name="prefcat_free_memory">Free Memory</string>
+	<string name="pc_tweaks">Tweaks</string>
+	<string name="pc_init_d">Enable/Disable Tweaks</string>
+	<string name="pc_init_d_tweaks">Customize Tweaks</string>
+
+	<!-- Preference Titles -->
+	<!-- Main -->
+	<string name="pt_performance">성능</string>
+	<string name="pt_customization">Customization</string>
+	<string name="pt_tools">도구</string>
+	<string name="pt_mod_version">Mod version</string>
+	<!-- Customization -->
+	<string name="pt_liberty_customizer">Liberty Customizer</string>
+	<string name="pt_lockscreen">Lockscreen Settings</string>
+	<string name="pt_ui_status_bar">Status Bar</string>
+	<string name="pt_pulldown_text">Pulldown Text</string>
+	<string name="pt_theme_manager">Theme Manager</string>
+	<!-- Tools -->
+	<string name="pt_spare_parts">Spare Parts</string>
+	<string name="pt_dev_tools">Dev Tools</string>
+	<string name="pt_dsp_manager">DSP Manager</string>
+	<string name="pt_testing_menu">Testing Menu</string>
+	<!-- Start up tweaks -->
+	<string name="pt_init_d">Start-up Tweaks</string>
+	<string name="pt_enable_init_d">Enable start-up tweaks</string>
+	<string name="pt_zipalign">Zipalign apks</string>
+	<string name="pt_enable_sd_boost">Enable SD boost</string>
+	<string name="pt_sd_boost">Read ahead value</string>
+	<string name="pt_fix_permissions">Fix permissions</string>
+	<string name="pt_clear_cache">Clear cache</string>
+	<string name="pt_enable_sysctl">Enable sysctl</string>
+	<string name="pt_enable_cron">Enable scheduled tasks</string>
+	<!-- Performance -->
+	<string name="pt_set_cpu_activity">CPU 설정</string>
+	<string name="pt_free_memory">Free memory</string>
+	<string name="pt_free_memory_boot">Set at boot</string>
+	<!-- Cpu -->
+	<string name="pt_set_max">Max CPU</string>
+	<string name="pt_set_min">Min CPU</string>
+	<string name="pt_set_gov">클럭 정책</string>
+	<string name="pt_cpu_boot">Set at boot</string>
+        <!-- Scrolling Cache -->
+        <string name="pref_scrollingcache_title">스크롤링 캐시</string>
+        <string name="pref_scrollingcache_summary">메모리 자원을 활용하여 스크롤링 성능을 향상시킬 수 있습니다.</string>
+        <string name="pref_scrollingcache_force_enable">강제 켬</string>
+        <string name="pref_scrollingcache_default_enable">기본적으로 켬</string>
+        <string name="pref_scrollingcache_default_disable">기본적으로 끔</string>
+        <string name="pref_scrollingcache_force_disable">강제 끔</string>
+
+	<!-- Preference Summaries -->
+	<!-- Main -->
+	<string name="ps_performance">오버클럭, 메모리 설정, customize start-up
+		settings.</string>
+	<string name="ps_customization">잠금 화면 &amp; 상태표시줄. Install
+		blur/aosp apps with Liberty Customizer</string>
+	<string name="ps_tools">기타 시스템 도구</string>
+	<!-- Customization -->
+	<string name="ps_liberty_customizer">Customize the ROM to your liking</string>
+	<string name="ps_lockscreen">Change lockscreen styles and manage widgets
+	</string>
+	<string name="ps_ui_status_bar">Customize the status bar</string>
+	<string name="ps_pulldown_text">Change the text in the pulldown bar.</string>
+	<string name="ps_theme_manager">Install custom themes for Liberty ROM</string>
+	<!-- Tools -->
+	<string name="ps_spare_parts">Various tweaks and customization</string>
+	<string name="ps_dev_tools">Tools for developers and advanced users</string>
+	<string name="ps_dsp_manager">Stand alone equalizer</string>
+	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
+	<!-- Start up tweaks -->
+	<string name="ps_init_d">Configure tweaks that are run at boot
+		(init.d)
+	</string>
+	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
+	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_sd_boost">Set value of read ahead in kb</string>
+	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+	<string name="ps_clear_cache">Clear data cache on each boot</string>
+	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
+	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
+	<!-- CPU -->
+	<string name="ps_set_max">CPU 최대 클럭\현재: %s</string>
+	<string name="ps_set_min">CPU 최소 클럭\n현재: %s</string>
+	<string name="ps_set_gov">가변 정책 변경\n현재: %s</string>
+	<string name="ps_cpu_boot">부팅시 자동 적용</string>
+	<!-- Performance -->
+	<string name="ps_set_cpu_activity">최소/최대 CPU 클럭과 정책 설정
+	</string>
+	<string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
+		Current: %s</string>
+	<string name="ps_free_memory_boot">Apply the amount above at boot</string>
+
+	<!-- Toast Messages -->
+	<string name="toast_min_max_error01">Max CPU cannot be lower than min CPU</string>
+	<string name="toast_min_max_error02">Min CPU cannot be higher than max CPU</string>
+
+	<!-- list_voltage -->
+	<string name="freq">Frequency</string>
+	<string name="current">mV current</string>
+	<string name="saved">mV saved</string>
+
+	<!-- voltage -->
+	<string name="error_values">Error getting values</string>
+	<string name="set_boot">Set On Boot</string>
+	<string name="apply_values">Apply Values</string>
+	
+	<string name="dpi">DPI</string>
+</resources>

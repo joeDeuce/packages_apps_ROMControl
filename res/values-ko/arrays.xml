@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="pref_navigation_menu_entries">
+		<item>오른쪽</item>
+		<item>왼쪽</item>
+		<item>양쪽</item>
+		<item>제거</item>
+	</string-array>
+
+	<!-- right is the default, easier to keep 0 as first index -->
+	<string-array name="pref_navigation_menu_values"
+		translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_entries_cdma">
+		<item>변경 안함</item>
+		<item>LTE 끔</item>
+		<item>데이터 끔</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_values_cdma">
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_entries">
+		<item>변경 안함</item>
+		<item>데이터 끔</item>
+		<item>2G 모드로 전환</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_values">
+		<item>20</item>
+		<item>22</item>
+		<item>21</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_delay_entries">
+		<item>딜레이 없음 (즉시 적용)</item>
+		<item>10 초</item>
+		<item>30 초</item>
+		<item>45 초</item>
+		<item>1 분</item>
+		<item>5 분</item>
+		<item>10 분</item>
+		<item>15 분</item>
+		<item>30 분</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_data_screen_off_delay_values">
+		<item>0</item>
+		<item>10</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+		<item>300</item>
+		<item>600</item>
+		<item>900</item>
+		<item>1800</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_sync_screen_off_interval_entries">
+		<item>15 분</item>
+		<item>30 분</item>
+		<item>1 시간</item>
+		<item>2 시간</item>
+		<item>3 시간</item>
+		<item>4 시간</item>
+		<item>5 시간</item>
+		<item>6 시간</item>
+		<item>8 시간</item>
+		<item>12 시간</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_sync_screen_off_interval_values">
+		<item>900</item>
+		<item>1800</item>
+		<item>3600</item>
+		<item>7200</item>
+		<item>10800</item>
+		<item>14400</item>
+		<item>18000</item>
+		<item>21600</item>
+		<item>28800</item>
+		<item>43200</item>
+	</string-array>
+
+
+	<string-array name="pref_powersaving_sync_screen_off_entries">
+		<item>변경 안함</item>
+		<item>동기화 끔</item>
+		<item>일정 시간 뒤에 동기화 끔</item>
+	</string-array>
+
+	<string-array name="pref_powersaving_sync_screen_off_values">
+		<item>35</item>
+		<item>33</item>
+		<item>34</item>
+	</string-array>
+	
+	<string-array name="powersaving_screen_off_wifi_entries">
+		<item>변경 안함</item>
+		<item>Wi-Fi 끄기</item>
+		<item>Wi-Fi 켜기</item>
+	</string-array>
+	
+	<string-array name="powersaving_screen_off_wifi_values">
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+	</string-array>
+	
+	<string-array name="powersaving_sync_data_mode_entries">
+		<item>변경 안함</item>
+		<item>Wi-Fi 연결시에만 동기화</item>
+		<item>Wi-Fi 선호</item>
+		<item>데이터 연결시에만 동기화</item>
+	</string-array>
+	
+	<string-array name="powersaving_sync_data_mode_values">
+		<item>54</item>
+		<item>50</item>
+		<item>51</item>
+		<item>53</item>
+	</string-array>
+	
+	<string-array name="powersaving_sync_data_mobile_mode_entries">
+		<item>2G/1x only</item>
+		<item>3G 선호</item>
+	</string-array>
+	
+	<string-array name="powersaving_sync_data_mobile_mode_values">
+		<item>62</item>
+		<item>63</item>
+	</string-array>
+	
+	<string-array name="led_entries">
+		<item>.5 초</item>
+		<item>1 초</item>
+		<item>1.5 초</item>
+		<item>2 초</item>
+		<item>2.5 초</item>
+		<item>3 초</item>
+		<item>3.5 초</item>
+		<item>4 초</item>
+		<item>4.5 초</item>
+		<item>5 초</item>
+		<item>5.5 초</item>
+		<item>6 초</item>
+		<item>7 초</item>
+		<item>8 초</item>
+		<item>9 초</item>
+		<item>10 초</item>
+	</string-array>
+
+	<!-- values must be in milliseconds!~@@#E!@ -->
+	<string-array name="led_values">
+		<item>500</item>
+		<item>1000</item>
+		<item>1500</item>
+		<item>2000</item>
+		<item>2500</item>
+		<item>3000</item>
+		<item>3500</item>
+		<item>4000</item>
+		<item>4500</item>
+		<item>5000</item>
+		<item>5500</item>
+		<item>6000</item>
+		<item>7000</item>
+		<item>8000</item>
+		<item>9000</item>
+		<item>10000</item>
+	</string-array>
+
+	<string-array name="pref_navigation_menu_display_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="statusbar_transparency_entries">
+		<item>불투명</item>
+		<item>25%</item>
+		<item>50%</item>
+		<item>75%</item>
+		<item>완전투명</item>
+	</string-array>
+
+	<string-array name="statusbar_transparency_values">
+		<item>100</item>
+		<item>75</item>
+		<item>50</item>
+		<item>25</item>
+		<item>0</item>
+	</string-array>
+
+	<string-array name="statusbar_layout_entries">
+		<item>기본</item>
+		<item>반전</item>
+		<!-- <item>Tabs</item>
+		<item>Bottom Tabs</item> -->
+	</string-array>
+
+	<string-array name="statusbar_layout_values">
+		<item>0</item>
+		<item>1</item>
+		<!-- <item>2</item>
+		<item>3</item> -->
+	</string-array>
+	
+	<!-- clock stuff -->
+	<string-array name="clock_style_entries">
+		<item>우측에 시계 표시</item>
+		<item>중앙에 시계 표시</item>
+		<item>시계 표시 안함</item>
+	</string-array>
+
+	<string-array name="clock_style_values">
+		<item>1</item>
+		<item>2</item>
+		<item>0</item>
+	</string-array>
+
+	<string-array name="clock_ampm_entries">
+		<item>숨김</item>
+		<item>작게 표시</item>
+		<item>크게 표시</item>
+	</string-array>
+
+	<string-array name="clock_ampm_values">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+
+	<string-array name="clock_weekday_entries">
+		<item>표시안함</item>
+		<item>작게 표시</item>
+		<item>크게 표시</item>
+	</string-array>
+
+	<string-array name="clock_weekday_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<!-- Toggles -->
+
+	<string-array name="brightness_location_entries">
+		<item>상단에 표시</item>
+		<item>하단에 표시</item>
+		<item>표시 안함</item>
+	</string-array>
+
+	<string-array name="brightness_location_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<!-- animation rotation -->
+	<string-array name="rotation_animation_delay_entries">
+		<item>10 ms</item>
+		<item>25 ms</item>
+		<item>50 ms</item>
+		<item>75 ms</item>
+		<item>100 ms</item>
+		<item>150 ms</item>
+		<item>200 ms</item>
+		<item>250 ms</item>
+		<item>300 ms</item>
+	</string-array>
+
+	<string-array name="rotation_animation_delay_values">
+		<item>10</item>
+		<item>25</item>
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+		<item>150</item>
+		<item>200</item>
+		<item>250</item>
+		<item>300</item>
+	</string-array>
+
+	<!-- toggle style -->
+	<string-array name="toggle_style_entries">
+		<item>아이콘</item>
+		<item>텍스트</item>
+	</string-array>
+
+	<string-array name="toggle_style_values">
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<!-- long press home -->
+	<string-array name="long_press_home_entries">
+		<item>아무 것도 하지않음</item>
+		<item>최근 사용한 앱 표시</item>
+	</string-array>
+
+	<string-array name="long_press_home_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+
+    <string-array name="pref_lockscreen_options_values">
+		<item>2</item>
+		<item>6</item>
+        <item>8</item>
+	</string-array>
+
+        <string-array name="pref_lockscreen_options_entries">
+		<item>기본</item>
+		<item>4개</item>
+        <item>8개</item>
+	</string-array>
+
+	<string-array name="minfree">
+		<item>25mb</item>
+		<item>50mb</item>
+		<item>75mb</item>
+		<item>80mb</item>
+		<item>100mb</item>
+	</string-array>
+
+	<string-array name="minfree_values">
+		<item>1536,2048,4096,5120,5632,6144</item>
+		<item>2560,3840,6400,7680,10240,12800</item>
+		<item>2560,3840,6400,10240,12800,19200</item>
+		<item>2048,3072,6144,15360,17920,20480</item>
+		<item>2560,3840,6400,12800,12800,25600</item>
+	</string-array>
+
+        <string-array name="entries_scrollingcache" translatable="false">
+                <item>@string/pref_scrollingcache_force_enable</item>
+                <item>@string/pref_scrollingcache_default_enable</item>
+                <item>@string/pref_scrollingcache_default_disable</item>
+                <item>@string/pref_scrollingcache_force_disable</item>
+         </string-array>
+
+        <string-array name="values_scrollingcache" translatable="false">
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+        </string-array>
+	
+	<string-array name="battery_icon_entries">
+		<item>기본 아이콘</item>
+		<item>숫자로 표시</item>
+		<item>아이콘과 숫자 표시</item>
+		<item>숫자 크기를 아이콘에 맞춤</item>
+		<item>CircleMOD</item>
+		<item>숨김</item>
+	</string-array>
+
+	<string-array name="battery_icon_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+
+	<string-array name="battery_bar_entries">
+		<item>숨김</item>
+		<item>표시</item>
+	</string-array>
+	
+	<string-array name="battery_bar_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	
+	<string-array name="battery_bar_style_entries">
+		<item>왼쪽 끝 기준</item>
+		<item>중앙 기준</item>
+	</string-array>
+	
+	<string-array name="battery_bar_style_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+	
+	<string-array name="battery_bar_thickness_entries">
+		<item>1 dp</item>
+		<item>2 dp</item>
+		<item>3 dp</item>
+		<item>4 dp</item>
+	</string-array>
+	
+	<string-array name="battery_bar_thickness_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	
+	<string-array name="available_toggles_entries">
+		<item>회전</item>
+		<item>BT</item>
+		<item>GPS</item>
+		<item>WIFI</item>
+		<item>Data</item>
+		<item>비행기</item>
+		<item>진동</item>
+		<item>무음</item>
+		<item>손전등</item>
+		<item>동기화</item>
+	</string-array>
+	
+	<string-array name="available_toggles_values">
+		<item>자동 화면 회전</item>
+		<item>블루투스</item>
+		<item>GPS</item>
+		<item>Wi-Fi</item>
+		<item>Data</item>
+		<item>비행기 모드</item>
+		<item>진동</item>
+		<item>무음</item>
+		<item>손전등</item>
+		<item>동기화</item>
+	</string-array>
+	
+	<string-array name="lockscreen_choice_entries">
+		<item>잠금해제</item>
+		<item>매너모드</item>
+		<item>휴대전화</item>
+		<item>카메라</item>
+		<item>메시지</item>
+		<item>커스텀 앱</item>
+		<item>비워두기</item>
+	</string-array>
+	
+	<string-array name="lockscreen_choice_values">
+		<item>**잠금해제**</item>
+		<item>**매너모드**</item>
+		<item>**휴대전화**</item>
+		<item>**카메라**</item>
+		<item>**메시지**</item>
+		<item>**커스텀 앱**</item>
+		<item>**비어있음**</item>
+	</string-array>
+	
+	<string-array name="glow_times_entries">
+		<item>끄기</item>
+		<item>매우 빠름</item>
+		<item>빠름</item>
+		<item>보통</item>
+	</string-array>
+
+	<string-array name="glow_times_values">
+		<item>0|0</item>
+		<item>100|10</item>
+		<item>250|25</item>
+		<item>500|50</item>
+	</string-array>
+	
+	<string-array name="lcd_density_entries">
+		<item>160</item>
+		<item>170</item>
+		<item>180</item>
+		<item>190</item>
+		<item>200</item>
+		<item>210</item>	
+		<item>220</item>
+		<item>230</item>
+		<item>240</item>
+		<item>직접 입력</item>
+	</string-array>
+	
+	<string-array name="weather_interval_entries">
+		<item>자동 갱신 안함</item>
+		<item>1 분</item>
+		<item>5 분</item>
+		<item>10 분</item>
+		<item>30 분</item>
+		<item>45 분</item>
+		<item>60 분</item>
+		<item>2 시간</item>
+		<item>3 시간</item>
+		<item>4 시간</item>
+		<item>6 시간</item>
+		<item>8 시간</item>
+	</string-array>
+	
+	<string-array name="weather_interval_values">
+		<item>0</item>
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+		<item>120</item>
+		<item>180</item>
+		<item>240</item>
+		<item>360</item>
+		<item>480</item>
+	</string-array>
+	
+	<string-array name="lcd_density_stock_entries">
+		<item>160 -- mdpi</item>
+		<item>240 -- hdpi</item>
+		<item>320 -- xhdpi</item>
+	</string-array>
+
+	<string-array name="lcd_density_stock_values">
+		<item>160</item>
+		<item>240</item>
+		<item>320</item>
+	</string-array>
+	
+	<string-array name="signal_style_entries">
+		<item>아이콘으로 표시</item>
+		<item>숫자만 표시</item>
+		<item>w/dBm 단위 같이 표시</item>
+	</string-array>
+
+	<string-array name="signal_style_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="weather_statusbar_location_entries">
+		<item>상태표시줄 하단에 표시</item>
+		<item>날씨 패널 사용</item>
+	</string-array>
+	
+	<string-array name="weather_statusbar_location_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+</resources>
