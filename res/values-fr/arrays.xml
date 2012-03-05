@@ -186,11 +186,41 @@
 		<item>3</item>
 	</string-array>
 
+	<string-array name="statusbar_transparency_entries">
+		<item>Sans transparence</item>
+		<item>25%</item>
+		<item>50%</item>
+		<item>75%</item>
+		<item>Totalement transparent</item>
+	</string-array>
+
+	<string-array name="statusbar_transparency_values">
+		<item>100</item>
+		<item>75</item>
+		<item>50</item>
+		<item>25</item>
+		<item>0</item>
+	</string-array>
+
+	<string-array name="statusbar_layout_entries">
+		<item>Mise en page normale</item>
+		<item>Mise en page inversée</item>
+		<!-- <item>Tabs</item>
+		<item>Bottom Tabs</item> -->
+	</string-array>
+
+	<string-array name="statusbar_layout_values">
+		<item>0</item>
+		<item>1</item>
+		<!-- <item>2</item>
+		<item>3</item> -->
+	</string-array>
+
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
 		<item>Horloge à droite</item>
 		<item>Horloge au centre</item>
-		<item>Pas d\'horloge</item>
+		<item>Horloge cachée</item>
 	</string-array>
 
 	<string-array name="clock_style_values">
@@ -209,6 +239,18 @@
 		<item>2</item>
 		<item>1</item>
 		<item>0</item>
+	</string-array>
+
+	<string-array name="clock_weekday_entries">
+		<item>Ne pas afficher</item>
+		<item>Jour de la semaine abrégé</item>
+		<item>Jour de la semaine normal</item>
+	</string-array>
+
+	<string-array name="clock_weekday_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
 	</string-array>
 
 	<!-- Toggles -->
@@ -367,15 +409,15 @@
 	</string-array>
 	
 	<string-array name="available_toggles_entries">
-		<item>ROTATION</item>
+		<item>ROTATE</item>
 		<item>BT</item>
 		<item>GPS</item>
-		<item>WI-FI</item>
-		<item>DONNEES</item>
-		<item>MODE AVION</item>
-		<item>VIBREUR</item>
-		<item>SILENCIEUX</item>
-		<item>TORCHE</item>
+		<item>WIFI</item>
+		<item>DATA</item>
+		<item>AIRPLANE_MODE</item>
+		<item>VIBRATE</item>
+		<item>SILENT</item>
+		<item>TORCH</item>
 		<item>SYNC</item>
 	</string-array>
 	
@@ -396,7 +438,7 @@
 		<item>Déverrouiller</item>
 		<item>Commutateur Son</item>
 		<item>Téléphone</item>
-		<item>Camera</item>
+		<item>Appareil photo</item>
 		<item>SMS</item>
 		<item>Application personnalisée</item>
 		<item>Vide</item>

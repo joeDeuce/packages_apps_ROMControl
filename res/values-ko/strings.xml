@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">롬 설정</string>
 
     <!-- Main -->
     <string name="user_interface">사용자 인터페이스</string>
     <string name="general_ui">UI 일반</string>
-    <string name="lockscreen_options">잠금해제 옵션</string>
-    <string name="power_menu_optons">전원버튼 옵션</string>
+    <string name="lockscreen_options">잠금 화면</string>
+    <string name="power_menu_optons">전원 버튼 메뉴</string>
     <string name="functionality">기능</string>
     <string name="power_saver">절전 모드</string>
-    <string name="led_options">LED options</string>
+    <string name="led_options">LED 설정</string>
     <string name="statusbar">상태표시줄</string>
     <string name="general">일반 설정</string>
-    <string name="toggles_layout">토글 스위치</string>
+    <string name="toggles_layout">토글</string>
     <string name="clock">시계</string>
     <string name="battery">배터리</string>
     <string name="nav_bar">Navigation bar</string>
@@ -23,11 +23,11 @@
     <string name="header_summary_battery">배터리 막대, 1% 배터리 모드, 기타</string>
     <string name="header_summary_general_ui">부트 애니메이션, CRT 효과, 화면 회전, 키보드 선택기, 기타</string>
     <string name="header_summary_navigation_bar">표시할 버튼, nav bar 색상, 정렬 순서</string>
-    <string name="header_summary_lockscreens">잠금화면 단축 아이콘 설정, 레이아웃</string>
-    <string name="header_summary_power_menu">전원버튼을 길게 눌렀을 때 표시할 메뉴</string>
+    <string name="header_summary_lockscreens">잠금 화면 단축 아이콘 설정, 레이아웃</string>
+    <string name="header_summary_power_menu">전원 버튼을 길게 눌렀을 때 표시할 메뉴 선택</string>
     <string name="header_summary_powersaver">배터리를 절약하기 위해 자동으로 데이터 차단</string>
-    <string name="header_summary_led">안드로이드 기본 설정 변경</string>
-    <string name="header_summary_general">상태표시줄 동작 관련</string>
+    <string name="header_summary_led">Change default settings for Android to use</string>
+    <string name="header_summary_general">설정 버튼 동작, 투명도 변경, 레이아웃</string>
     <string name="header_summary_toggles">토글 스위치 설정</string>
 	<string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
 	<string name="header_summary_weather">스타일, 날씨를 받아올 지역 설정, 갱신 주기</string>
@@ -105,23 +105,23 @@
 	<string name="custom_density_summary">만약 마켓 호환성에 관한 문제를 겪는다면 잘 읽고 다시 처음부터 해보세요.</string>
 	
     <!-- Lockscreens -->
-    <string name="pref_lockscreen_layout_title">잠금화면 스타일</string>
-    <string name="pref_lockscreen_layout_summary">잠금화면 스타일을 변경한 뒤 아래로 스크롤 하여 단축 아이콘을 변경하세요.</string>
+    <string name="pref_lockscreen_layout_title">잠금 화면 스타일</string>
+    <string name="pref_lockscreen_layout_summary">잠금 화면 스타일을 변경한 뒤 아래로 스크롤 하여 단축 아이콘을 변경하세요.</string>
     
     <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>	
-    <string name="summary_pref_lockscreen_quad_targets">잠금화면에 전화와 메시지 단축 아이콘 추가</string>
+    <string name="summary_pref_lockscreen_quad_targets">잠금 화면에 전화와 메시지 단축 아이콘 추가</string>
 
     <string name="title_pref_lockscreen_octo_targets">Octo Targets</string>	
-    <string name="summary_pref_lockscreen_octo_targets">잠금화면에 매우 많은 단축 아이콘 추가</string>
+    <string name="summary_pref_lockscreen_octo_targets">잠금 화면에 매우 많은 단축 아이콘 추가</string>
 
     <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
     <string name="summary_pref_lockscreen_menu_unlock">Menu button unlocks PIN lockscreen (requires reboot)</string>
     <string name="title_lockscreen_user_timeout_override">Wait to lock screen</string>
     <string name="summary_lockscreen_user_timeout_override">Use Android\'s timeout setting after you manually turn the screen off. The default behavior is to use the delay only when the screen times out by itself.</string>
     <string name="lockscreen_battery_title">항상 배터리 표시</string>
-    <string name="lockscreen_battery_summary">충전 중이 아닐 때도 잠금화면에 배터리 잔여량을 표시</string>
-	<string name="lockscreen_weather_title">잠금화면에 날씨 표시</string>
-    <string name="lockscreen_weather_summary">잠금화면에 날씨 정보를 표시합니다. 이 기능을 사용하려면 롬 설정의 날씨 서비스가 활성화 되어 있어야 합니다.</string>
+    <string name="lockscreen_battery_summary">충전 중이 아닐 때도 잠금 화면에 배터리 잔여량을 표시</string>
+	<string name="lockscreen_weather_title">잠금 화면에 날씨 표시</string>
+    <string name="lockscreen_weather_summary">잠금 화면에 날씨 정보를 표시합니다. 이 기능을 사용하려면 롬 설정의 날씨 서비스가 활성화 되어 있어야 합니다.</string>
     <string name="volume_wake_title">볼륨 버튼으로 켜기</string>
     <string name="volume_wake_summary">전원 버튼 뿐 아니라 볼륨 버튼으로도 화면을 켤 수 있습니다.</string>
     <string name="volume_music_controls_title">볼륨 버튼으로 음악 컨트롤</string>
@@ -130,15 +130,15 @@
     <string name="lockscreen_show_nav_summary">Hide the nav bar (if your device supports it) on the lockscreen.</string>
     <string name="custom_app_n_dialog_title">단축 아이콘 %1$s 동작</string>
     <string name="custom_app_n">단축아이콘 %1$s 동작</string>
-    <string name="lockscreen_targets">잠금화면 단축 아이콘</string>
+    <string name="lockscreen_targets">잠금 화면 단축 아이콘</string>
     <string name="lockscreen_action_unlock">잠금해제</string>
     <string name="lockscreen_action_sound">매너모드 전환</string>
     <string name="lockscreen_action_camera">카메라</string>
     <string name="lockscreen_action_mms">메시지</string>
     <string name="lockscreen_action_phone">휴대전화</string>
     <string name="lockscreen_action_none">미지정</string>
-    <string name="lockscreen_landscape_title">가로 방향 잠금화면</string>
-    <string name="lockscreen_landscape_summary">자동 화면 회전의 방향에 맞춰 가로 또는 세로 방향 잠금화면을 사용합니다.</string>
+    <string name="lockscreen_landscape_title">가로 방향 잠금 화면</string>
+    <string name="lockscreen_landscape_summary">자동 화면 회전의 방향에 맞춰 가로 또는 세로 방향 잠금 화면을 사용합니다.</string>
     <string name="lockscreen_quick_unlock_control_title">빠른 잠금해제</string>
     <string name="lockscreen_quick_unlock_control_summary">비밀번호/PIN 모드에서 엔터키를 누르지 않아도 잠금해제</string>
     <string name="enable_fast_torch_title">빠른 손전등 사용</string>
@@ -179,10 +179,10 @@
     <string name="summary_led_screen_on">@null</string>
 
     <!--  Statusbar | General -->
-    <string name="title_settings_behavior">기본 설정 사용</string>
-    <string name="summary_settings_behavior">날짜 옆 설정 아이콘을 터치했을 때 동작. 기본값은 한 번 터치하면 시스템 설정, 길게 누르면 토글 표시 또는 해제.</string>
+    <string name="title_settings_behavior">ICS 기본 설정 버튼</string>
+    <string name="summary_settings_behavior">ICS 기본값은 한 번 터치로 시스템 설정, 길게 눌러 토글 숨김/표시. 체크를 해제하면 반대로 작동합니다.</string>
 
-    <string name="title_auto_hide_toggles">토글 스위치 자동 숨김</string>
+    <string name="title_auto_hide_toggles">토글 자동 숨김</string>
     <string name="summary_auto_hide_toggles">상태표시줄이 접히면 토글 스위치를 숨김</string>
 
     <string name="title_status_bar_brightness_toggle">상태표시줄 밝기 조절 사용</string>
@@ -214,7 +214,9 @@
     <string name="reset_color_title">Reset color</string>
     <string name="enable_alarm_title">알람 아이콘 표시</string>
     <string name="enable_alarm_summary">변경된 설정을 적용하려면 알람을 껏다 켜거나 시스템을 재시작해야 합니다.</string>
-
+    <string name="enable_clock_weekday">요일 표시k</string>
+    <string name="enable_clock_weekday_summary">시간 앞에 요일을 표시</string>
+    
     <!-- Statusbar | Toggles -->
     <string name="toggle_style_title">토글 스타일</string>
     <string name="toggle_style_summary">토글 스위치를 아이콘 또는 텍스트로 표시</string>
@@ -222,10 +224,10 @@
     <string name="alternate_button_layout_title">예전 방식 토글 사용</string>
     <string name="alternate_button_layout_summary">스위치 방식이 아닌 버튼 방식을 사용합니다.</string>
     
-    <string name="enabled_toggles_title">사용중인 토글 스위치</string>
+    <string name="enabled_toggles_title">사용 중인 토글 스위치</string>
     <string name="enabled_toggles_summary">화면에 표시할 토글 스위치 선택</string>
-    <string name="toggles_order_title">토글 스위치 정렬</string>
-    <string name="toggles_order_summary">화면에 표시된 토글 스위치의 순서 변경</string>
+    <string name="toggles_order_title">정렬 순서</string>
+    <string name="toggles_order_summary">토글 스위치의 순서 변경</string>
     <string name="brightness_location_title">밝기 조절 위치</string>
 
 	<!-- Statusbar | Signal -->
