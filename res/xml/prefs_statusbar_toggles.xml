@@ -37,7 +37,7 @@
 
 		<Preference
 			android:key="reset_toggles"
-			android:title="Reset toggles">
+			android:title="@string/toggle_reset">
 		</Preference>
 
 	</PreferenceCategory>
