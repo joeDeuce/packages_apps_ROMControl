@@ -382,4 +382,10 @@
 	<string name="apply_values">Apply Values</string>
 	
 	<string name="dpi">DPI</string>
+
+	<!-- For translate strings -->
+	<string name="screen_off_wifi_action_text">Screen-off Wi-Fi action</string>
+	<string name="sync_data_mode_text">Sync data usage</string>
+	<string name="sync_data_mobile_mode_text">Sync mobile data preference</string>
+	
 </resources>

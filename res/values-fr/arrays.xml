@@ -362,6 +362,9 @@
 		<item>Icône avec texte</item>
 		<item>Icône avec texte centré</item>
 		<item>Style Cercle</item>
+		<item>Style Gummy Bar</item>
+		<item>Style Honeycomb</item> 
+		<item>Style GenX</item>
 		<item>Masquer</item>
 	</string-array>
 
@@ -372,6 +375,9 @@
 		<item>3</item>
 		<item>4</item>
 		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
 	</string-array>
 
 	<string-array name="battery_bar_entries">
@@ -538,10 +544,12 @@
 	<string-array name="weather_statusbar_location_entries">
 		<item>Au-dessus du texte Opérateur</item>
 		<item>Panneau Météo</item>
+		<item>Désactivé</item>
 	</string-array>
 	
 	<string-array name="weather_statusbar_location_values">
 		<item>0</item>
 		<item>1</item>
+		<item>2</item>
 	</string-array>
 </resources>
