@@ -20,4 +20,9 @@
     android:title="@string/title_led_screen_on"
     android:summary="@string/summary_led_screen_on" />
 
+  <CheckBoxPreference
+    android:key="use_bln"
+    android:title="@string/title_use_bln"
+    android:summary="@string/summary_use_bln" />
+
 </PreferenceScreen>

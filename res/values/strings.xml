@@ -179,6 +179,8 @@
     <string name="led_color_title">LED color</string>
     <string name="title_led_screen_on">LED flash while screen ON</string>
     <string name="summary_led_screen_on">@null</string>
+    <string name="title_use_bln">Use BLN</string>
+    <string name="summary_use_bln"><b>B</b>utton<b>L</b>ight<b>N</b>otification, turn on softkeys in new notification; slightly more power in standby</string>
 
     <!--  Statusbar | General -->
     <string name="title_settings_behavior">Use default settings behavior</string>
