@@ -95,7 +95,7 @@
 	<string-array name="pref_powersaving_sync_screen_off_entries">
 		<item>변경 안함</item>
 		<item>동기화 끔</item>
-		<item>일정 시간 뒤에 동기화 끔</item>
+		<item>동기화 주기 사용</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_sync_screen_off_values">
@@ -103,43 +103,43 @@
 		<item>33</item>
 		<item>34</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_screen_off_wifi_entries">
 		<item>변경 안함</item>
 		<item>Wi-Fi 끄기</item>
 		<item>Wi-Fi 켜기</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_screen_off_wifi_values">
 		<item>40</item>
 		<item>41</item>
 		<item>42</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_sync_data_mode_entries">
 		<item>변경 안함</item>
 		<item>Wi-Fi 연결시에만 동기화</item>
 		<item>Wi-Fi 선호</item>
 		<item>데이터 연결시에만 동기화</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_sync_data_mode_values">
 		<item>54</item>
 		<item>50</item>
 		<item>51</item>
 		<item>53</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_sync_data_mobile_mode_entries">
 		<item>2G/1x only</item>
 		<item>3G 선호</item>
 	</string-array>
-	
+
 	<string-array name="powersaving_sync_data_mobile_mode_values">
 		<item>62</item>
 		<item>63</item>
 	</string-array>
-	
+
 	<string-array name="led_entries">
 		<item>.5 초</item>
 		<item>1 초</item>
@@ -215,7 +215,7 @@
 		<!-- <item>2</item>
 		<item>3</item> -->
 	</string-array>
-	
+
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
 		<item>우측에 표시</item>
@@ -355,13 +355,16 @@
                 <item>2</item>
                 <item>3</item>
         </string-array>
-	
+
 	<string-array name="battery_icon_entries">
 		<item>기본 아이콘</item>
-		<item>숫자로 표시</item>
+		<item>숫자와 %단위</item>
 		<item>아이콘과 숫자 표시</item>
-		<item>숫자 크기를 아이콘에 맞춤</item>
-		<item>CircleMOD</item>
+		<item>아이콘에 꼭 맞는 숫자</item>
+		<item>원형</item>
+		<item>껌 막대</item>
+		<item>허니컴</item>
+		<item>GenX</item>
 		<item>숨김</item>
 	</string-array>
 
@@ -372,42 +375,45 @@
 		<item>3</item>
 		<item>4</item>
 		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
 	</string-array>
 
 	<string-array name="battery_bar_entries">
 		<item>숨김</item>
 		<item>표시</item>
 	</string-array>
-	
+
 	<string-array name="battery_bar_values">
 		<item>0</item>
 		<item>1</item>
 	</string-array>
-	
+
 	<string-array name="battery_bar_style_entries">
 		<item>왼쪽 끝 기준</item>
 		<item>중앙 기준</item>
 	</string-array>
-	
+
 	<string-array name="battery_bar_style_values">
 		<item>0</item>
 		<item>1</item>
 	</string-array>
-	
+
 	<string-array name="battery_bar_thickness_entries">
 		<item>1 dp</item>
 		<item>2 dp</item>
 		<item>3 dp</item>
 		<item>4 dp</item>
 	</string-array>
-	
+
 	<string-array name="battery_bar_thickness_values">
 		<item>1</item>
 		<item>2</item>
 		<item>3</item>
 		<item>4</item>
 	</string-array>
-	
+
 	<string-array name="available_toggles_entries">
 		<item>ROTATE</item>
 		<item>BT</item>
@@ -420,7 +426,7 @@
 		<item>TORCH</item>
 		<item>SYNC</item>
 	</string-array>
-	
+
 	<string-array name="available_toggles_values">
 		<item>Auto-rotate</item>
 		<item>BT</item>
@@ -433,7 +439,7 @@
 		<item>Torch</item>
 		<item>Sync</item>
 	</string-array>
-	
+
 	<string-array name="lockscreen_choice_entries">
 		<item>Unlock</item>
 		<item>Sound toggle</item>
@@ -443,7 +449,7 @@
 		<item>Custom app</item>
 		<item>Blank</item>
 	</string-array>
-	
+
 	<string-array name="lockscreen_choice_values">
 		<item>**unlock**</item>
 		<item>**sound**</item>
@@ -453,7 +459,7 @@
 		<item>**app**</item>
 		<item>**null**</item>
 	</string-array>
-	
+
 	<string-array name="glow_times_entries">
 		<item>끄기</item>
 		<item>매우 빠름</item>
@@ -467,7 +473,7 @@
 		<item>250|25</item>
 		<item>500|50</item>
 	</string-array>
-	
+
 	<string-array name="lcd_density_entries">
 		<item>160</item>
 		<item>170</item>
@@ -480,7 +486,7 @@
 		<item>240</item>
 		<item>직접 입력</item>
 	</string-array>
-	
+
 	<string-array name="weather_interval_entries">
 		<item>자동 갱신 안함</item>
 		<item>1 분</item>
@@ -495,7 +501,7 @@
 		<item>6 시간</item>
 		<item>8 시간</item>
 	</string-array>
-	
+
 	<string-array name="weather_interval_values">
 		<item>0</item>
 		<item>1</item>
@@ -510,7 +516,7 @@
 		<item>360</item>
 		<item>480</item>
 	</string-array>
-	
+
 	<string-array name="lcd_density_stock_entries">
 		<item>160 -- mdpi</item>
 		<item>240 -- hdpi</item>
@@ -522,7 +528,7 @@
 		<item>240</item>
 		<item>320</item>
 	</string-array>
-	
+
 	<string-array name="signal_style_entries">
 		<item>아이콘으로 표시</item>
 		<item>숫자만 표시</item>
@@ -534,14 +540,16 @@
 		<item>1</item>
 		<item>2</item>
 	</string-array>
-	
+
 	<string-array name="weather_statusbar_location_entries">
 		<item>상태표시줄 하단에 표시</item>
 		<item>날씨 패널 사용</item>
-	</string-array>
-	
+		<item>숨김</item>
+    </string-array>
+
 	<string-array name="weather_statusbar_location_values">
 		<item>0</item>
 		<item>1</item>
+		<item>2</item>
 	</string-array>
 </resources>
