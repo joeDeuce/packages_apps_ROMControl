@@ -189,16 +189,22 @@
 	<string-array name="statusbar_transparency_entries">
 		<item>No transparency</item>
 		<item>25%</item>
+		<item>33%</item>
 		<item>50%</item>
+		<item>66%</item>
 		<item>75%</item>
+		<item>90%</item>
 		<item>Full transparency</item>
 	</string-array>
 
 	<string-array name="statusbar_transparency_values">
 		<item>100</item>
 		<item>75</item>
+		<item>66</item>
 		<item>50</item>
+		<item>33</item>
 		<item>25</item>
+		<item>10</item>
 		<item>0</item>
 	</string-array>
 
