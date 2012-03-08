@@ -11,7 +11,7 @@
     <string name="power_saver">절전 모드</string>
     <string name="led_options">LED 설정</string>
     <string name="statusbar">상태표시줄</string>
-    <string name="general">일반 설정</string>
+    <string name="general">일반</string>
     <string name="toggles_layout">토글</string>
     <string name="clock">시계</string>
     <string name="battery">배터리</string>
@@ -26,7 +26,7 @@
     <string name="header_summary_lockscreens">잠금 화면 단축 아이콘 설정, 레이아웃</string>
     <string name="header_summary_power_menu">전원 버튼을 길게 눌렀을 때 표시할 메뉴 선택</string>
     <string name="header_summary_powersaver">배터리를 절약하기 위해 자동으로 데이터 차단</string>
-    <string name="header_summary_led">Change default settings for Android to use</string>
+    <string name="header_summary_led"> 디자이어HD는 지원하지 않는 기능입니다.</string>
     <string name="header_summary_general">설정 버튼 동작, 투명도 변경, 레이아웃</string>
     <string name="header_summary_toggles">토글 스위치 설정</string>
 	<string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
@@ -79,7 +79,7 @@
 	<string name="disable_bootanimation_title">부트 애니메이션 끄기</string>
 	<string name="disable_bootanimation_summary">AOSP 부트 애니메이션을 대신 사용하여 부팅 속도를 단축합니다.</string>
 	
-	<string name="disable_bugmailer_title">Disable bugmailer</string>
+	<string name="disable_bugmailer_title">버그메일 보내기 끔</string>
 
 	<string name="lcd_density_title">LCD Density</string>
 	<string name="lcd_density_summary">unknown</string>
@@ -236,8 +236,8 @@
 	<!-- Statusbar | Signal -->
 	<string name="signal_style">표시 방식</string>
 	<string name="signal_color_title">신호 강도 텍스트 색상</string>
-	<string name="hide_signal_title">Hide signal bars</string>
-	<string name="hide_signal_summary">Will also hide data indicator for now. Will be able to separate later.</string>
+	<string name="hide_signal_title">표시 안함</string>
+	<string name="hide_signal_summary">데이터 전송 상태 표시도 사라집니다.</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">색상 선택</string>
@@ -250,10 +250,10 @@
     <string name="ics_color">기본값</string>
     
     <!-- Shortcut picker -->
-    <string name="use_custom_app_title">Use custom application</string>
-	<string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
-	<string name="select_custom_app_title">Select custom application</string>
-	<string name="group_applications">Applications</string>
+    <string name="use_custom_app_title">사용자 정의 앱 사용</string>
+	<string name="use_custom_app_summary">작업관리자 대신에 사용할 앱을 직접 고를 수 있습니다.</string>
+	<string name="select_custom_app_title">사용자 정의 앱 선택</string>
+	<string name="group_applications">애플리케이션</string>
 	
 	<!-- Weather -->
 	<string name="weather_enable">날씨 정보 표시하기</string>
@@ -261,7 +261,7 @@
 	<string name="weather_use_custom_location">수동으로 지역 설정</string>
 	<string name="weather_use_custom_location_summary">직접 지역을 설정하면 배터리를 조금 절약할 수 있습니다. 체크하지 않으면 자동으로 네트워크의 현재 위치를 사용합니다.</string>
 	<string name="weather_custom_location_dialog_title">날씨를 받아올 지역 설정</string>
-	<string name="weather_custom_location_dialog_message">Be sure to follow the examples! Setting an invalid location will stop you from getting weather updates and may cause unexpected behavior.\n\nExamples: New York,NY // New York, NY // 10033 // London, England</string>
+	<string name="weather_custom_location_dialog_message">예를 잘 보고 입력해 주세요! 잘못된 지역 설정은 정보를 제대로 받아오지 못할 뿐 아니라 예기치 않은 문제를 야기할 수 있습니다.\n\n예: New York,NY // New York, NY // 10033 // London, England // 정자3동, 성남시</string>
 	<string name="weather_custom_location_title">지역 설정</string>
 	<string name="weather_show_location_title">위치 표시</string>
 	<string name="weather_show_location_summary">날씨 정보에 위치를 같이 표시</string>
@@ -275,8 +275,8 @@
 
 	<!-- Preference Categories -->
 	<string name="prefcat_cpu">CPU 설정</string>
-	<string name="prefcat_free_memory">Free Memory</string>
-	<string name="pc_tweaks">Tweaks</string>
+	<string name="prefcat_free_memory">메모리</string>
+	<string name="pc_tweaks">트윅</string>
 	<string name="pc_init_d">Enable/Disable Tweaks</string>
 	<string name="pc_init_d_tweaks">Customize Tweaks</string>
 
@@ -310,7 +310,7 @@
 	<!-- Performance -->
 	<string name="pt_set_cpu_activity">CPU 설정</string>
 	<string name="pt_free_memory">Free memory</string>
-	<string name="pt_free_memory_boot">Set at boot</string>
+	<string name="pt_free_memory_boot">부팅시 자동 적용</string>
 	<!-- Cpu -->
 	<string name="pt_set_max">Max CPU</string>
 	<string name="pt_set_min">Min CPU</string>
@@ -326,8 +326,7 @@
 
 	<!-- Preference Summaries -->
 	<!-- Main -->
-	<string name="ps_performance">오버클럭, 메모리 설정, customize start-up
-		settings.</string>
+	<string name="ps_performance">오버클럭, 메모리 설정, 자동 시작 트윅</string>
 	<string name="ps_customization">잠금 화면 &amp; 상태표시줄. Install
 		blur/aosp apps with Liberty Customizer</string>
 	<string name="ps_tools">기타 시스템 도구</string>
@@ -344,15 +343,15 @@
 	<string name="ps_dsp_manager">Stand alone equalizer</string>
 	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
 	<!-- Start up tweaks -->
-	<string name="ps_init_d">Configure tweaks that are run at boot
+	<string name="ps_init_d">부팅시 실행할 트윅 설정
 		(init.d)
 	</string>
-	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+	<string name="ps_enable_init_d">켜기/끄기 자동 적용 트윅</string>
 	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
-	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_enable_sd_boost">켜기/끄기 SD 카드 속도 증가</string>
 	<string name="ps_sd_boost">Set value of read ahead in kb</string>
 	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
-	<string name="ps_clear_cache">Clear data cache on each boot</string>
+	<string name="ps_clear_cache">부팅시 데이터 캐시 삭제</string>
 	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
 	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
 	<!-- CPU -->
@@ -363,13 +362,13 @@
 	<!-- Performance -->
 	<string name="ps_set_cpu_activity">최소/최대 CPU 클럭과 정책 설정
 	</string>
-	<string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
-		Current: %s</string>
+	<string name="ps_free_memory">작업 관리자가 유지할 최소 가용램 |
+		현재: %s</string>
 	<string name="ps_free_memory_boot">Apply the amount above at boot</string>
 
 	<!-- Toast Messages -->
-	<string name="toast_min_max_error01">Max CPU cannot be lower than min CPU</string>
-	<string name="toast_min_max_error02">Min CPU cannot be higher than max CPU</string>
+	<string name="toast_min_max_error01">최대 CPU는 최소 CPU 보다 낮은 값으로 설정할 수 없음</string>
+	<string name="toast_min_max_error02">최소 CPU는 최대 CPU 보다 높은 값으로 설정할 수 없음</string>
 
 	<!-- list_voltage -->
 	<string name="freq">Frequency</string>
