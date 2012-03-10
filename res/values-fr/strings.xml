@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Poste de pilotage de la Rom</string>
 
@@ -144,7 +144,7 @@
     <string name="lockscreen_quick_unlock_control_title">Déverrouillage code PIN rapide</string>
     <string name="lockscreen_quick_unlock_control_summary">"Déverrouille l\'écran protégé par code PIN sans devoir appuyer sur OK ou Entrée"</string>
     <string name="enable_fast_torch_title">Lampe de poche rapide</string>
-    <string name="enable_fast_torch_summary">Ecran éteint, maintenez le bouton d\'alimentation appuyé pour allumer le flash LED. Relâchez le bouton pour éteindre la lampe de poche.</string>
+    <string name="enable_fast_torch_summary">Ecran éteint, maintenez le bouton d\'alimentation appuyé pour activer le flash LED. Relâchez le bouton pour éteindre la lampe de poche.</string>
 
     <!-- Power Menu -->
     <string name="title_show_power_saver">"Afficher l\'économiseur d\'énergie"</string>
@@ -179,6 +179,8 @@
     <string name="led_color_title">Couleur de la LED</string>
     <string name="title_led_screen_on">Clignotement LED écran allumé </string>
     <string name="summary_led_screen_on">Activer/Désactiver le clignotement de la LED lorsque l\'écran est allumé</string>
+    <string name="title_use_bln">Utiliser BLN</string>
+    <string name="summary_use_bln"><b>B</b>utton<b>L</b>ight<b>N</b>otification, éclaire les boutons du téléphone en cas de nouvelle notification; consommation légèrement plus élevée en mode veille</string>
 
     <!--  Statusbar | General -->
     <string name="title_settings_behavior">Utiliser le comportement par défaut</string>
@@ -358,11 +360,11 @@
 	<!-- CPU -->
     <string name="ps_set_max">"Régler la fréquence max CPU\nActuel: %s"</string>
     <string name="ps_set_min">"Régler la fréquence min CPU\nActuel: %s"</string>
-    <string name="ps_set_gov">"Définir la modulation du gouverneur\nActuel: %s"</string>
+    <string name="ps_set_gov">"Définir le type de gouverneur\nActuel: %s"</string>
     <string name="ps_cpu_boot">Appliquer au CPU lors du démarrage</string>
 	
 	<!-- Performance -->
-    <string name="ps_set_cpu_activity">Définir les fréquences min/max et la modulation du gouverneur</string>
+    <string name="ps_set_cpu_activity">Définir les fréquences min/max et le type de gouverneur</string>
     <string name="ps_free_memory">Quantité de RAM que minfree taskkiller doit laisser libre | Actuel: %s</string>
     <string name="ps_free_memory_boot">Appliquer la quantité ci-dessus au démarrage</string>
 
@@ -384,7 +386,25 @@
     <string name="dpi">DPI</string>
 	
 	<!-- For translate strings -->
+	<string name="donate_roman">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MZD7JLRX6P99Y</string>
+	<string name="donate_whitehawk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8W7F2Y7S7KRM6</string>
+	<string name="donate_zaph">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AW4DJFL3UWKS2</string>
+	<string name="donate_protekk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YJTUMSBC2TRHS</string>
+	<string name="donate_khasmek">@null</string>
+	<string name="donate_sethyx">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5R4DYJLDYDRAU</string>
+	<string name="devs">Développeurs</string>
+	<string name="aokp">Android Open Kang Project</string>
+	<string name="aokp_website_title">Site Web AOKP</string>
+	<string name="aokp_website_summary">www.aokp.co - Toutes les nouvelles versions y sont.</string>
+	<string name="aokp_source_title">Source AOKP</string>
+	<string name="aokp_source_summary">AOKP est totalement open source. Vous pouvez trouver en tout temps la version la plus récente sur github.com/aokp</string>
+    <string name="aokp_irc_title">Rejoignez-nous sur IRC</string>
+    <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
+    <string name="about_aokp">A propos d\'AOKP</string>
+    <string name="about_aokp_summary">@null</string>
+
 	<string name="screen_off_wifi_action_text">Action sur Wi-Fi écran éteint</string>
 	<string name="sync_data_mode_text">Usage Sync des données</string>
 	<string name="sync_data_mobile_mode_text">Préférence Sync données sur réseau mobile </string>
-</resources>
+
+	</resources>

@@ -200,11 +200,11 @@
 	<string-array name="statusbar_transparency_values">
 		<item>100</item>
 		<item>75</item>
-		<item>66%</item>
+		<item>66</item>
 		<item>50</item>
-		<item>33%</item>
+		<item>33</item>
 		<item>25</item>
-		<item>10%</item>
+		<item>10</item>
 		<item>0</item>
 	</string-array>
 
@@ -226,7 +226,7 @@
 	<string-array name="clock_style_entries">
 		<item>우측에 표시</item>
 		<item>중앙에 표시</item>
-		<item>시계 표시 안함</item>
+		<item>숨김</item>
 	</string-array>
 
 	<string-array name="clock_style_values">
@@ -248,7 +248,7 @@
 	</string-array>
 
 	<string-array name="clock_weekday_entries">
-		<item>표시안함</item>
+		<item>숨김</item>
 		<item>작게 표시</item>
 		<item>크게 표시</item>
 	</string-array>
@@ -264,7 +264,7 @@
 	<string-array name="brightness_location_entries">
 		<item>상단에 표시</item>
 		<item>하단에 표시</item>
-		<item>표시 안함</item>
+		<item>숨김</item>
 	</string-array>
 
 	<string-array name="brightness_location_values">

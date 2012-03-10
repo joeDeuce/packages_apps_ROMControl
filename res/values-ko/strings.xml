@@ -26,7 +26,7 @@
     <string name="header_summary_lockscreens">잠금 화면 단축 아이콘 설정, 레이아웃</string>
     <string name="header_summary_power_menu">전원 버튼을 길게 눌렀을 때 표시할 메뉴 선택</string>
     <string name="header_summary_powersaver">배터리를 절약하기 위해 자동으로 데이터 차단</string>
-    <string name="header_summary_led"> 디자이어HD는 지원하지 않는 기능입니다.</string>
+    <string name="header_summary_led">현재는 BLN 기능만 지원합니다.</string>
     <string name="header_summary_general">설정 버튼 동작, 투명도 변경, 레이아웃</string>
     <string name="header_summary_toggles">토글 스위치 설정</string>
 	<string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
@@ -179,7 +179,9 @@
     <string name="led_color_title">LED color</string>
     <string name="title_led_screen_on">LED flash while screen ON</string>
     <string name="summary_led_screen_on">@null</string>
-
+    <string name="title_use_bln">BLN 사용</string>
+    <string name="summary_use_bln"><b>B</b>utton<b>L</b>ight<b>N</b>otification, 알림이 왔을 때 하단의 소프트키에도 불이 들어옵니다; 대기 소모 전력 약간 증가</string>
+    
     <!--  Statusbar | General -->
     <string name="title_settings_behavior">ICS 기본 설정 버튼</string>
     <string name="summary_settings_behavior">ICS 기본값은 한 번 터치로 시스템 설정, 길게 눌러 토글 숨김/표시. 체크를 해제하면 반대로 작동합니다.</string>
@@ -236,7 +238,7 @@
 	<!-- Statusbar | Signal -->
 	<string name="signal_style">표시 방식</string>
 	<string name="signal_color_title">신호 강도 텍스트 색상</string>
-	<string name="hide_signal_title">표시 안함</string>
+	<string name="hide_signal_title">숨김</string>
 	<string name="hide_signal_summary">데이터 전송 상태 표시도 사라집니다.</string>
 
     <!-- Color Picker -->
@@ -309,13 +311,13 @@
 	<string name="pt_enable_cron">Enable scheduled tasks</string>
 	<!-- Performance -->
 	<string name="pt_set_cpu_activity">CPU 설정</string>
-	<string name="pt_free_memory">Free memory</string>
-	<string name="pt_free_memory_boot">부팅시 자동 적용</string>
+	<string name="pt_free_memory">여유 메모리</string>
+	<string name="pt_free_memory_boot">부팅시 위 변경사항 자동 적용</string>
 	<!-- Cpu -->
 	<string name="pt_set_max">Max CPU</string>
 	<string name="pt_set_min">Min CPU</string>
 	<string name="pt_set_gov">클럭 정책</string>
-	<string name="pt_cpu_boot">Set at boot</string>
+	<string name="pt_cpu_boot">부팅시 설정</string>
         <!-- Scrolling Cache -->
         <string name="pref_scrollingcache_title">스크롤링 캐시</string>
         <string name="pref_scrollingcache_summary">메모리 자원을 활용하여 스크롤링 성능을 향상시킬 수 있습니다.</string>
@@ -358,13 +360,13 @@
 	<string name="ps_set_max">CPU 최대 클럭\n현재: %s</string>
 	<string name="ps_set_min">CPU 최소 클럭\n현재: %s</string>
 	<string name="ps_set_gov">가변 정책 변경\n현재: %s</string>
-	<string name="ps_cpu_boot">부팅시 자동 적용</string>
+	<string name="ps_cpu_boot">부팅시 설정</string>
 	<!-- Performance -->
 	<string name="ps_set_cpu_activity">최소/최대 CPU 클럭과 정책 설정
 	</string>
 	<string name="ps_free_memory">작업 관리자가 유지할 최소 가용램 |
 		현재: %s</string>
-	<string name="ps_free_memory_boot">Apply the amount above at boot</string>
+	<string name="ps_free_memory_boot">부팅시 위 변경사항 자동 적용</string>
 
 	<!-- Toast Messages -->
 	<string name="toast_min_max_error01">최대 CPU는 최소 CPU 보다 낮은 값으로 설정할 수 없음</string>
