@@ -65,8 +65,6 @@ public class CreateShortcut extends LauncherActivity {
             return R.drawable.ic_rom_control_led;
         else if (c.equals("Lockscreens"))
             return R.drawable.ic_rom_control_lockscreens;
-        else if (c.equals("Navbar"))
-            return R.drawable.ic_rom_control_navigation_bar;
         else if (c.equals("PowerMenu"))
             return R.drawable.ic_rom_control_power_menu;
         else if (c.equals("StatusBarBattery"))
