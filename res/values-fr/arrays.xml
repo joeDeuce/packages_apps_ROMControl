@@ -422,7 +422,7 @@
 		<item>4</item>
 	</string-array>
 	
-	<string-array name="available_toggles_entries">
+	<string-array name="available_toggles_values">
 		<item>ROTATE</item>
 		<item>BT</item>
 		<item>GPS</item>
@@ -435,7 +435,7 @@
 		<item>SYNC</item>
 	</string-array>
 	
-	<string-array name="available_toggles_values">
+	<string-array name="available_toggles_entries">
 		<item>Rotation automatique</item>
 		<item>BT</item>
 		<item>GPS</item>
