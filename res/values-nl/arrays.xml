@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string-array name="pref_navigation_menu_entries">
-        <item>Droite</item>
-        <item>Gauche</item>
-        <item>Les deux</item>
-		<item>Enlever</item>
+		<item>Rechts</item>
+		<item>Links</item>
+		<item>Beide</item>
+		<item>Verwijderd</item>
 	</string-array>
 
 	<!-- right is the default, easier to keep 0 as first index -->
@@ -18,9 +18,9 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_entries_cdma">
-		<item>Ne rien faire</item>
-		<item>Désactiver le LTE</item>
-		<item>Désactiver les données</item>
+		<item>Doe niets</item>
+		<item>Zet LTE uit</item>
+		<item>Zet data uit</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_values_cdma">
@@ -30,9 +30,9 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_entries">
-		<item>Ne rien faire</item>
-		<item>Désactiver les données</item>
-		<item>Passer en 2G</item>
+		<item>Doe niets</item>
+		<item>Zet data uit</item>
+		<item>Schakel naar 2G-modus</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_values">
@@ -42,15 +42,15 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_delay_entries">
-		<item>Ne pas attendre (immédiat)</item>
-		<item>10 secondes</item>
-		<item>30 secondes</item>
-		<item>45 secondes</item>
-		<item>1 minute</item>
-		<item>5 minutes</item>
-		<item>10 minutes</item>
-		<item>15 minutes</item>
-		<item>30 minutes</item>
+		<item>Meteen</item>
+		<item>10 seconden</item>
+		<item>30 seconden</item>
+		<item>45 seconden</item>
+		<item>1 minuten</item>
+		<item>5 minuten</item>
+		<item>10 minuten</item>
+		<item>15 minuten</item>
+		<item>30 minuten</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_delay_values">
@@ -66,16 +66,16 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_sync_screen_off_interval_entries">
-		<item>15 minutes</item>
-		<item>30 minutes</item>
-		<item>1 heure</item>
-		<item>2 heures</item>
-		<item>3 heures</item>
-		<item>4 heures</item>
-		<item>5 heures</item>
-		<item>6 heures</item>
-		<item>8 heures</item>
-		<item>12 heures</item>
+		<item>15 minuten</item>
+		<item>30 minuten</item>
+		<item>1 uur</item>
+		<item>2 uur</item>
+		<item>3 uur</item>
+		<item>4 uur</item>
+		<item>5 uur</item>
+		<item>6 uur</item>
+		<item>8 uur</item>
+		<item>12 uur</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_sync_screen_off_interval_values">
@@ -93,9 +93,9 @@
 
 
 	<string-array name="pref_powersaving_sync_screen_off_entries">
-		<item>Ne rien faire</item>
-		<item>Désactiver la synchronisation automatique</item>
-		<item>Désactiver la synchronisation avec un délai</item>
+		<item>Doe niets</item>
+		<item>Zet autosynchronisatie uit</item>
+		<item>Zet autosynchronisatie uit met vertraging</item>
 	</string-array>
 
 	<string-array name="pref_powersaving_sync_screen_off_values">
@@ -105,9 +105,9 @@
 	</string-array>
 	
 	<string-array name="powersaving_screen_off_wifi_entries">
-		<item>Laisser inchangé</item>
-		<item>Désactiver le Wi-Fi</item>
-		<item>Activer le Wi-Fi</item>
+		<item>Verander niets</item>
+		<item>Zet Wi-Fi uit</item>
+		<item>Zet Wi-Fi aan</item>
 	</string-array>
 	
 	<string-array name="powersaving_screen_off_wifi_values">
@@ -117,10 +117,10 @@
 	</string-array>
 	
 	<string-array name="powersaving_sync_data_mode_entries">
-		<item>Laisser inchangé</item>
-		<item>Wi-Fi seulement</item>
-		<item>Wi-Fi préféré</item>
-		<item>Données seulement</item>
+		<item>Verander niets</item>
+		<item>Enkel Wi-Fi</item>
+		<item>Wi-Fi bij voorkeur</item>
+		<item>Data alleen</item>
 	</string-array>
 	
 	<string-array name="powersaving_sync_data_mode_values">
@@ -131,8 +131,8 @@
 	</string-array>
 	
 	<string-array name="powersaving_sync_data_mobile_mode_entries">
-		<item>2G/1x seulement</item>
-		<item>3G préféré</item>
+		<item>2G/1x alleen</item>
+		<item>Bij voorkeur 3G</item>
 	</string-array>
 	
 	<string-array name="powersaving_sync_data_mobile_mode_values">
@@ -143,23 +143,23 @@
 	<string-array name="led_entries">
 		<item>.5 seconde</item>
 		<item>1 seconde</item>
-		<item>1.5 secondes</item>
-		<item>2 secondes</item>
-		<item>2.5 secondes</item>
-		<item>3 secondes</item>
-		<item>3.5 secondes</item>
-		<item>4 secondes</item>
-		<item>4.5 secondes</item>
-		<item>5 secondes</item>
-		<item>5.5 secondes</item>
-		<item>6 secondes</item>
-		<item>7 secondes</item>
-		<item>8 secondes</item>
-		<item>9 secondes</item>
-		<item>10 secondes</item>
+		<item>1.5 seconde</item>
+		<item>2 seconden</item>
+		<item>2.5 seconde</item>
+		<item>3 seconden</item>
+		<item>3.5 seconde</item>
+		<item>4 seconden</item>
+		<item>4.5 seconde</item>
+		<item>5 seconden</item>
+		<item>5.5 seconde</item>
+		<item>6 seconden</item>
+		<item>7 seconden</item>
+		<item>8 seconden</item>
+		<item>9 seconden</item>
+		<item>10 seconden</item>
 	</string-array>
 
-	<!-- values must be in millisecondes!~@@#E!@ -->
+	<!-- values must be in milliseconds!~@@#E!@ -->
 	<string-array name="led_values">
 		<item>500</item>
 		<item>1000</item>
@@ -187,14 +187,14 @@
 	</string-array>
 
 	<string-array name="statusbar_transparency_entries">
-		<item>Sans transparence</item>
+		<item>Niet transparant</item>
 		<item>25%</item>
 		<item>33%</item>
 		<item>50%</item>
 		<item>66%</item>
 		<item>75%</item>
 		<item>90%</item>
-		<item>Totalement transparent</item>
+		<item>Volledig transparant</item>
 	</string-array>
 
 	<string-array name="statusbar_transparency_values">
@@ -209,8 +209,8 @@
 	</string-array>
 
 	<string-array name="statusbar_layout_entries">
-		<item>Mise en page normale</item>
-		<item>Mise en page inversée</item>
+		<item>Normale layout</item>
+		<item>Omgekeerd</item>
 		<!-- <item>Tabs</item>
 		<item>Bottom Tabs</item> -->
 	</string-array>
@@ -224,9 +224,9 @@
 
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
-		<item>Horloge à droite</item>
-		<item>Horloge au centre</item>
-		<item>Horloge cachée</item>
+		<item>Klok rechts </item>
+		<item>Gecentreerde klok </item>
+		<item>Geen klok</item>
 	</string-array>
 
 	<string-array name="clock_style_values">
@@ -236,9 +236,9 @@
 	</string-array>
 
 	<string-array name="clock_ampm_entries">
-		<item>Ne pas afficher</item>
-		<item>AM/PM petit</item>
-		<item>AM/PM normal</item>
+		<item>Geen tekst</item>
+		<item>Klein AM/PM</item>
+		<item>Normaal AM/PM</item>
 	</string-array>
 
 	<string-array name="clock_ampm_values">
@@ -248,9 +248,9 @@
 	</string-array>
 
 	<string-array name="clock_weekday_entries">
-		<item>Ne pas afficher</item>
-		<item>Jour de la semaine abrégé</item>
-		<item>Jour de la semaine normal</item>
+		<item>Geen tekst</item>
+		<item>Klein dagen</item>
+		<item>Normaal dagen</item>
 	</string-array>
 
 	<string-array name="clock_weekday_values">
@@ -262,9 +262,9 @@
 	<!-- Toggles -->
 
 	<string-array name="brightness_location_entries">
-		<item>Au-dessus</item>
-		<item>Au-dessous</item>
-		<item>Ne pas afficher</item>
+		<item>Boven</item>
+		<item>Onder</item>
+		<item>Laat niets zien</item>
 	</string-array>
 
 	<string-array name="brightness_location_values">
@@ -300,8 +300,8 @@
 
 	<!-- toggle style -->
 	<string-array name="toggle_style_entries">
-		<item>Icône seule</item>
-		<item>Texte seul</item>
+		<item>Icoon allen</item>
+		<item>Tekst alleen</item>
 	</string-array>
 
 	<string-array name="toggle_style_values">
@@ -311,8 +311,8 @@
 
 	<!-- long press home -->
 	<string-array name="long_press_home_entries">
-		<item>Ne rien faire</item>
-		<item>Afficher tâches récentes</item>
+		<item>Doe niets</item>
+		<item>Laat recente apps zien</item>
 	</string-array>
 
 	<string-array name="long_press_home_values">
@@ -327,9 +327,9 @@
 	</string-array>
 
         <string-array name="pref_lockscreen_options_entries">
-		<item>Par défaut</item>
-		<item>Quatre</item>
-        <item>Huit</item>
+		<item>Normaal</item>
+		<item>Vier snelkoppelingen</item>
+        <item>Acht snelkoppelingen</item>
 	</string-array>
 
 	<string-array name="minfree">
@@ -363,16 +363,16 @@
         </string-array>
 	
 	<string-array name="battery_icon_entries">
-		<item>Icône seule</item>
-		<item>Texte seul</item>
-		<item>Icône avec texte</item>
-		<item>Icône avec texte centré</item>
-		<item>Style Cercle</item>
-		<item>Style Gummy Bar</item>
-		<item>Style Honeycomb</item> 
-		<item>Style GenX</item>
-		<item>Style Cercle BlackIce</item>
-		<item>Masquer la batterie</item>
+		<item>Icoon alleen</item>
+		<item>Tekst alleen</item>
+		<item>Icoon met tekst</item>
+		<item>Icoon with gecentreerde tekst</item>
+		<item>Ronde batterij</item>
+		<item>Gummy Bar batterij</item>
+		<item>Honeycomb stijl</item> 
+		<item>GenX stijl</item>
+		<item>BlackIce Circle stijl</item>
+		<item>Verberg batterij</item>
 	</string-array>
 
 	<string-array name="battery_icon_values">
@@ -389,8 +389,8 @@
 	</string-array>
 
 	<string-array name="battery_bar_entries">
-		<item>Masquer</item>
-		<item>Afficher</item>
+		<item>Verberg</item>
+		<item>Toon</item>
 	</string-array>
 	
 	<string-array name="battery_bar_values">
@@ -399,8 +399,8 @@
 	</string-array>
 	
 	<string-array name="battery_bar_style_entries">
-		<item>Normal</item>
-		<item>Centré - en miroir</item>
+		<item>Normaal</item>
+		<item>Center-spiegelbeeld</item>
 	</string-array>
 	
 	<string-array name="battery_bar_style_values">
@@ -422,40 +422,40 @@
 		<item>4</item>
 	</string-array>
 	
-	<string-array name="available_toggles_values">
+	<string-array name="available_toggles_entries">
 		<item>ROTATE</item>
-		<item>BT</item>
+		<item>BLUETOOTH</item>
 		<item>GPS</item>
 		<item>WIFI</item>
 		<item>DATA</item>
-		<item>AIRPLANE_MODE</item>
-		<item>VIBRATE</item>
-		<item>SILENT</item>
-		<item>TORCH</item>
-		<item>SYNC</item>
+		<item>VLIEGTUIG-modus</item>
+		<item>TRIL</item>
+		<item>STIL</item>
+		<item>ZAKLAMP</item>
+		<item>SYNCHRONISATIE</item>
 	</string-array>
 	
-	<string-array name="available_toggles_entries">
-		<item>Rotation automatique</item>
-		<item>BT</item>
+	<string-array name="available_toggles_values">
+		<item>Auto-rotate</item>
+		<item>BLUETOOTH</item>
 		<item>GPS</item>
 		<item>Wi-Fi</item>
-		<item>Données</item>
-		<item>Mode Avion</item>
-		<item>Vibreur</item>
-		<item>Silencieux</item>
-		<item>Torche</item>
+		<item>Data</item>
+		<item>Airplane mode</item>
+		<item>Vibrate</item>
+		<item>Silent</item>
+		<item>Torch</item>
 		<item>Sync</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
-		<item>Déverrouiller</item>
-		<item>Commutateur Son</item>
-		<item>Téléphone</item>
-		<item>Appareil photo</item>
+		<item>Ontgrendel</item>
+		<item>Geluid schakelaar</item>
+		<item>Telefoon</item>
+		<item>Camera</item>
 		<item>SMS</item>
-		<item>Application personnalisée</item>
-		<item>Vide</item>
+		<item>Custom app</item>
+		<item>Blanco</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_values">
@@ -469,10 +469,10 @@
 	</string-array>
 	
 	<string-array name="glow_times_entries">
-		<item>Désactivé</item>
-		<item>Super rapide</item>
-		<item>Rapide</item>
-		<item>Normal</item>
+		<item>Uit</item>
+		<item>Super Snel</item>
+		<item>Snel</item>
+		<item>Normaal</item>
 	</string-array>
 
 	<string-array name="glow_times_values">
@@ -497,17 +497,17 @@
 	
 	<string-array name="weather_interval_entries">
 		<item>Off</item>
-		<item>1 minute</item>
-		<item>5 minutes</item>
-		<item>10 minutes</item>
-		<item>30 minutes</item>
-		<item>45 minutes</item>
-		<item>60 minutes</item>
-		<item>2 heures</item>
-		<item>3 heures</item>
-		<item>4 heures</item>
-		<item>6 heures</item>
-		<item>8 heures</item>
+		<item>1 minuut</item>
+		<item>5 minuten</item>
+		<item>10 minuten</item>
+		<item>30 minuten</item>
+		<item>45 minuten</item>
+		<item>60 minuten</item>
+		<item>2 uur</item>
+		<item>3 uur</item>
+		<item>4 uur</item>
+		<item>6 uur</item>
+		<item>8 uur</item>
 	</string-array>
 	
 	<string-array name="weather_interval_values">
@@ -538,9 +538,9 @@
 	</string-array>
 	
 	<string-array name="signal_style_entries">
-		<item>Afficher les barres du signal</item>
-		<item>Afficher le texte du signal</item>
-		<item>Afficher w/dBm</item>
+		<item>Toon Signaal Balk</item>
+		<item>Toon Signal Tekst</item>
+		<item>Show w/dBm</item>
 	</string-array>
 
 	<string-array name="signal_style_values">
@@ -550,9 +550,9 @@
 	</string-array>
 	
 	<string-array name="weather_statusbar_location_entries">
-		<item>Au-dessus du texte Opérateur</item>
-		<item>Panneau Météo</item>
-		<item>Désactivé</item>
+		<item>Boven carrier tekst</item>
+		<item>Weer paneel</item>
+		<item>Uitgeschakeld</item>
 	</string-array>
 	
 	<string-array name="weather_statusbar_location_values">
