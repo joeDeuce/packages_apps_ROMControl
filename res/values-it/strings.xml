@@ -61,7 +61,7 @@
     
     <!-- UI -->
     <string name="rotation_animation_delay_title">Ritardo nella rotazione</string>
-    <string name="rotation_animation_delay_summary">Quanti millisecondi devono passare in una posizione per compiere la rotazione schermode. 200 ms di default.</string>
+    <string name="rotation_animation_delay_summary">Quanti millisecondi devono passare in una posizione per compiere la rotazione schermo. 200 ms di default.</string>
 
 	<string name="ime_switcher_title">Mostra cambio tastiera</string>
 	<string name="ime_switcher_summary">Nella barra di stato, durante la digitazione (richiede il riavvio)</string>
@@ -86,8 +86,8 @@
 
 	<!-- CRT animations -->
 	<string name="crt_animations_header">Animazione CRT</string>
-	<string name="crt_on_title">CRT acceso</string>
-	<string name="crt_off_title">CRT spento</string>
+	<string name="crt_on_title">CRT</string>
+	<string name="crt_off_title">CRT</string>
 
 	<!-- LCD Density -->
 	<string name="lcd_density_wizard">LCD Density Wizard</string>
@@ -118,9 +118,11 @@
     <string name="summary_pref_lockscreen_menu_unlock">Lockscreen con PIN (richiede riavvio)</string>
     <string name="title_lockscreen_user_timeout_override">Attesa Lockscreen</string>
     <string name="summary_lockscreen_user_timeout_override">Usa il tempo di default di Android per bloccare lo schermo premendo l\'apposito tasto. Il comportamento di default e\' usare il ritardo solo quando lo schermo si spegne da solo.</string>
+    <string name="show_lock_before_unlock_title">Mostra lockscreen prima di sbloccare</string>
+    <string name="show_lock_before_unlock_summary">Mostra standard lockscreen prima dello sblocco con PIN</string>
     <string name="lockscreen_battery_title">Percentuale batteria</string>
     <string name="lockscreen_battery_summary">Mostra sempre la percentuale batteria nel Lockscreen</string>
-	<string name="lockscreen_weather_title">Meteo</string>
+    <string name="lockscreen_weather_title">Meteo</string>
     <string name="lockscreen_weather_summary">Mostra le informazioni meteo nel Lockscreen. Devi abilitare il servizio meteo di ROMControl</string>
     <string name="volume_wake_title">Attiva con tasti Volume</string>
     <string name="volume_wake_summary">Premedo i tasti volume si accendera\' lo schermo.</string>
@@ -137,7 +139,7 @@
     <string name="lockscreen_action_mms">SMS</string>
     <string name="lockscreen_action_phone">Telefono</string>
     <string name="lockscreen_action_none">Vuoto</string>
-    <string name="lockscreen_landscape_title">Lochscreen orizzontale</string>
+    <string name="lockscreen_landscape_title">Lockscreen orizzontale</string>
     <string name="lockscreen_landscape_summary">Meteo orizzontale nel Lockscreen deve essere abilitato</string>
     <string name="lockscreen_quick_unlock_control_title">Sblocco PIN rapido</string>
     <string name="lockscreen_quick_unlock_control_summary">Sblocca password/PIN lockscreen senza premere il tasto invio</string>
@@ -177,6 +179,8 @@
     <string name="led_color_title">Colore LED</string>
     <string name="title_led_screen_on">Lampeggio LED con schermo acceso</string>
     <string name="summary_led_screen_on">@null</string>
+    <string name="title_use_bln">Usa BLN</string>
+    <string name="summary_use_bln"><b>B</b>utton<b>L</b>ight<b>N</b>otification, accende i softkeys con una nuova notifica; leggero consumo in piu\' in standby</string>
 
     <!--  Statusbar | General -->
     <string name="title_settings_behavior">Usa impostazioni di default</string>
@@ -197,7 +201,7 @@
     <!-- Statusbar | Battery -->
     <string name="battery_icon">Stile icona batteria</string>
     <string name="battery_summary_text_widget">@null</string>
-    <string name="battery_bar">Icona batteria</string>
+    <string name="battery_bar">Barra batteria</string>
     <string name="battery_bar_color">Colore barra batteria</string>
     <string name="battery_bar_cat">Opzioni barra batteria</string>
     <string name="battery_bar_style_title">Stile barra batteria</string>
@@ -205,7 +209,6 @@
     <string name="battery_bar_animate_title">Animazione carica</string>
     <string name="battery_bar_animate_summary">L\'animazione di carica puo\' non risultare esteticamente soddisfacente. Attivare a propria discrezione.</string>
     
-
     <!-- Statusbar | Clock -->
     <string name="clock_title_enable">Posizione orologio</string>
     <string name="title_clock_ampm_entries">Stile AM/PM</string>
@@ -220,9 +223,10 @@
     <!-- Statusbar | Toggles -->
     <string name="toggle_style_title">Stile interruttori</string>
     <string name="toggle_style_summary">Scegli se visualizzare le icone o il testo delle impostazioni rapide.</string>
+    <string name="toggle_reset">Azzera</string>
 
     <string name="alternate_button_layout_title">Alterna interruttori</string>
-    <string name="alternate_button_layout_summary">Utilizza l\'interruttore anziche\' il pulsante per modificare.</string>
+    <string name="alternate_button_layout_summary">Utilizza il pulsante anziche\' l\'interruttore per modificare.</string>
     
     <string name="enabled_toggles_title">Attiva interruttori</string>
     <string name="enabled_toggles_summary">Scegli gli interruttori da mostrare</string>
@@ -243,8 +247,8 @@
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#FF000000</string>
-    <string name="set">Imposta</string>
-    <string name="ics_color">!!!</string>
+    <string name="set">Ok</string>
+    <string name="ics_color">ICS</string>
     
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">Usa app personalizzata</string>
@@ -272,20 +276,20 @@
 
 	<!-- Preference Categories -->
 	<string name="prefcat_cpu">Set CPU</string>
-	<string name="prefcat_free_memory">Free Memory</string>
+	<string name="prefcat_free_memory">Libera memoria</string>
 	<string name="pc_tweaks">Tweaks</string>
-	<string name="pc_init_d">Enable/Disable Tweaks</string>
-	<string name="pc_init_d_tweaks">Customize Tweaks</string>
+	<string name="pc_init_d">Abilita/Disabilita Tweaks</string>
+	<string name="pc_init_d_tweaks">Personalizza Tweaks</string>
 
 	<!-- Preference Titles -->
 	<!-- Main -->
 	<string name="pt_performance">Performance</string>
-	<string name="pt_customization">Customization</string>
-	<string name="pt_tools">Tools</string>
-	<string name="pt_mod_version">Mod version</string>
+	<string name="pt_customization">Personalizzazione</string>
+	<string name="pt_tools">Strumenti</string>
+	<string name="pt_mod_version">Versioni modificate</string>
 	<!-- Customization -->
-	<string name="pt_liberty_customizer">Liberty Customizer</string>
-	<string name="pt_lockscreen">Lockscreen Settings</string>
+	<string name="pt_liberty_customizer">Personalizzatore</string>
+	<string name="pt_lockscreen">Impostazioni Lockscreen</string>
 	<string name="pt_ui_status_bar">Status Bar</string>
 	<string name="pt_pulldown_text">Pulldown Text</string>
 	<string name="pt_theme_manager">Theme Manager</string>
@@ -305,21 +309,21 @@
 	<string name="pt_enable_sysctl">Enable sysctl</string>
 	<string name="pt_enable_cron">Enable scheduled tasks</string>
 	<!-- Performance -->
-	<string name="pt_set_cpu_activity">Set CPU</string>
-	<string name="pt_free_memory">Free memory</string>
-	<string name="pt_free_memory_boot">Set at boot</string>
+	<string name="pt_set_cpu_activity">Omposta CPU</string>
+	<string name="pt_free_memory">Libera memoria</string>
+	<string name="pt_free_memory_boot">Setta al riavvio</string>
 	<!-- Cpu -->
 	<string name="pt_set_max">Max CPU</string>
 	<string name="pt_set_min">Min CPU</string>
 	<string name="pt_set_gov">Scaling governor</string>
-	<string name="pt_cpu_boot">Set at boot</string>
+	<string name="pt_cpu_boot">Setta al riavvio</string>
         <!-- Scrolling Cache -->
         <string name="pref_scrollingcache_title">Scrolling cache</string>
-        <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-        <string name="pref_scrollingcache_force_enable">Force enable</string>
-        <string name="pref_scrollingcache_default_enable">Default enable</string>
-        <string name="pref_scrollingcache_default_disable">Default disable</string>
-        <string name="pref_scrollingcache_force_disable">Force disable</string>
+        <string name="pref_scrollingcache_summary">Scrolling cache puo\' incrementare le performance a discapito della memoria</string>
+        <string name="pref_scrollingcache_force_enable">Abilitazione forzata</string>
+        <string name="pref_scrollingcache_default_enable">Abilitata di default</string>
+        <string name="pref_scrollingcache_default_disable">Disabilita di default</string>
+        <string name="pref_scrollingcache_force_disable">Disabilitazione forzata</string>
 
 	<!-- Preference Summaries -->
 	<!-- Main -->
@@ -353,20 +357,20 @@
 	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
 	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
 	<!-- CPU -->
-	<string name="ps_set_max">Set max CPU scaling frequency\nCurrent: %s</string>
-	<string name="ps_set_min">Set min CPU scaling frequency\nCurrent: %s</string>
-	<string name="ps_set_gov">Set current scaling governor\nCurrent: %s</string>
-	<string name="ps_cpu_boot">Apply CPU at boot</string>
+	<string name="ps_set_max">Frequenza massima CPU\nCorrente: %s</string>
+	<string name="ps_set_min">Frequenza minima CPU\nCorrente: %s</string>
+	<string name="ps_set_gov">Scaling governor\nCorrente: %s</string>
+	<string name="ps_cpu_boot">Applica al riavvio</string>
 	<!-- Performance -->
 	<string name="ps_set_cpu_activity">Set min/max frequencies and scaling governor
 	</string>
-	<string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
+	<string name="ps_free_memory">Quantita\' minima di RAM tenuta libera dal taskkiller |
 		Current: %s</string>
-	<string name="ps_free_memory_boot">Apply the amount above at boot</string>
+	<string name="ps_free_memory_boot">Applica il valore al riavvio</string>
 
 	<!-- Toast Messages -->
-	<string name="toast_min_max_error01">Max CPU cannot be lower than min CPU</string>
-	<string name="toast_min_max_error02">Min CPU cannot be higher than max CPU</string>
+	<string name="toast_min_max_error01">Max CPU deve essere maggiore min CPU</string>
+	<string name="toast_min_max_error02">Min CPU deve essere minore max CPU</string>
 
 	<!-- list_voltage -->
 	<string name="freq">Frequency</string>
@@ -379,4 +383,27 @@
 	<string name="apply_values">Apply Values</string>
 
 	<string name="dpi">DPI</string>
+	
+	<string name="donate_roman">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MZD7JLRX6P99Y</string>
+	<string name="donate_whitehawk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8W7F2Y7S7KRM6</string>
+	<string name="donate_zaph">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AW4DJFL3UWKS2</string>
+	<string name="donate_protekk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YJTUMSBC2TRHS</string>
+	<string name="donate_khasmek">@null</string>
+	<string name="donate_sethyx">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5R4DYJLDYDRAU</string>
+	<string name="devs">Developers</string>
+	<string name="aokp">Android Open Kang Project</string>
+	<string name="aokp_website_title">AOKP Website</string>
+	<string name="aokp_website_summary">www.aokp.co - Find all newest releases here.</string>
+	<string name="aokp_source_title">AOKP Source</string>
+	<string name="aokp_source_summary">AOKP is fully open source. You can always check out the latest source at github.com/aokp</string>
+	<string name="aokp_irc_title">Join us on IRC</string>
+	<string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
+	<string name="about_aokp">About AOKP</string>
+	<string name="about_aokp_summary">@null</string>
+	
+	<!-- For translate strings -->
+	<string name="screen_off_wifi_action_text">Azione Wi-Fi a schermo spento</string>
+	<string name="sync_data_mode_text">Sincronizzazione</string>
+	<string name="sync_data_mobile_mode_text">Dati mobili</string>
 </resources>
+
