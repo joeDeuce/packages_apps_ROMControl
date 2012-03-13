@@ -249,7 +249,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#FF000000</string>
     <string name="set">Set</string>
-    <string name="ics_color">기본값</string>
+    <string name="ics_color">ICS</string>
     
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">사용자 정의 앱 사용</string>
@@ -279,8 +279,8 @@
 	<string name="prefcat_cpu">CPU 설정</string>
 	<string name="prefcat_free_memory">메모리</string>
 	<string name="pc_tweaks">트윅</string>
-	<string name="pc_init_d">Enable/Disable Tweaks</string>
-	<string name="pc_init_d_tweaks">Customize Tweaks</string>
+	<string name="pc_init_d">트윅 켜기/끄기</string>
+	<string name="pc_init_d_tweaks">트윅 선택</string>
 
 	<!-- Preference Titles -->
 	<!-- Main -->
@@ -300,19 +300,19 @@
 	<string name="pt_dsp_manager">DSP Manager</string>
 	<string name="pt_testing_menu">Testing Menu</string>
 	<!-- Start up tweaks -->
-	<string name="pt_init_d">Start-up Tweaks</string>
-	<string name="pt_enable_init_d">Enable start-up tweaks</string>
+	<string name="pt_init_d">트윅</string>
+	<string name="pt_enable_init_d">트윅 사용</string>
 	<string name="pt_zipalign">Zipalign apks</string>
-	<string name="pt_enable_sd_boost">Enable SD boost</string>
-	<string name="pt_sd_boost">Read ahead value</string>
+	<string name="pt_enable_sd_boost">SD 가속</string>
+	<string name="pt_sd_boost">미리 읽기 값</string>
 	<string name="pt_fix_permissions">Fix permissions</string>
-	<string name="pt_clear_cache">Clear cache</string>
+	<string name="pt_clear_cache">캐시 삭제</string>
 	<string name="pt_enable_sysctl">Enable sysctl</string>
 	<string name="pt_enable_cron">Enable scheduled tasks</string>
 	<!-- Performance -->
 	<string name="pt_set_cpu_activity">CPU 설정</string>
 	<string name="pt_free_memory">여유 메모리</string>
-	<string name="pt_free_memory_boot">부팅시 위 변경사항 자동 적용</string>
+	<string name="pt_free_memory_boot">부팅시 설정</string>
 	<!-- Cpu -->
 	<string name="pt_set_max">Max CPU</string>
 	<string name="pt_set_min">Min CPU</string>
@@ -345,28 +345,26 @@
 	<string name="ps_dsp_manager">Stand alone equalizer</string>
 	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
 	<!-- Start up tweaks -->
-	<string name="ps_init_d">부팅시 실행할 트윅 설정
-		(init.d)
-	</string>
-	<string name="ps_enable_init_d">켜기/끄기 자동 적용 트윅</string>
-	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
-	<string name="ps_enable_sd_boost">켜기/끄기 SD 카드 속도 증가</string>
+	<string name="ps_init_d">부팅시 각종 트윅 적용 (init.d)</string>
+	<string name="ps_enable_init_d">자동 시작 트윅 사용</string>
+	<string name="ps_zipalign">부팅할 때마다 정렬되지 않은 애플리케이션 패키지를 정렬하여 최적화</string>
+	<string name="ps_enable_sd_boost">SD 카드 속도 증가</string>
 	<string name="ps_sd_boost">Set value of read ahead in kb</string>
-	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+	<string name="ps_fix_permissions">부팅할 때마다 퍼미션 수리</string>
 	<string name="ps_clear_cache">부팅시 데이터 캐시 삭제</string>
-	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
+	<string name="ps_enable_sysctl">부팅시 커널 변수 실시간 변경 활성화</string>
 	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
 	<!-- CPU -->
 	<string name="ps_set_max">CPU 최대 클럭\n현재: %s</string>
 	<string name="ps_set_min">CPU 최소 클럭\n현재: %s</string>
 	<string name="ps_set_gov">가변 정책 변경\n현재: %s</string>
-	<string name="ps_cpu_boot">부팅시 설정</string>
+	<string name="ps_cpu_boot">부팅시 위 CPU 설정 자동 적용</string>
 	<!-- Performance -->
 	<string name="ps_set_cpu_activity">최소/최대 CPU 클럭과 정책 설정
 	</string>
 	<string name="ps_free_memory">작업 관리자가 유지할 최소 가용램 |
 		현재: %s</string>
-	<string name="ps_free_memory_boot">부팅시 위 변경사항 자동 적용</string>
+	<string name="ps_free_memory_boot">부팅시 위 메모리 설정 자동 적용</string>
 
 	<!-- Toast Messages -->
 	<string name="toast_min_max_error01">최대 CPU는 최소 CPU 보다 낮은 값으로 설정할 수 없음</string>
