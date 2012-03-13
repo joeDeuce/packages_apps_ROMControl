@@ -18,7 +18,7 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_entries_cdma">
-		<item>Fai niente</item>
+		<item>Non fare niente</item>
 		<item>Spegni LTE</item>
 		<item>Spegni i dati</item>
 	</string-array>
@@ -30,7 +30,7 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_entries">
-		<item>Fai niente</item>
+		<item>Non fare niente</item>
 		<item>Spegni i dati</item>
 		<item>Passa a 2G</item>
 	</string-array>
@@ -42,7 +42,7 @@
 	</string-array>
 
 	<string-array name="pref_powersaving_data_screen_off_delay_entries">
-		<item>Don\'t wait (immediate)</item>
+		<item>Immediato</item>
 		<item>10 secondi</item>
 		<item>30 secondi</item>
 		<item>45 secondi</item>
@@ -93,7 +93,7 @@
 
 
 	<string-array name="pref_powersaving_sync_screen_off_entries">
-		<item>Fai niente</item>
+		<item>Non fare niente</item>
 		<item>Spegni sincronizzazione</item>
 		<item>Spegni con ritardo</item>
 	</string-array>
@@ -189,16 +189,22 @@
 	<string-array name="statusbar_transparency_entries">
 		<item>Nessuna</item>
 		<item>25%</item>
+		<item>33%</item>
 		<item>50%</item>
+		<item>66%</item>
 		<item>75%</item>
+		<item>90%</item>
 		<item>Totale</item>
 	</string-array>
 
 	<string-array name="statusbar_transparency_values">
 		<item>100</item>
 		<item>75</item>
+		<item>66</item>
 		<item>50</item>
+		<item>33</item>
 		<item>25</item>
+		<item>10</item>
 		<item>0</item>
 	</string-array>
 
@@ -305,7 +311,7 @@
 
 	<!-- long press home -->
 	<string-array name="long_press_home_entries">
-		<item>Fai niente</item>
+		<item>Non fare niente</item>
 		<item>Mostra recenti</item>
 	</string-array>
 
@@ -323,7 +329,7 @@
         <string-array name="pref_lockscreen_options_entries">
 		<item>Stock</item>
 		<item>Quattro</item>
-        <item>Otto</item>
+		<item>Otto</item>
 	</string-array>
 
 	<string-array name="minfree">
@@ -362,6 +368,10 @@
 		<item>Icona con testo</item>
 		<item>Icona con testo centrato</item>
 		<item>Circolare</item>
+		<item>Batteria Gummy Bar</item>
+		<item>Stile Honeycomb</item> 
+		<item>Stile GenX</item>
+		<item>BlackIce Circle style</item>
 		<item>Nascondi</item>
 	</string-array>
 
@@ -372,6 +382,10 @@
 		<item>3</item>
 		<item>4</item>
 		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
 	</string-array>
 
 	<string-array name="battery_bar_entries">
@@ -482,7 +496,7 @@
 	</string-array>
 
 	<string-array name="weather_interval_entries">
-		<item>Off</item>
+		<item>Mai</item>
 		<item>1 minuto</item>
 		<item>5 minuti</item>
 		<item>10 minuti</item>
@@ -538,10 +552,12 @@
 	<string-array name="weather_statusbar_location_entries">
 		<item>Sopra nome operatore</item>
 		<item>Pannello meteo</item>
+		<item>Disabilitato</item>
 	</string-array>
 
 	<string-array name="weather_statusbar_location_values">
 		<item>0</item>
 		<item>1</item>
+		<item>2</item>
 	</string-array>
 </resources>
