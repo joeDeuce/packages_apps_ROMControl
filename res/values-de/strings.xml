@@ -152,6 +152,8 @@
     <string name="led_color_title">LED Farbe</string>
     <string name="title_led_screen_on">LED-Blitz während der Bildschirm aktiv ist</string>
     <string name="summary_led_screen_on">@null</string>
+    <string name="title_use_bln">Nutze BLN</string>
+    <string name="summary_use_bln"><b>B</b>utton<b>L</b>ight<b>N</b>otification, schalte Softkeys bei neuer Benachrichtigung an; leicht erhöhter Stromverbrauch</string>
     <!--  Statusbar | General -->
     <string name="title_settings_behavior">Standard-Verhalten verwenden</string>
     <string name="summary_settings_behavior">Standard-Verhalten ist: Gedrückt halten für An-/Aus-Schalter, drücken für Einstellungen. Deaktivieren für die umgekehrte Variante.</string>
