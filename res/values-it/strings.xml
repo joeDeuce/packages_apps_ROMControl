@@ -145,6 +145,7 @@
     <string name="lockscreen_quick_unlock_control_summary">Sblocca password/PIN lockscreen senza premere il tasto invio</string>
     <string name="enable_fast_torch_title">Abilita torcia rapida</string>
     <string name="enable_fast_torch_summary">Mentre lo schermo e\' spento, puoi tenere premuto il tasto power per accendere la luce LED. Rilasciando il tasto la luce si spegne.</string>
+    <string name="lockscreen_text_color_title">Colore testo Lockscreen</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">Mostra risparmio energia</string>
@@ -299,17 +300,17 @@
 	<string name="pt_dsp_manager">DSP Manager</string>
 	<string name="pt_testing_menu">Testing Menu</string>
 	<!-- Start up tweaks -->
-	<string name="pt_init_d">Start-up Tweaks</string>
-	<string name="pt_enable_init_d">Enable start-up tweaks</string>
-	<string name="pt_zipalign">Zipalign apks</string>
-	<string name="pt_enable_sd_boost">Enable SD boost</string>
-	<string name="pt_sd_boost">Read ahead value</string>
-	<string name="pt_fix_permissions">Fix permissions</string>
-	<string name="pt_clear_cache">Clear cache</string>
-	<string name="pt_enable_sysctl">Enable sysctl</string>
-	<string name="pt_enable_cron">Enable scheduled tasks</string>
+	<string name="pt_init_d">Tweaks all\'avvio</string>
+	<string name="pt_enable_init_d">Abilita tweaks all\'avvio</string>
+	<string name="pt_zipalign">Zipalign applicazioni</string>
+	<string name="pt_enable_sd_boost">Abilita SD boost</string>
+	<string name="pt_sd_boost">Valore Read ahead</string>
+	<string name="pt_fix_permissions">Correggi permessi</string>
+	<string name="pt_clear_cache">Svuota cache</string>
+	<string name="pt_enable_sysctl">Abilita sysctl</string>
+	<string name="pt_enable_cron">Operazioni pianificate</string>
 	<!-- Performance -->
-	<string name="pt_set_cpu_activity">Omposta CPU</string>
+	<string name="pt_set_cpu_activity">Imposta CPU</string>
 	<string name="pt_free_memory">Libera memoria</string>
 	<string name="pt_free_memory_boot">Setta al riavvio</string>
 	<!-- Cpu -->
@@ -345,17 +346,17 @@
 	<string name="ps_dsp_manager">Stand alone equalizer</string>
 	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
 	<!-- Start up tweaks -->
-	<string name="ps_init_d">Configure tweaks that are run at boot
+	<string name="ps_init_d">Configura i tweaks che applicherai all\'avvio
 		(init.d)
 	</string>
-	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
-	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
-	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
-	<string name="ps_sd_boost">Set value of read ahead in kb</string>
-	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
-	<string name="ps_clear_cache">Clear data cache on each boot</string>
-	<string name="ps_enable_sysctl">Enable sysctl tweaks on boot</string>
-	<string name="ps_enable_cron">Enable scheduled cron jobs</string>
+	<string name="ps_enable_init_d">Abilita/Disabilita tweaks ad ogni avvio</string>
+	<string name="ps_zipalign">Zipalign applicazioni ad ogni avvio</string>
+	<string name="ps_enable_sd_boost">Abilita/Disabilita SD card speed boost</string>
+	<string name="ps_sd_boost">Imposta read ahead in kb</string>
+	<string name="ps_fix_permissions">Correggi i permessi ad ogni avvio</string>
+	<string name="ps_clear_cache">Cancella cache ad ogni avvio</string>
+	<string name="ps_enable_sysctl">Abilita sysctl tweaks all\'avvio</string>
+	<string name="ps_enable_cron">Abilita operazioni pianificate</string>
 	<!-- CPU -->
 	<string name="ps_set_max">Frequenza massima CPU\nCorrente: %s</string>
 	<string name="ps_set_min">Frequenza minima CPU\nCorrente: %s</string>
