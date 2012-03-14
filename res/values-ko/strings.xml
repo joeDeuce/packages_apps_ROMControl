@@ -145,6 +145,7 @@
     <string name="lockscreen_quick_unlock_control_summary">비밀번호/PIN 모드에서 엔터키를 누르지 않아도 잠금해제</string>
     <string name="enable_fast_torch_title">빠른 손전등 사용</string>
     <string name="enable_fast_torch_summary">화면이 꺼진 상태에서 전원 버튼을 길게 눌러 LED 플래시를 켤 수 있습니다. 전원 버튼에서 손을 떼면 LED 플래시도 꺼집니다.</string>
+    <string name="lockscreen_text_color_title">잠금 화면 글자 색상</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">절전 모드 표시</string>
