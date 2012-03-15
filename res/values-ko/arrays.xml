@@ -150,6 +150,16 @@
 		<item>사분</item>
 		<item>팔분</item>
 	</string-array>
+	
+	<string-array name="pref_lockscreen_calendar_interval_entries">
+		<item>1 초</item>
+		<item>1.5 초</item>
+		<item>2 초</item>
+		<item>2.5 초</item>
+		<item>3 초</item>
+		<item>3.5 초</item>
+		<item>4 초</item>
+		</string-array>
 
 	<string-array name="battery_icon_entries">
 		<item>기본 아이콘</item>
