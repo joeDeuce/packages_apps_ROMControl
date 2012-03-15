@@ -290,7 +290,7 @@
 	<string name="prefcat_free_memory">메모리</string>
 	<string name="pc_tweaks">트윅</string>
 	<string name="pc_init_d">트윅 켜기/끄기</string>
-	<string name="pc_init_d_tweaks">트윅 선택</string>
+	<string name="pc_init_d_tweaks">사용할 트윅 선택</string>
 
 	<!-- Preference Titles -->
 	<!-- Main -->
@@ -312,9 +312,9 @@
 	<!-- Start up tweaks -->
 	<string name="pt_init_d">트윅</string>
 	<string name="pt_enable_init_d">트윅 사용</string>
-	<string name="pt_zipalign">Zipalign apks</string>
+	<string name="pt_zipalign">애플리케이션 정렬</string>
 	<string name="pt_enable_sd_boost">SD 가속</string>
-	<string name="pt_sd_boost">미리 읽기 값</string>
+	<string name="pt_sd_boost">SD 미리 읽기 크기</string>
 	<string name="pt_fix_permissions">Fix permissions</string>
 	<string name="pt_clear_cache">캐시 삭제</string>
 	<string name="pt_enable_sysctl">Enable sysctl</string>
@@ -357,8 +357,8 @@
 	<!-- Start up tweaks -->
 	<string name="ps_init_d">부팅시 각종 트윅 적용 (init.d)</string>
 	<string name="ps_enable_init_d">자동 시작 트윅 사용</string>
-	<string name="ps_zipalign">부팅할 때마다 정렬되지 않은 애플리케이션 패키지를 정렬하여 최적화</string>
-	<string name="ps_enable_sd_boost">SD 카드 속도 증가</string>
+	<string name="ps_zipalign">Zipalign apks. 부팅할 때마다 정렬되지 않은 애플리케이션 패키지를 정렬하여 최적화</string>
+	<string name="ps_enable_sd_boost">미리 읽기 크기를 늘려 SD 카드 속도 증가</string>
 	<string name="ps_sd_boost">Set value of read ahead in kb</string>
 	<string name="ps_fix_permissions">부팅할 때마다 퍼미션 수리</string>
 	<string name="ps_clear_cache">부팅시 데이터 캐시 삭제</string>
