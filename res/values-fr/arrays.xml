@@ -324,12 +324,34 @@
 		<item>2</item>
 		<item>6</item>
         <item>8</item>
+        <item>0</item>
 	</string-array>
 
-        <string-array name="pref_lockscreen_options_entries">
+	<string-array name="pref_lockscreen_options_entries">
 		<item>Par défaut</item>
 		<item>Quatre</item>
         <item>Huit</item>
+        <item>AOSP</item>
+	</string-array>
+
+	<string-array name="pref_lockscreen_calendar_interval_values">
+		<item>1000</item>
+		<item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+	</string-array>
+	
+	<string-array name="pref_lockscreen_calendar_interval_entries">
+		<item>1 seconde</item>
+		<item>1.5 secondes</item>
+        <item>2 secondes</item>
+        <item>2.5 secondes</item>
+        <item>3 secondes</item>
+        <item>3.5 secondes</item>
+        <item>4 secondes</item>
 	</string-array>
 
 	<string-array name="minfree">
@@ -422,7 +444,7 @@
 		<item>4</item>
 	</string-array>
 	
-	<string-array name="available_toggles_values">
+	<string-array name="available_toggles_entries">
 		<item>ROTATE</item>
 		<item>BT</item>
 		<item>GPS</item>
@@ -433,9 +455,10 @@
 		<item>SILENT</item>
 		<item>TORCH</item>
 		<item>SYNC</item>
+		<item>FCHARGE</item>
 	</string-array>
 	
-	<string-array name="available_toggles_entries">
+	<string-array name="available_toggles_values">
 		<item>Rotation automatique</item>
 		<item>BT</item>
 		<item>GPS</item>
@@ -446,6 +469,7 @@
 		<item>Silencieux</item>
 		<item>Torche</item>
 		<item>Sync</item>
+		<item>Charge rapide</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
@@ -492,7 +516,7 @@
 		<item>220</item>
 		<item>230</item>
 		<item>240</item>
-		<item>custom</item>
+		<item>personnaliser</item>
 	</string-array>
 	
 	<string-array name="weather_interval_entries">

@@ -145,6 +145,16 @@
     <string name="lockscreen_quick_unlock_control_summary">"Déverrouille l\'écran protégé par code PIN sans devoir appuyer sur OK ou Entrée"</string>
     <string name="enable_fast_torch_title">Lampe de poche rapide</string>
     <string name="enable_fast_torch_summary">Ecran éteint, maintenez le bouton d\'alimentation appuyé pour activer le flash LED. Relâchez le bouton pour éteindre la lampe de poche.</string>
+    <string name="lockscreen_text_color_title">Couleur Texte Ecran de verrouillage</string>
+    <string name="lockscreen_calendar">Calendrier sur Ecran de verrouillage</string>
+    <string name="lockscreen_calendar_title">Activer</string>
+    <string name="lockscreen_calendar_summary">Affiche sur l\'écran de verrouillage les événements à venir provenant de vos calendriers.</string>
+    <string name="lockscreen_calendar_sources_title">Sélection des calendriers</string>
+    <string name="lockscreen_calendar_sources_summary">Sélectionner les calendriers souhaités.</string>
+    <string name="lockscreen_calendar_flip_title">Evénements multiples</string>
+    <string name="lockscreen_calendar_flip_summary">Si cette option est activée, les événements des 24 prochaines heures se succéderont dans le widget.</string>
+    <string name="lockscreen_calendar_interval_title">Intervalle</string>
+    <string name="lockscreen_calendar_interval_summary">Choisir la vitesse en secondes de l\'animation entre chaque événement.</string>
 
     <!-- Power Menu -->
     <string name="title_show_power_saver">"Afficher l\'économiseur d\'énergie"</string>
