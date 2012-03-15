@@ -114,10 +114,10 @@
     <string name="title_pref_lockscreen_octo_targets">Octo Targets</string>	
     <string name="summary_pref_lockscreen_octo_targets">잠금 화면에 매우 많은 단축 아이콘 추가</string>
 
-    <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Menu button unlocks PIN lockscreen (requires reboot)</string>
-    <string name="title_lockscreen_user_timeout_override">Wait to lock screen</string>
-    <string name="summary_lockscreen_user_timeout_override">Use Android\'s timeout setting after you manually turn the screen off. The default behavior is to use the delay only when the screen times out by itself.</string>
+    <string name="title_pref_lockscreen_menu_unlock">메뉴 버튼 해제</string>
+    <string name="summary_pref_lockscreen_menu_unlock">메뉴 버튼으로 PIN 잠금을 해제할 수 있음 (시스템 재시작 필요)</string>
+    <string name="title_lockscreen_user_timeout_override">자동 잠김 대기</string>
+    <string name="summary_lockscreen_user_timeout_override">전원 버튼을 눌러 대기 모드로 진입했을 때도 보안 탭에 설정된 자동 잠김 대기 시간을 사용합니다. 체크하지 않으면 전화 스스로 대기 모드에 진입 했을 때만 사용합니다.</string>
     <string name="show_lock_before_unlock_title">항상 잠금 화면 표시</string>
     <string name="show_lock_before_unlock_summary">PIN/비밀번호/패턴을 해제하기 전에 잠금 화면을 표시합니다</string>
     <string name="lockscreen_battery_title">항상 배터리 표시</string>
