@@ -159,8 +159,8 @@
 		<item>3 초</item>
 		<item>3.5 초</item>
 		<item>4 초</item>
-		</string-array>
-
+	</string-array>
+	
 	<string-array name="battery_icon_entries">
 		<item>기본 아이콘</item>
 		<item>숫자와 %단위</item>
