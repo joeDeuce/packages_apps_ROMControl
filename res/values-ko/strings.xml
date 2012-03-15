@@ -29,9 +29,9 @@
     <string name="header_summary_led">현재는 BLN 기능만 지원합니다.</string>
     <string name="header_summary_general">설정 버튼 동작, 투명도 변경, 레이아웃</string>
     <string name="header_summary_toggles">토글 스위치 설정</string>
-	<string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
-	<string name="header_summary_weather">스타일, 날씨를 받아올 지역 설정, 갱신 주기</string>
-	<string name="header_summary_signal">신호 강도를 dBm 단위로 표시</string>
+    <string name="header_summary_clock">표시 위치, 오전/오후 스타일, 색상 변경</string>
+    <string name="header_summary_weather">스타일, 날씨를 받아올 지역 설정, 갱신 주기</string>
+    <string name="header_summary_signal">신호 강도를 dBm 단위로 표시</string>
 	
     <string name="advanced_settings">고급 설정</string>
     <string name="misc_short">기타</string>
@@ -146,6 +146,15 @@
     <string name="enable_fast_torch_title">빠른 손전등 사용</string>
     <string name="enable_fast_torch_summary">화면이 꺼진 상태에서 전원 버튼을 길게 눌러 LED 플래시를 켤 수 있습니다. 전원 버튼에서 손을 떼면 LED 플래시도 꺼집니다.</string>
     <string name="lockscreen_text_color_title">잠금 화면 글자 색상</string>
+    <string name="lockscreen_calendar">일정</string>
+    <string name="lockscreen_calendar_title">Enable</string>
+    <string name="lockscreen_calendar_summary">캘린더와 연동하여 잠금 화면에 다가오는 일정을 표시합니다.</string>
+    <string name="lockscreen_calendar_sources_title">캘린더 선택</string>
+    <string name="lockscreen_calendar_sources_summary">어떤 캘린더의 일정을 표시할 것인지 선택하세요.</string>
+    <string name="lockscreen_calendar_flip_title">다중 일정 표시</string>
+    <string name="lockscreen_calendar_flip_summary">다음 24시간 동안의 일정들이 돌아가며 표시됩니다.</string>
+    <string name="lockscreen_calendar_interval_title">교체 주기</string>
+    <string name="lockscreen_calendar_interval_summary">일정 교체 애니메이션의 주기를 설정하세요.</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">절전 모드 표시</string>
