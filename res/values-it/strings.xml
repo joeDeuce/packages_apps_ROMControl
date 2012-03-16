@@ -115,7 +115,7 @@
     <string name="summary_pref_lockscreen_octo_targets">Aggiungi piu\' opzioni al Lockscreen</string>
 
     <string name="title_pref_lockscreen_menu_unlock">Menu\' sblocco</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Lockscreen con PIN (richiede riavvio)</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Sblocca il telefono premendo il pulsante menu\'</string>
     <string name="title_lockscreen_user_timeout_override">Attesa Lockscreen</string>
     <string name="summary_lockscreen_user_timeout_override">Usa il tempo di default di Android per bloccare lo schermo premendo l\'apposito tasto. Il comportamento di default e\' usare il ritardo solo quando lo schermo si spegne da solo.</string>
     <string name="show_lock_before_unlock_title">Mostra lockscreen prima di sbloccare</string>
@@ -146,6 +146,15 @@
     <string name="enable_fast_torch_title">Abilita torcia rapida</string>
     <string name="enable_fast_torch_summary">Mentre lo schermo e\' spento, puoi tenere premuto il tasto power per accendere la luce LED. Rilasciando il tasto la luce si spegne.</string>
     <string name="lockscreen_text_color_title">Colore testo Lockscreen</string>
+    <string name="lockscreen_calendar">Calendario nel Lockscreen</string>
+    <string name="lockscreen_calendar_title">Abilita</string>
+    <string name="lockscreen_calendar_summary">Mostra gli eventi dal tuo calendario nel Lockscreen</string>
+    <string name="lockscreen_calendar_sources_title">Seleziona calendari</string>
+    <string name="lockscreen_calendar_sources_summary">Seleziona i calendari che vuoi vedere.</string>
+    <string name="lockscreen_calendar_flip_title">Eventi multipli</string>
+    <string name="lockscreen_calendar_flip_summary">Se abilitato, il widget scorrera\' gli eventi delle prossime 24 ore.</string>
+    <string name="lockscreen_calendar_interval_title">Intervallo di scorrimento</string>
+    <string name="lockscreen_calendar_interval_summary">Scegli la velocita\' di animazione in secondi.</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">Mostra risparmio energia</string>
@@ -366,7 +375,7 @@
 	<string name="ps_set_cpu_activity">Set min/max frequencies and scaling governor
 	</string>
 	<string name="ps_free_memory">Quantita\' minima di RAM tenuta libera dal taskkiller |
-		Current: %s</string>
+		Corrente: %s</string>
 	<string name="ps_free_memory_boot">Applica il valore al riavvio</string>
 
 	<!-- Toast Messages -->
