@@ -155,6 +155,8 @@
     <string name="lockscreen_calendar_flip_summary">다음 24시간 동안의 일정들이 돌아가며 표시됩니다.</string>
     <string name="lockscreen_calendar_interval_title">교체 주기</string>
     <string name="lockscreen_calendar_interval_summary">일정 교체 애니메이션의 주기를 설정하세요.</string>
+    <string name="lockscreen_wallpaper_title">잠금 화면 배경</string>
+    <string name="lockscreen_wallpaper_summary">지금 메뉴 버튼을 눌러 잠금 화면 배경을 초기화할 수 있습니다.</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">절전 모드 표시</string>
