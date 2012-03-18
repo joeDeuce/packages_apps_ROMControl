@@ -70,6 +70,8 @@
 	<string name="longpress_to_kill_title">뒤로 가기 길게 눌러 종료</string>
 	<string name="longpress_to_kill_summary">뒤로 가기 버튼을 길게 눌러 활성화된 애플리케이션을 종료할 수 있습니다.</string>
 	
+	<string name="enable_volume_options">추가 볼륨 설정 활성화</string>
+	
 	<string name="rotate_180_title">180° 화면 회전 허용</string>
 	<string name="rotate_180_summary">기기에게 물구나무 서기의 자유를!</string>
 
