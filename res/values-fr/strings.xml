@@ -35,6 +35,7 @@
 	
     <string name="advanced_settings">Paramètres avancés</string>
     <string name="misc_short">Autres</string>
+    <string name="enable_volume_options">Activer Options de volume</string>
 	
     <!-- Navigation Bar -->
     <string name="title_pref_menu_display">Paramètres du menu</string>
