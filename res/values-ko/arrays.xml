@@ -102,8 +102,7 @@
 	<string-array name="statusbar_layout_entries">
 		<item>기본</item>
 		<item>반전</item>
-		<!-- <item>Tabs</item>
-		<item>Bottom Tabs</item> -->
+		<item>클래식</item>
 	</string-array>
 
 	<!-- clock stuff -->
