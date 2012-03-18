@@ -102,8 +102,7 @@
 	<string-array name="statusbar_layout_entries">
 		<item>기본</item>
 		<item>반전</item>
-		<!-- <item>Tabs</item>
-		<item>Bottom Tabs</item> -->
+		<item>클래식</item>
 	</string-array>
 
 	<!-- clock stuff -->
@@ -149,7 +148,7 @@
 		<item>기본</item>
 		<item>사분</item>
 		<item>팔분</item>
-		<item>슬라이드</item>
+		<item>클래식</item>
 	</string-array>
 	
 	<string-array name="pref_lockscreen_calendar_interval_entries">

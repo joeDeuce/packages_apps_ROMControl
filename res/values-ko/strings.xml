@@ -70,6 +70,8 @@
 	<string name="longpress_to_kill_title">뒤로 가기 길게 눌러 종료</string>
 	<string name="longpress_to_kill_summary">뒤로 가기 버튼을 길게 눌러 활성화된 애플리케이션을 종료할 수 있습니다.</string>
 	
+	<string name="enable_volume_options">추가 볼륨 설정 활성화</string>
+	
 	<string name="rotate_180_title">180° 화면 회전 허용</string>
 	<string name="rotate_180_summary">기기에게 물구나무 서기의 자유를!</string>
 
@@ -155,6 +157,8 @@
     <string name="lockscreen_calendar_flip_summary">다음 24시간 동안의 일정들이 돌아가며 표시됩니다.</string>
     <string name="lockscreen_calendar_interval_title">교체 주기</string>
     <string name="lockscreen_calendar_interval_summary">일정 교체 애니메이션의 주기를 설정하세요.</string>
+    <string name="lockscreen_wallpaper_title">잠금 화면 배경</string>
+    <string name="lockscreen_wallpaper_summary">지금 메뉴 버튼을 눌러 잠금 화면 배경을 초기화할 수 있습니다.</string>
     
     <!-- Power Menu -->
     <string name="title_show_power_saver">절전 모드 표시</string>
