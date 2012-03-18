@@ -69,6 +69,8 @@
 	<string name="custom_carrier_label_title">Personalizza nome operatore</string>
 	<string name="longpress_to_kill_title">Tieni premuto per chiudere</string>
 	<string name="longpress_to_kill_summary">Tieni premuto il tasto indietro per chiudere l\'applicazione corrente</string>
+	
+	<string name="enable_volume_options">Abilita opzioni Volume</string>
 
 	<string name="rotate_180_title">Consenti rotazione 180</string>
 	<string name="rotate_180_summary">Consenti la rotazione dello schermo sottosopra!</string>
