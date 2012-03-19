@@ -516,7 +516,7 @@
 		<item>220</item>
 		<item>230</item>
 		<item>240</item>
-		<item>personnaliser</item>
+		<item>custom</item>
 	</string-array>
 	
 	<string-array name="weather_interval_entries">
