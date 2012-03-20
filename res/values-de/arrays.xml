@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string-array name="pref_navigation_menu_entries">
-		<item>Rechts</item>
-		<item>Links</item>
-		<item>Beide</item>
-		<item>Entfernen</item>
-	</string-array>
-
 	<string-array name="pref_powersaving_data_screen_off_entries_cdma">
 		<item>Nichts tun</item>
 		<item>LTE ausschalten</item>
@@ -88,13 +81,6 @@
 		<item>10 Sekunden</item>
 	</string-array>
 
-	<string-array name="pref_navigation_menu_display_entries">
-		<item>Standardverhalten von ICS</item>
-		<item>Immer unsichtbare Icons zeigen</item>
-		<item>Immer anzeigen</item>
-		<item>Standardverhalten von ICS, aber unsichtbare Icons statt ausgeblendet</item>
-	</string-array>
-
 	<!-- clock stuff -->
 	<string-array name="clock_style_entries">
 		<item>Uhr Rechts</item>
@@ -129,9 +115,9 @@
 	</string-array>
 
         <string-array name="pref_lockscreen_options_entries">
-		<item>Standard</item>
-		<item>Vierfach</item>
-        <item>Achtfach</item>
+		<item>Stock</item>
+		<item>Quad</item>
+		<item>Octo</item>
 		<item>AOSP</item>
 	</string-array>
 
@@ -156,27 +142,40 @@
 		<item>Mittig</item>
 	</string-array>
 	
-	<string-array name="available_toggles_values"> <!-- Will possibly be fixed/renamed to ..._entries in future version -->
-		<item>Automatisch drehen</item>
-		<item>Bluetooth</item>
+	<string-array name="available_toggles_values">
+		<item>Auto-rotate</item>
+		<item>BT</item>
 		<item>GPS</item>
-		<item>WLAN</item>
-		<item>Flugmodus</item>
-		<item>Vibrieren</item>
-		<item>Lautlos</item>
-		<item>Taschenlampe</item>
-		<item>Synchronisation</item>
-		<item>Swagger</item>
+		<item>Wi-Fi</item>
+		<item>Data</item>
+		<item>Airplane mode</item>
+		<item>Vibrate</item>
+		<item>Silent</item>
+		<item>Torch</item>
+		<item>Sync</item>
+		<item>Fast charge</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
-		<item>Entsperren</item>
-		<item>Ton an/aus</item>
-		<item>Telefon</item>
-		<item>Kamera</item>
+		<item>Unlock</item>
+		<item>Sound toggle</item>
+		<item>Phone</item>
+		<item>Camera</item>
 		<item>SMS</item>
-		<item>Benutzerdefinierte App</item>
-		<item>Leer</item>
+		<item>Custom app</item>
+		<item>Blank</item>
+	</string-array>
+	
+	
+
+        <string-array name="pref_lockscreen_calendar_interval_entries">
+		<item>1 second</item>
+		<item>1.5 seconds</item>
+        <item>2 seconds</item>
+        <item>2.5 seconds</item>
+        <item>3 seconds</item>
+        <item>3.5 seconds</item>
+        <item>4 seconds</item>
 	</string-array>
 	
 	<string-array name="glow_times_entries">
@@ -198,7 +197,7 @@
 		<item>300</item>
 		<item>320</item>
 		<item>340</item>
-		<item>Benutzerdefiniert</item>
+		<item>custom</item>
 	</string-array>
 	
 	<string-array name="weather_interval_entries">
