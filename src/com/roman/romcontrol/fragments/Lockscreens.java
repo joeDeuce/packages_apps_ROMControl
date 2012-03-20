@@ -186,6 +186,21 @@ public class Lockscreens extends SettingsPreferenceFragment implements
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+
+        Boolean isSDPresent = android.os.Environment.getExternalStorageState().equals(
+                android.os.Environment.MEDIA_MOUNTED);
+        if (!isSDPresent) {
+            mLockscreenWallpaper.setEnabled(false);
+            mLockscreenWallpaper
+                    .setSummary("No external storage available (/sdcard) to use this feature. Please insert it or fix your ROM!");
+
+        }
+        refreshSettings();
+    }
+
+    @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mLockScreenTimeoutUserOverride) {
             Settings.Secure.putInt(getActivity().getContentResolver(),
@@ -412,6 +427,14 @@ public class Lockscreens extends SettingsPreferenceFragment implements
 
                 @Override
                 public void onClick(View v) {
+                    Boolean isSDPresent = android.os.Environment.getExternalStorageState().equals(
+                            android.os.Environment.MEDIA_MOUNTED);
+                    if (!isSDPresent) {
+                        Toast.makeText(v.getContext(), "Insert SD card to use this feature",
+                                Toast.LENGTH_LONG).show();
+                        return;
+                    }
+
                     currentIconIndex = index;
 
                     int width = 100;
