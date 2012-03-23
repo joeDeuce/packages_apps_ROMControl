@@ -124,6 +124,8 @@
     <string name="show_lock_before_unlock_summary">Mostra standard lockscreen prima dello sblocco con PIN</string>
     <string name="lockscreen_battery_title">Percentuale batteria</string>
     <string name="lockscreen_battery_summary">Mostra sempre la percentuale batteria nel Lockscreen</string>
+    <string name="lockscreen_low_battery_title">Percentuale batteria scarica</string>
+    <string name="lockscreen_low_battery_summary">Mostra percentuale a batteria scarica nel Lockscreen</string>
     <string name="lockscreen_weather_title">Meteo</string>
     <string name="lockscreen_weather_summary">Mostra le informazioni meteo nel Lockscreen. Devi abilitare il servizio meteo di ROMControl</string>
     <string name="volume_wake_title">Attiva con tasti Volume</string>
@@ -251,6 +253,8 @@
 	<string name="signal_color_title">Colore icona segnale</string>
 	<string name="hide_signal_title">Nascondi barre segnale</string>
 	<string name="hide_signal_summary">Puoi anche nascondere l\'icona dati ora. Potrai separarla dopo.</string>
+	<string name="wifi_signal_style">Stile icona Wi-fi</string>
+	<string name="wifi_signal_color_title">Colore icona Wi-fi</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Prendi colore</string>
