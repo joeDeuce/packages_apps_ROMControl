@@ -252,11 +252,11 @@
     <string name="brightness_location_title">밝기 조절 위치</string>
 
 	<!-- Statusbar | Signal -->
-	<string name="signal_style">3G/Data</string>
+	<string name="signal_style">3G/Data 스타일</string>
 	<string name="signal_color_title">3G/Data 숫자 색상</string>
 	<string name="hide_signal_title">숨김</string>
 	<string name="hide_signal_summary">데이터 전송 상태 표시도 사라집니다.</string>
-	<string name="wifi_signal_style">WiFi</string>
+	<string name="wifi_signal_style">WiFi 스타일</string>
 	<string name="wifi_signal_color_title">WiFi 숫자 색상</string>
 
     <!-- Color Picker -->
