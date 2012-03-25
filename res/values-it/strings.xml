@@ -152,11 +152,17 @@
     <string name="lockscreen_text_color_title">Colore testo Lockscreen</string>
     <string name="lockscreen_calendar">Calendario nel Lockscreen</string>
     <string name="lockscreen_calendar_title">Abilita</string>
-    <string name="lockscreen_calendar_summary">Mostra gli eventi dal tuo calendario nel Lockscreen</string>
-    <string name="lockscreen_calendar_sources_title">Seleziona calendari</string>
+    <string name="lockscreen_calendar_summary">Mostra evento/i dal tuo calendario nel Lockscreen</string>
+    <string name="lockscreen_calendar_sources_title">Scegli calendari</string>
     <string name="lockscreen_calendar_sources_summary">Seleziona i calendari che vuoi vedere.</string>
     <string name="lockscreen_calendar_flip_title">Eventi multipli</string>
-    <string name="lockscreen_calendar_flip_summary">Se abilitato, il widget scorrera\' gli eventi delle prossime 24 ore.</string>
+    <string name="lockscreen_calendar_range_title">Intervallo di tempo</string>
+    <string name="lockscreen_calendar_range_summary">Seleziona l\'intervallo di tempo da visualizzare</string>
+    <string name="lockscreen_calendar_use_colors_title">Usa colori</string>
+    <string name="lockscreen_calendar_use_colors_summary">Se abilitato, gli eventi saranno colorati come nel tuo calendario</string>
+    <string name="lockscreen_calendar_hide_ongoing_title">Nascondi eventi in corso</string>
+    <string name="lockscreen_calendar_hide_ongoing_summary">Se abilitato, gli eventi iniziati non saranno visualizzati</string>
+    <string name="lockscreen_calendar_flip_summary">Se abilitato, il widget visualizzera\' gli eventi multipli scorrendoli</string>
     <string name="lockscreen_calendar_interval_title">Intervallo di scorrimento</string>
     <string name="lockscreen_calendar_interval_summary">Scegli la velocita\' di animazione in secondi.</string>
     
