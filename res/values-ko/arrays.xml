@@ -161,6 +161,16 @@
 		<item>4 초</item>
 	</string-array>
 	
+	<string-array name="pref_lockscreen_calendar_range_entries">
+		<item>1 일</item>
+		<item>2 일</item>
+		<item>3 일</item>
+		<item>4 일</item>
+		<item>5 일</item>
+		<item>6 일 </item>
+		<item>1 주</item>
+	</string-array>
+	
 	<string-array name="battery_icon_entries">
 		<item>기본 아이콘</item>
 		<item>숫자와 %단위</item>
