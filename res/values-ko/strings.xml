@@ -155,8 +155,14 @@
     <string name="lockscreen_calendar_summary">캘린더와 연동하여 잠금 화면에 다가오는 일정을 표시합니다.</string>
     <string name="lockscreen_calendar_sources_title">캘린더 선택</string>
     <string name="lockscreen_calendar_sources_summary">어떤 캘린더의 일정을 표시할 것인지 선택하세요.</string>
+    <string name="lockscreen_calendar_range_title">일정 범위</string>
+    <string name="lockscreen_calendar_range_summary">현재부터 선택한 시간 범위 이내의 일정을 표시합니다.</string>
+    <string name="lockscreen_calendar_use_colors_title">색상 사용</string>
+    <string name="lockscreen_calendar_use_colors_summary">캘린더의 색상과 같은 색상으로 일정을 표시합니다.</string>
+    <string name="lockscreen_calendar_hide_ongoing_title">진행 중인 일정 숨김</string>
+    <string name="lockscreen_calendar_hide_ongoing_summary">이미 시작되어 현재 진행 중인 일정은 표시하지 않습니다.</string>
     <string name="lockscreen_calendar_flip_title">다중 일정 표시</string>
-    <string name="lockscreen_calendar_flip_summary">다음 24시간 동안의 일정들이 돌아가며 표시됩니다.</string>
+    <string name="lockscreen_calendar_flip_summary">다가오는 일정들을 돌아가며 표시합니다.</string>
     <string name="lockscreen_calendar_interval_title">교체 주기</string>
     <string name="lockscreen_calendar_interval_summary">일정 교체 애니메이션의 주기를 설정하세요.</string>
     <string name="lockscreen_wallpaper_title">잠금 화면 배경</string>
