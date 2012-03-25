@@ -126,22 +126,14 @@
 		<item>Nur Text</item>
 		<item>Icon mit Text</item>
 		<item>Icon mit mittigem Text</item>
-		<item>CircleMOD</item>
-		<item>Verstecken</item>
+		<item>Circle Battery</item>
+		<item>Gummy Bar Battery</item>
+		<item>Honeycomb style</item> 
+		<item>GenX style</item>
+		<item>BlackIce Circle style</item>
+		<item>Hide Battery</item>
 	</string-array>
 
-	<string-array name="battery_bar_entries">
-		<item>Verstecken</item>
-		<item>Statusleiste</item>
-		<item>Oben Kante der Navigationsleiste</item>
-		<item>Untere Kante der Navigationsleiste</item>
-	</string-array>
-	
-	<string-array name="battery_bar_style_entries">
-		<item>Normal</item>
-		<item>Mittig</item>
-	</string-array>
-	
 	<string-array name="available_toggles_values">
 		<item>Auto-rotate</item>
 		<item>BT</item>
