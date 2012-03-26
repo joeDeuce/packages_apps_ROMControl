@@ -103,7 +103,6 @@
 
 	<!-- toggle style -->
 	<string-array name="toggle_style_entries">
-		<item>Kein Icon, kein Text</item>
 		<item>Nur Icon</item>
 		<item>Nur Text</item>
 	</string-array>
@@ -134,6 +133,20 @@
 		<item>Hide Battery</item>
 	</string-array>
 
+	<string-array name="available_toggles_entries" translatable="false">
+		<item>ROTATE</item>
+		<item>BT</item>
+		<item>GPS</item>
+		<item>WIFI</item>
+		<item>DATA</item>
+		<item>AIRPLANE_MODE</item>
+		<item>VIBRATE</item>
+		<item>SILENT</item>
+		<item>TORCH</item>
+		<item>SYNC</item>
+		<item>FCHARGE</item>
+	</string-array>
+	
 	<string-array name="available_toggles_values">
 		<item>Auto-rotate</item>
 		<item>BT</item>
