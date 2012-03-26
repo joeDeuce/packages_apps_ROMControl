@@ -23,7 +23,7 @@
 		<item>Zet data uit</item>
 	</string-array>
 
-	<string-array name="pref_powersaving_data_screen_off_values_cdma">
+	<string-array name="pref_powersaving_data_screen_off_values_cdma" translatable="false">
 		<item>20</item>
 		<item>21</item>
 		<item>22</item>
@@ -211,6 +211,7 @@
 	<string-array name="statusbar_layout_entries">
 		<item>Normale layout</item>
 		<item>Omgekeerd</item>
+		<item>Traditioneel</item>
 		<!-- <item>Tabs</item>
 		<item>Bottom Tabs</item> -->
 	</string-array>
@@ -218,6 +219,7 @@
 	<string-array name="statusbar_layout_values">
 		<item>0</item>
 		<item>1</item>
+		<item>2</item>
 		<!-- <item>2</item>
 		<item>3</item> -->
 	</string-array>
@@ -324,12 +326,34 @@
 		<item>2</item>
 		<item>6</item>
         <item>8</item>
+		<item>0</item>
 	</string-array>
 
         <string-array name="pref_lockscreen_options_entries">
 		<item>Normaal</item>
 		<item>Vier snelkoppelingen</item>
         <item>Acht snelkoppelingen</item>
+		<item>AOSP</item>
+	</string-array>
+	
+		<string-array name="pref_lockscreen_calendar_interval_entries">
+		<item>1 seconds</item>
+		<item>1.5 seconds</item>
+        <item>2 seconds</item>
+        <item>2.5 seconds</item>
+        <item>3 seconds</item>
+        <item>3.5 seconds</item>
+        <item>4 seconds</item>
+	</string-array>
+	
+	<string-array name="pref_lockscreen_calendar_interval_values" translatable="false">
+		<item>1000</item>
+		<item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
 	</string-array>
 
 	<string-array name="minfree">
@@ -422,17 +446,18 @@
 		<item>4</item>
 	</string-array>
 	
-	<string-array name="available_toggles_entries">
+	<string-array name="available_toggles_entries" translatable="false">
 		<item>ROTATE</item>
-		<item>BLUETOOTH</item>
+		<item>BT</item>
 		<item>GPS</item>
 		<item>WIFI</item>
 		<item>DATA</item>
-		<item>VLIEGTUIG-modus</item>
-		<item>TRIL</item>
-		<item>STIL</item>
-		<item>ZAKLAMP</item>
-		<item>SYNCHRONISATIE</item>
+		<item>AIRPLANE_MODE</item>
+		<item>VIBRATE</item>
+		<item>SILENT</item>
+		<item>TORCH</item>
+		<item>SYNC</item>
+		<item>FCHARGE</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -446,6 +471,7 @@
 		<item>Silent</item>
 		<item>Torch</item>
 		<item>Sync</item>
+		<item>Fast charge</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">

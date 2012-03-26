@@ -30,7 +30,7 @@
     <string name="header_summary_general">Instellingen van het button gedrag</string>
     <string name="header_summary_toggles">Schakelaars aanpassen</string>
 	<string name="header_summary_clock">Klok locatie, AM/PM stijl, kleur</string>
-	<string name="header_summary_weather">In-/Uitschakelen, kies eigen locatie of netwerk en interval</string>
+	<string name="header_summary_weather">In-/uitschakelen, kies eigen locatie of netwerk en interval</string>
 	<string name="header_summary_signal">Signaal dBm tekst</string>
 	
     <string name="advanced_settings">Geadvanceerde instellingen</string>
@@ -70,7 +70,9 @@
 	<string name="longpress_to_kill_title">Back-knop om te sluiten</string>
 	<string name="longpress_to_kill_summary">De back-knop lang ingedrukt houden, zal de huidige activiteit afsluiten.</string>
 	
-	<string name="rotate_180_title">Sta 180 rotatie toe</string>
+	 <string name="enable_volume_options">Schakel Volume Opties In</string>
+	
+	<string name="rotate_180_title">Sta 180\° rotatie toe</string>
 	<string name="rotate_180_summary">Sta toe om uw apparaat ondersteboven te draaien!</string>
 
 	<string name="horizontal_recents_task_panel_title">Horizontal recents window</string>
@@ -115,10 +117,10 @@
     <string name="summary_pref_lockscreen_octo_targets">Voegt veelste veel snelkoppelingen toe. xd</string>
 
     <string name="title_pref_lockscreen_menu_unlock">Menu ontgrendeling</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Menu button ontgrendelt PIN lockscherm (reboot vereist)</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Drukkend op de menu-knop zorgt voor ontgrendeling van het apparaat</string>
     <string name="title_lockscreen_user_timeout_override">Wacht met vergrendelen van het scherm</string>
     <string name="summary_lockscreen_user_timeout_override">Use Android\'s timeout setting after you manually turn the screen off. The default behavior is to use the delay only when the screen times out by itself.</string>
-    <string name="show_lock_before_unlock_title">Toont lockscherm voor ontgrendeling</string>
+    <string name="show_lock_before_unlock_title">Lockscherm ontgrendeling</string>
     <string name="show_lock_before_unlock_summary">Toont standaard lockscherm voor beveiligde ontgrendeling</string>
     <string name="lockscreen_battery_title">Lockscherm Batterij Percentage</string>
     <string name="lockscreen_battery_summary">Toont altijd het batterij percentage op het lockscherm</string>
@@ -127,7 +129,7 @@
     <string name="volume_wake_title">Volume ontwaken</string>
     <string name="volume_wake_summary">Tappen op de volumeknoppen terwijl de telefoon uitgeschakeld is zal het scherm aan doen.</string>
     <string name="volume_music_controls_title">Volume muziek instellingen</string>
-    <string name="volume_music_controls_summary">Lang indrukken op de volumebuttons om een nummer te skippen als het scherm uit is. Volume ontwaken (optie) zal niet werken wanneer u muziek afspeelt.</string>
+    <string name="volume_music_controls_summary">Lang indrukken op de volumebuttons om een nummer te skippen als het scherm uit is. Volume ontwaken zal niet werken.</string>
     <string name="lockscreen_show_nav_title">Verberg nav balk</string>
     <string name="lockscreen_show_nav_summary">Verberg de nav balk (als uw apparaat dit ondersteunt) op het lockscherm.</string>
     <string name="custom_app_n_dialog_title">Kies de actie van het doel %1$s</string>
@@ -145,12 +147,22 @@
     <string name="lockscreen_quick_unlock_control_summary">Ontgrendeld password/pin lockscherm zonder enter te hoeven indrukken</string>
     <string name="enable_fast_torch_title">Zaklamp inschakelen</string>
     <string name="enable_fast_torch_summary">Als het scherm uit is zult u de power-knop ingedrukt moeten houden om het LED licht aan te zetten. Indien u de power-knop loslaat zal het licht uitgaan.</string>
-    
+    <string name="lockscreen_text_color_title">Lockschrem tekst kleur</string>
+	<string name="lockscreen_calendar">Lockscherm kalender</string>
+    <string name="lockscreen_calendar_title">Schakel in</string>
+    <string name="lockscreen_calendar_summary">Laat de aankomende events van de kalander op het lockscherm zien.</string>
+    <string name="lockscreen_calendar_sources_title">Selecteer kalenders</string>
+    <string name="lockscreen_calendar_sources_summary">Selecteer de kalander die u wilt zien.</string>
+    <string name="lockscreen_calendar_flip_title">Meerdere events</string>
+    <string name="lockscreen_calendar_flip_summary">Indien ingeschakeld laat de widget de events voor de volgende 24 uur zien.</string>
+    <string name="lockscreen_calendar_interval_title">Flip interval</string>
+    <string name="lockscreen_calendar_interval_summary">Kies de animatie snelheid in seconden.</string>
+	
     <!-- Power Menu -->
-    <string name="title_show_power_saver">Toont energiebesparing</string>
-    <string name="title_show_screenshot">Toont screenshot</string>
-    <string name="title_show_torch_toggle">Toont zaklamp schakelaar</string>
-    <string name="title_show_airplane_toggle">Toont vliegtuigmodus schakelaar</string>
+    <string name="title_show_power_saver">Toon energiebesparing</string>
+    <string name="title_show_screenshot">Toon screenshot</string>
+    <string name="title_show_torch_toggle">Toon zaklamp schakelaar</string>
+    <string name="title_show_airplane_toggle">Toon vliegtuigmodus schakelaar</string>
     
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">Zet energiebesparing aan</string>
@@ -186,8 +198,8 @@
     <string name="title_settings_behavior">Gebruik standaard instellingen voor het gedrag</string>
     <string name="summary_settings_behavior">De standaard is om lang te drukken voor schakelaars en druk voor instellingen. Deselecteer om dit andersom te hebben.</string>
 
-    <string name="title_auto_hide_toggles">Schakelaars automatisch verbergen</string>
-    <string name="summary_auto_hide_toggles">Na loslaten van de slider zullen de schakelaars verborgen zijn</string>
+    <string name="title_auto_hide_toggles">Schakelaars verbergen</string>
+    <string name="summary_auto_hide_toggles">Na loslaten van de slider zullen de schakelaars automatisch verborgen zijn</string>
 
     <string name="title_status_bar_brightness_toggle">Helderheid schakelaar</string>
     <string name="summary_status_bar_brightness_toggle">Slide langzaam langs de statusbalk om de helderheid aan te passen.</string>
@@ -207,7 +219,7 @@
     <string name="battery_bar_style_title">Batterij balk stijl</string>
     <string name="battery_bar_thickness_title">Batterij balk dikte</string>
     <string name="battery_bar_animate_title">Oplaad animatie</string>
-    <string name="battery_bar_animate_summary">De animatie voor het opladen kan leiden tot een slechte gebruikerservaring. Schakel naar eigen inzicht.</string>
+    <string name="battery_bar_animate_summary">De animatie voor het opladen kan leiden tot een slechte gebruikerservaring. Schakel in naar eigen inzicht.</string>
     
 
     <!-- Statusbar | Clock -->
@@ -279,7 +291,7 @@
 	<string name="prefcat_cpu">Stel CPU in</string>
 	<string name="prefcat_free_memory">Vrij Geheugen</string>
 	<string name="pc_tweaks">Tweaks</string>
-	<string name="pc_init_d">In-/Uitschakelen Tweaks</string>
+	<string name="pc_init_d">In-/uitschakelen Tweaks</string>
 	<string name="pc_init_d_tweaks">Customize Tweaks</string>
 
 	<!-- Preference Titles -->
@@ -348,9 +360,9 @@
 	<string name="ps_init_d">Configureer tweaks die runnen bij opstarten
 		(init.d)
 	</string>
-	<string name="ps_enable_init_d">In-/Uitschakelen van start-up tweaks</string>
+	<string name="ps_enable_init_d">In-/uitschakelen van start-up tweaks</string>
 	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
-	<string name="ps_enable_sd_boost">In-/Uitschakelen SD card snelheid boost</string>
+	<string name="ps_enable_sd_boost">In-/uitschakelen SD card snelheid boost</string>
 	<string name="ps_sd_boost">Set value of read ahead in kb</string>
 	<string name="ps_fix_permissions">Fix machtigingen voor apps bij elke boot</string>
 	<string name="ps_clear_cache">Verwijder data cache bij elke boot</string>
