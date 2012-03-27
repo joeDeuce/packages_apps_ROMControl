@@ -145,10 +145,11 @@
 	</string-array>
 
         <string-array name="pref_lockscreen_options_entries">
-		<item>기본</item>
-		<item>사분</item>
-		<item>팔분</item>
+		<item>ICS 기본</item>
+		<item>4방향</item>
+		<item>8방향</item>
 		<item>클래식</item>
+		<item>허니컴</item>
 	</string-array>
 	
 	<string-array name="pref_lockscreen_calendar_interval_entries">
