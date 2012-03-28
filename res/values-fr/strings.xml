@@ -35,7 +35,6 @@
 	
     <string name="advanced_settings">Paramètres avancés</string>
     <string name="misc_short">Autres</string>
-    <string name="enable_volume_options">Activer Options de volume</string>
 	
     <!-- Navigation Bar -->
     <string name="title_pref_menu_display">Paramètres du menu</string>
@@ -70,6 +69,8 @@
     <string name="custom_carrier_label_title">Texte Opérateur personnalisé</string>
     <string name="longpress_to_kill_title">Longue pression sur la touche Retour</string>
     <string name="longpress_to_kill_summary">"Maintenir la touche Retour appuyée pour quitter l\'application (libérer de la RAM)"</string>
+
+    <string name="enable_volume_options">Activer Options de volume</string>
 
     <string name="rotate_180_title">Autoriser la rotation à 180°</string>
     <string name="rotate_180_summary">"Autoriser l\'appareil à effectuer une rotation compléte de l\'écran"</string>
@@ -149,12 +150,18 @@
     <string name="lockscreen_text_color_title">Couleur Texte Ecran de verrouillage</string>
     <string name="lockscreen_calendar">Calendrier sur Ecran de verrouillage</string>
     <string name="lockscreen_calendar_title">Activer</string>
-    <string name="lockscreen_calendar_summary">Affiche sur l\'écran de verrouillage les événements à venir provenant de vos calendriers.</string>
-    <string name="lockscreen_calendar_sources_title">Sélection des calendriers</string>
-    <string name="lockscreen_calendar_sources_summary">Sélectionner les calendriers souhaités.</string>
-    <string name="lockscreen_calendar_flip_title">Evénements multiples</string>
-    <string name="lockscreen_calendar_flip_summary">Si cette option est activée, les événements des 24 prochaines heures se succéderont dans le widget.</string>
-    <string name="lockscreen_calendar_interval_title">Intervalle</string>
+    <string name="lockscreen_calendar_summary">Affiche sur l\'écran de verrouillage le ou les événement(s) à venir provenant de votre calendrier.</string>
+    <string name="lockscreen_calendar_sources_title">Sources du calendrier</string>
+    <string name="lockscreen_calendar_sources_summary">Sélectionner les sources à afficher dans le calendrier.</string>
+ 	<string name="lockscreen_calendar_range_title">Plage horaire</string>
+ 	<string name="lockscreen_calendar_range_summary">Sélectionner la plage horaire à afficher.</string>
+ 	<string name="lockscreen_calendar_use_colors_title">Utiliser des couleurs</string>
+ 	<string name="lockscreen_calendar_use_colors_summary">Si cette option est activée, les événements s\'afficheront avec les couleurs définies dans votre calendrier.</string>
+ 	<string name="lockscreen_calendar_hide_ongoing_title">Masquer les événements en cours</string>
+ 	<string name="lockscreen_calendar_hide_ongoing_summary">Si cette option est activée, les événements qui ont déjà débuté seront masqués.</string>
+	<string name="lockscreen_calendar_flip_title">Evénements multiples</string>
+    <string name="lockscreen_calendar_flip_summary">Si cette option est activée, les événements multiples s\'afficheront alternativement dans le widget.</string>
+    <string name="lockscreen_calendar_interval_title">Intervalle de défilement</string>
     <string name="lockscreen_calendar_interval_summary">Choisir la vitesse en secondes de l\'animation entre chaque événement.</string>
 
     <!-- Power Menu -->
@@ -251,7 +258,9 @@
     <string name="signal_color_title">Couleur du signal</string>
     <string name="hide_signal_title">Masquer les barres du signal</string>
     <string name="hide_signal_summary">Masque également l\'indicateur des données actuellement. La séparation sera possible ultérieurement.</string>
-
+	<string name="wifi_signal_style">Style Texte Signal Wi-Fi</string>
+ 	<string name="wifi_signal_color_title">Couleur du signal Wi-Fi</string>
+	
     <!-- Color Picker -->
     <string name="dialog_color_picker">Palette de couleurs</string>
     <string name="press_color_to_apply">Appuyez sur la couleur de droite pour appliquer</string>
@@ -395,7 +404,6 @@
     <string name="apply_values">Appliquer les valeurs</string>
 	<!-- DPI Density -->
     <string name="dpi">DPI</string>
-	
 	<!-- For translate strings -->
 	<string name="donate_roman">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MZD7JLRX6P99Y</string>
 	<string name="donate_whitehawk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8W7F2Y7S7KRM6</string>
@@ -413,7 +421,7 @@
     <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
     <string name="about_aokp">A propos d\'AOKP</string>
     <string name="about_aokp_summary">@null</string>
-
+	<!-- For translate strings -->
 	<string name="screen_off_wifi_action_text">Action sur Wi-Fi écran éteint</string>
 	<string name="sync_data_mode_text">Usage Sync des données</string>
 	<string name="sync_data_mobile_mode_text">Préférence Sync données sur réseau mobile </string>
