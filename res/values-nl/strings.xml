@@ -70,7 +70,7 @@
 	<string name="longpress_to_kill_title">Back-knop om te sluiten</string>
 	<string name="longpress_to_kill_summary">De back-knop lang ingedrukt houden, zal de huidige activiteit afsluiten.</string>
 	
-	 <string name="enable_volume_options">Schakel Volume Opties In</string>
+	<string name="enable_volume_options">Schakel Volume Opties In</string>
 	
 	<string name="rotate_180_title">Sta 180\° rotatie toe</string>
 	<string name="rotate_180_summary">Sta toe om uw apparaat ondersteboven te draaien!</string>
@@ -151,10 +151,16 @@
 	<string name="lockscreen_calendar">Lockscherm kalender</string>
     <string name="lockscreen_calendar_title">Schakel in</string>
     <string name="lockscreen_calendar_summary">Laat de aankomende events van de kalander op het lockscherm zien.</string>
-    <string name="lockscreen_calendar_sources_title">Selecteer kalenders</string>
+    <string name="lockscreen_calendar_sources_title">Kalender bron</string>
+	<string name="lockscreen_calendar_range_title">Tijdsbereik</string>
+	<string name="lockscreen_calendar_range_summary">Selecteer het tijdsbereik die wordt weergeven.</string>
+	<string name="lockscreen_calendar_use_colors_title">Gebruik kleuren</string>
+	<string name="lockscreen_calendar_use_colors_summary">Indien ingeschakeld, events zullen worden gekleurd in uw kalender.</string>
+	<string name="lockscreen_calendar_hide_ongoing_title">Verberg lopende events</string>
+	<string name="lockscreen_calendar_hide_ongoing_summary">Indien ingeschakeld, events die al begonnen zijn zullen niet worden weergeven.</string>
     <string name="lockscreen_calendar_sources_summary">Selecteer de kalander die u wilt zien.</string>
     <string name="lockscreen_calendar_flip_title">Meerdere events</string>
-    <string name="lockscreen_calendar_flip_summary">Indien ingeschakeld laat de widget de events voor de volgende 24 uur zien.</string>
+    <string name="lockscreen_calendar_flip_summary">Indien ingeschakeld, zal de widget meerdere events weergeven.</string>
     <string name="lockscreen_calendar_interval_title">Flip interval</string>
     <string name="lockscreen_calendar_interval_summary">Kies de animatie snelheid in seconden.</string>
 	
@@ -252,12 +258,14 @@
 	<string name="signal_color_title">Signaal kleur</string>
 	<string name="hide_signal_title">Verberg signaal balk</string>
 	<string name="hide_signal_summary">Verbergt ook het data-teken. Deze optie wordt later gesplitst.</string>
+	<string name="wifi_signal_style">WiFi Signaal Tekst Stijl</string>
+	<string name="wifi_signal_color_title">WiFi Signaal kleur</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Kleur Kiezer</string>
-    <string name="press_color_to_apply">Druk op Kleur om toe te passen</string>   
-    <string name="arrow_right">→</string> 
-    <string name="arrow_down">↓</string>
+    <string name="press_color_to_apply">Druk op kleur om toe te passen</string>   
+    <string name="arrow_right">?</string> 
+    <string name="arrow_down">?</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#FF000000</string>
     <string name="set">Kies</string>
