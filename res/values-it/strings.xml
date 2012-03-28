@@ -124,8 +124,6 @@
     <string name="show_lock_before_unlock_summary">Mostra standard lockscreen prima dello sblocco con PIN</string>
     <string name="lockscreen_battery_title">Percentuale batteria</string>
     <string name="lockscreen_battery_summary">Mostra sempre la percentuale batteria nel Lockscreen</string>
-    <string name="lockscreen_low_battery_title">Percentuale batteria scarica</string>
-    <string name="lockscreen_low_battery_summary">Mostra percentuale a batteria scarica nel Lockscreen</string>
     <string name="lockscreen_weather_title">Meteo</string>
     <string name="lockscreen_weather_summary">Mostra le informazioni meteo nel Lockscreen. Devi abilitare il servizio meteo di ROMControl</string>
     <string name="volume_wake_title">Attiva con tasti Volume</string>
