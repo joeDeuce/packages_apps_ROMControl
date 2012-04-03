@@ -476,6 +476,7 @@
 		<item>TORCH</item>
 		<item>SYNC</item>
 		<item>FCHARGE</item>
+                <item>BLN</item>
 	</string-array>
 	
 	<string-array name="available_toggles_values">
@@ -490,6 +491,7 @@
 		<item>Torch</item>
 		<item>Sync</item>
 		<item>Fast charge</item>
+                <item>Bln</item>
 	</string-array>
 	
 	<string-array name="lockscreen_choice_entries">
