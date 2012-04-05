@@ -405,7 +405,7 @@ public class Lockscreens extends AOKPPreferenceFragment implements
 
     private Uri getTempFileUri() {
         return Uri.fromFile(new File(Environment.getExternalStorageDirectory(),
-                "tmp"));
+                ".aokp"));
     }
 
     private Uri getIconUri() {
