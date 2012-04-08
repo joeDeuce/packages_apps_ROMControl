@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Gestione ROM</string>
+    <string name="app_name">ROM Control</string>
 
     <!-- Main -->
     <string name="user_interface">Interfaccia Utente</string>
@@ -83,8 +83,8 @@
 
 	<string name="disable_bugmailer_title">Disattiva bugmailer</string>
 
-	<string name="lcd_density_title">LCD Density</string>
-	<string name="lcd_density_summary">unknown</string>
+	<string name="lcd_density_title">Densita\' LCD</string>
+	<string name="lcd_density_summary">sconosciuto</string>
 
 	<!-- CRT animations -->
 	<string name="crt_animations_header">Animazione CRT</string>
@@ -92,19 +92,19 @@
 	<string name="crt_off_title">CRT</string>
 
 	<!-- LCD Density -->
-	<string name="lcd_density_wizard">LCD Density Wizard</string>
+	<string name="lcd_density_wizard">Procedura guidata di densita\' LCD</string>
 	<string name="follow_through_title">Segui i passi!</string>
 	<string name="follow_through_summary">Assicurati di seguire e completare tutti i passi prima di passare al successivo.</string>
-	<string name="stock_density_title">1. LCD Density iniziale</string>
+	<string name="stock_density_title">1. Densita\' LCD iniziale</string>
 	<string name="stock_density_summary">Tablets e telefoni vecchi usano 160. La maggior parte 240. Galaxy Nexus usa 320.</string>
 	<string name="reboot_title">2. Riavvia!</string>
 	<string name="reboot_summary">Rientra qui dopo il riavvio e completa gli altri passaggi!</string>
 	<string name="clear_market_data_title">3. Cancella i dati del Market</string>
-	<string name="clear_market_data_cleared">Dati Market cancellati</string>
-	<string name="open_market_title">4. Apri il Market e premi Accetto</string>
+	<string name="clear_market_data_cleared">Dati Play Store cancellati</string>
+	<string name="open_market_title">4. Apri Play Store e premi Accetto</string>
 	<string name="open_market_summary">premi indietro quando fatto e torna qui.</string>
-	<string name="custom_density_title">5. Cambia LCD Density ogni volta che vuoi!</string>
-	<string name="custom_density_summary">Se hai problemi di compatibilita\' col Market, ritorna qui e rpeti l\'operazione.</string>
+	<string name="custom_density_title">5. Cambia densita\' LCD ogni volta che vuoi!</string>
+	<string name="custom_density_summary">Se hai problemi di compatibilita\' con Play Store, ritorna qui e rpeti l\'operazione.</string>
 
     <!-- Lockscreens -->
     <string name="pref_lockscreen_layout_title">Stile Lockscreen</string>
@@ -153,13 +153,13 @@
     <string name="lockscreen_calendar_summary">Mostra evento/i dal tuo calendario nel Lockscreen</string>
     <string name="lockscreen_calendar_sources_title">Scegli calendari</string>
     <string name="lockscreen_calendar_sources_summary">Seleziona i calendari che vuoi vedere.</string>
-    <string name="lockscreen_calendar_flip_title">Eventi multipli</string>
     <string name="lockscreen_calendar_range_title">Intervallo di tempo</string>
     <string name="lockscreen_calendar_range_summary">Seleziona l\'intervallo di tempo da visualizzare</string>
     <string name="lockscreen_calendar_use_colors_title">Usa colori</string>
     <string name="lockscreen_calendar_use_colors_summary">Se abilitato, gli eventi saranno colorati come nel tuo calendario</string>
     <string name="lockscreen_calendar_hide_ongoing_title">Nascondi eventi in corso</string>
     <string name="lockscreen_calendar_hide_ongoing_summary">Se abilitato, gli eventi iniziati non saranno visualizzati</string>
+    <string name="lockscreen_calendar_flip_title">Eventi multipli</string>
     <string name="lockscreen_calendar_flip_summary">Se abilitato, il widget visualizzera\' gli eventi multipli scorrendoli</string>
     <string name="lockscreen_calendar_interval_title">Intervallo di scorrimento</string>
     <string name="lockscreen_calendar_interval_summary">Scegli la velocita\' di animazione in secondi.</string>
@@ -210,7 +210,7 @@
     <string name="title_status_bar_brightness_toggle">Abilita controllo luminosita\'</string>
     <string name="summary_status_bar_brightness_toggle">Scorri lentamente il dito lungo la status bar per regolare la luminosita\'</string>
 
-    <string name="statusbar_transparency">Trasparenza</string>
+    <string name="statusbar_transparency">Trasparenza barra di notifica</string>
     <string name="statusbar_transparency_summary">L\'attivazione potrebbe influire su batteria e performance. (Necessita riavvio UI)</string>
 
     <string name="statusbar_layout">Posizione pannello notifiche</string>
@@ -257,8 +257,8 @@
 	<string name="signal_color_title">Colore icona segnale</string>
 	<string name="hide_signal_title">Nascondi barre segnale</string>
 	<string name="hide_signal_summary">Puoi anche nascondere l\'icona dati ora. Potrai separarla dopo.</string>
-	<string name="wifi_signal_style">Stile icona Wi-fi</string>
-	<string name="wifi_signal_color_title">Colore icona Wi-fi</string>
+	<string name="wifi_signal_style">Stile icona WiFi</string>
+	<string name="wifi_signal_color_title">Colore icona WiFi</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Prendi colore</string>
@@ -310,14 +310,14 @@
 	<!-- Customization -->
 	<string name="pt_liberty_customizer">Personalizzatore</string>
 	<string name="pt_lockscreen">Impostazioni Lockscreen</string>
-	<string name="pt_ui_status_bar">Status Bar</string>
-	<string name="pt_pulldown_text">Pulldown Text</string>
-	<string name="pt_theme_manager">Theme Manager</string>
+	<string name="pt_ui_status_bar">Barra di stato</string>
+	<string name="pt_pulldown_text">Testo pulldown</string>
+	<string name="pt_theme_manager">Manager temi</string>
 	<!-- Tools -->
 	<string name="pt_spare_parts">Spare Parts</string>
-	<string name="pt_dev_tools">Dev Tools</string>
+	<string name="pt_dev_tools">Strumenti sviluppo</string>
 	<string name="pt_dsp_manager">DSP Manager</string>
-	<string name="pt_testing_menu">Testing Menu</string>
+	<string name="pt_testing_menu">Menu test</string>
 	<!-- Start up tweaks -->
 	<string name="pt_init_d">Tweaks all\'avvio</string>
 	<string name="pt_enable_init_d">Abilita tweaks all\'avvio</string>
@@ -347,23 +347,22 @@
 
 	<!-- Preference Summaries -->
 	<!-- Main -->
-	<string name="ps_performance">Set CPU, free memory &amp; customize start-up
-		settings.</string>
-	<string name="ps_customization">Customize the lockscreen &amp; status bar. Install
-		blur/aosp apps with Liberty Customizer</string>
-	<string name="ps_tools">Various system tools</string>
+	<string name="ps_performance">Impostare la CPU, la memoria libera &amp; personalizzare le impostazioni di avvio.</string>
+	<string name="ps_customization">Personalizzare il lockscreen &amp; status bar. Installare applicazioni
+		blur/aosp con Liberty Customizer</string>
+	<string name="ps_tools">Vari strumenti di sistema</string>
 	<!-- Customization -->
-	<string name="ps_liberty_customizer">Customize the ROM to your liking</string>
-	<string name="ps_lockscreen">Change lockscreen styles and manage widgets
+	<string name="ps_liberty_customizer">Personalizzare la ROM a proprio piacimento</string>
+	<string name="ps_lockscreen">Modificare stili di lockscreen e gestire widget
 	</string>
-	<string name="ps_ui_status_bar">Customize the status bar</string>
-	<string name="ps_pulldown_text">Change the text in the pulldown bar.</string>
-	<string name="ps_theme_manager">Install custom themes for Liberty ROM</string>
+	<string name="ps_ui_status_bar">Personalizzare la barra di stato</string>
+	<string name="ps_pulldown_text">Modificare il testo nella barra di notifica.</string>
+	<string name="ps_theme_manager">Installare temi personalizzati per Liberty ROM</string>
 	<!-- Tools -->
-	<string name="ps_spare_parts">Various tweaks and customization</string>
-	<string name="ps_dev_tools">Tools for developers and advanced users</string>
-	<string name="ps_dsp_manager">Stand alone equalizer</string>
-	<string name="ps_testing_menu">Phone info, battery info, usage statistics</string>
+	<string name="ps_spare_parts">Vari tweaks e personalizzazioni</string>
+	<string name="ps_dev_tools">Strumenti per sviluppatori e utenti avanzati</string>
+	<string name="ps_dsp_manager">Equalizzatore stand alone</string>
+	<string name="ps_testing_menu">Info telefono, batteria e statistiche di utilizzo</string>
 	<!-- Start up tweaks -->
 	<string name="ps_init_d">Configura i tweaks che applicherai all\'avvio
 		(init.d)
@@ -382,7 +381,7 @@
 	<string name="ps_set_gov">Scaling governor\nCorrente: %s</string>
 	<string name="ps_cpu_boot">Applica al riavvio</string>
 	<!-- Performance -->
-	<string name="ps_set_cpu_activity">Set min/max frequencies and scaling governor
+	<string name="ps_set_cpu_activity">Setta frequenza min/max e scaling governor
 	</string>
 	<string name="ps_free_memory">Quantita\' minima di RAM tenuta libera dal taskkiller |
 		Corrente: %s</string>
@@ -393,14 +392,14 @@
 	<string name="toast_min_max_error02">Min CPU deve essere minore max CPU</string>
 
 	<!-- list_voltage -->
-	<string name="freq">Frequency</string>
-	<string name="current">mV current</string>
-	<string name="saved">mV saved</string>
+	<string name="freq">Frequenza</string>
+	<string name="current">mV corrente</string>
+	<string name="saved">mV salvato</string>
 
 	<!-- voltage -->
-	<string name="error_values">Error getting values</string>
-	<string name="set_boot">Set On Boot</string>
-	<string name="apply_values">Apply Values</string>
+	<string name="error_values">Errore durante la lettura dei valori</string>
+	<string name="set_boot">Impostare al Boot</string>
+	<string name="apply_values">Applicare i valori</string>
 
 	<string name="dpi">DPI</string>
 	
@@ -410,15 +409,15 @@
 	<string name="donate_protekk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YJTUMSBC2TRHS</string>
 	<string name="donate_khasmek">@null</string>
 	<string name="donate_sethyx">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5R4DYJLDYDRAU</string>
-	<string name="devs">Developers</string>
+	<string name="devs">Sviluppatori</string>
 	<string name="aokp">Android Open Kang Project</string>
-	<string name="aokp_website_title">AOKP Website</string>
-	<string name="aokp_website_summary">www.aokp.co - Find all newest releases here.</string>
-	<string name="aokp_source_title">AOKP Source</string>
-	<string name="aokp_source_summary">AOKP is fully open source. You can always check out the latest source at github.com/aokp</string>
-	<string name="aokp_irc_title">Join us on IRC</string>
+	<string name="aokp_website_title">Sito Web AOKP</string>
+	<string name="aokp_website_summary">www.aokp.co - trova tutti i comunicati piu\' recenti qui.</string>
+	<string name="aokp_source_title">Sorgente AOKP</string>
+	<string name="aokp_source_summary">AOKP e\' completamente open source. Puoi sempre controllare la fonte piu\' recente su github.com/aokp</string>
+	<string name="aokp_irc_title">Seguici su IRC</string>
 	<string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
-	<string name="about_aokp">About AOKP</string>
+	<string name="about_aokp">Circa AOKP</string>
 	<string name="about_aokp_summary">@null</string>
 	
 	<!-- For translate strings -->
