@@ -3,20 +3,20 @@
     <string name="app_name">ROM Control</string>
 
     <!-- Main -->
-    <string name="user_interface">User Interface</string>
+    <string name="user_interface">\'User Interface\'</string>
     <string name="general_ui">General UI</string>
     <string name="lockscreen_options">Lockscreen options</string>
     <string name="power_menu_optons">Power menu options</string>
-    <string name="functionality">Functionality</string>
+    <string name="functionality">\'Functionality\'</string>
     <string name="power_saver">Power saver</string>
     <string name="led_options">LED options</string>
-    <string name="statusbar">Statusbar</string>
+    <string name="statusbar">\'Statusbar\'</string>
     <string name="general">General</string>
     <string name="toggles_layout">Toggles</string>
     <string name="clock">Clock</string>
     <string name="battery">Battery</string>
     <string name="nav_bar">Navigation bar</string>
-    <string name="tools">Tools</string>
+    <string name="tools">\'Tools\'</string>
     <string name="weather">Weather</string>
     <string name="signal">Signal</string>
     
@@ -269,7 +269,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#FF000000</string>
     <string name="set">Set</string>
-    <string name="ics_color">!!!</string>
+    <string name="ics_color">ICS</string>
     
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">Use custom application</string>
@@ -423,7 +423,7 @@
     <string name="about_aokp_summary">@null</string>
 
 	<!-- For translate strings -->
-	<string name="screen_off_wifi_action_text">Screen-off Wi-Fi action</string>
+	<string name="screen_off_wifi_action_text">Screen-off WiFi action</string>
 	<string name="sync_data_mode_text">Sync data usage</string>
 	<string name="sync_data_mobile_mode_text">Sync mobile data preference</string>
 	
