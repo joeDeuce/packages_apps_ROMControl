@@ -106,8 +106,8 @@
 
 	<string-array name="powersaving_screen_off_wifi_entries">
 		<item>Inalterato</item>
-		<item>Spegni Wi-Fi</item>
-		<item>Accendi Wi-Fi</item>
+		<item>Spegni WiFi</item>
+		<item>Accendi WiFi</item>
 	</string-array>
 
 	<string-array name="powersaving_screen_off_wifi_values" translatable="false">
@@ -118,8 +118,8 @@
 
 	<string-array name="powersaving_sync_data_mode_entries">
 		<item>Inalterato</item>
-		<item>Solo Wi-Fi</item>
-		<item>Priorita\' Wi-Fi</item>
+		<item>Solo WiFi</item>
+		<item>Priorita\' WiFi</item>
 		<item>Solo dati</item>
 	</string-array>
 
@@ -413,7 +413,7 @@
 		<item>Batteria Gummy Bar</item>
 		<item>Stile Honeycomb</item> 
 		<item>Stile GenX</item>
-		<item>BlackIce Circle style</item>
+		<item>Circolare BlackIce</item>
 		<item>Nascondi</item>
 	</string-array>
 
@@ -476,13 +476,14 @@
 		<item>TORCH</item>
 		<item>SYNC</item>
 		<item>FCHARGE</item>
+		<item>BLN</item>
 	</string-array>
 
 	<string-array name="available_toggles_values">
 		<item>Ruota</item>
 		<item>Bluetooth</item>
 		<item>GPS</item>
-		<item>Wi-Fi</item>
+		<item>WiFi</item>
 		<item>Dati mobili</item>
 		<item>Modo aeroplano</item>
 		<item>Vibrazione</item>
@@ -490,6 +491,7 @@
 		<item>Torcia</item>
 		<item>Sincro</item>
 		<item>Carica veloce</item>
+		<item>Bln</item>
 	</string-array>
 
 	<string-array name="lockscreen_choice_entries">
