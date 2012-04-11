@@ -7,12 +7,6 @@
     <item>Les deux</item>
     <item>Enlever</item>
   </string-array>
-  <string-array name="pref_navigation_menu_values" translatable="false">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-    <item>4</item>
-  </string-array>
   <string-array name="pref_powersaving_data_screen_off_entries_cdma">
     <item>Ne rien faire</item>
     <item>Désactiver le LTE</item>
