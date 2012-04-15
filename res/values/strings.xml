@@ -212,6 +212,8 @@
 
     <string name="title_status_bar_brightness_toggle">Enable brightness control</string>
     <string name="summary_status_bar_brightness_toggle">Slide finger slowly across statusbar to adjust brightness setting</string>
+    
+    <string name="icon_transparency_title">Notification icon transparency</string>
 
     <string name="statusbar_transparency">Notification bar transparency</string>
     <string name="statusbar_transparency_summary">Turning this on might affect performance and battery life. (requires UI restart)</string>
