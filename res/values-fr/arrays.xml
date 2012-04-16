@@ -7,6 +7,12 @@
     <item>Les deux</item>
     <item>Enlever</item>
   </string-array>
+  <string-array name="pref_navigation_menu_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>4</item>
+  </string-array>
   <string-array name="pref_powersaving_data_screen_off_entries_cdma">
     <item>Ne rien faire</item>
     <item>Désactiver le LTE</item>
@@ -148,6 +154,12 @@
     <item>8000</item>
     <item>9000</item>
     <item>10000</item>
+  </string-array>
+  <string-array name="pref_navigation_menu_display_entries">
+    <item>Comportement ICS par défaut</item>
+    <item>Toujours afficher les icônes invisibles</item>
+    <item>Toujours afficher</item>
+    <item>ICS par défaut, avec icônes invisibles lorsque masquées</item>
   </string-array>
   <string-array name="pref_navigation_menu_display_values">
     <item>0</item>
