@@ -37,26 +37,31 @@
     <string name="misc_short">기타</string>
     
     <!-- Navigation Bar -->
-    <string name="title_pref_menu_display">Menu location</string>
-    <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
-    <string name="navigation_bar">Navigation bar</string>
-    <string name="navigation_bar_tint_title">Navigation bar color</string>
+    <string name="title_pref_menu_display">메뉴 위치</string>
+    <string name="summary_pref_menu_display">큰 메뉴 버튼을 사용하고 있다면 꼭 소프트 메뉴 버튼을 제거하세요!</string>
+    <string name="navigation_bar">네비바</string>
+    <string name="navigation_bar_tint_title">네비바 색상</string>
 
-    <string name="title_pref_navigation_menu_display">Menu visibility</string>
-    <string name="summary_pref_navigation_menu_display">How and when do you want the menu buttons to appear?</string>
+    <string name="title_pref_navigation_menu_display">메뉴 버튼 표시 설정</string>
+    <string name="summary_pref_navigation_menu_display">언제, 어떻게 메뉴 버튼을 표시할지 선택</string>
 
-    <string name="navbar_order_title">Navigation button order</string>
+    <string name="navbar_order_title">네비바 버튼 순서</string>
     <string name="navbar_order_summary">Customize the order of your soft keys</string>
+    
+    <string name="navbar_button_cat">네비바 버튼</string>
+    
+    <string name="navbar_qty_title">네비바 버튼 숫자</string>
+    <string name="navbar_qty_summary">네비 버튼의 숫자 선택</string>
 
-    <string name="enabled_navbar_buttons_title">Enabled buttons</string>
-    <string name="enabled_navbar_buttons_summary">Choose which soft keys you would like to see</string>
+    <string name="enabled_navbar_buttons_title">버튼 종류 선택</string>
+    <string name="enabled_navbar_buttons_summary">사용할 소프트 버튼을 선택하세요.</string>
     
-    <string name="button_transparency_title">Nav button transparency</string>
+    <string name="button_transparency_title">네비 버튼 투명도</string>
     
-    <string name="long_press_home_title">Long press home action</string>
-    <string name="long_press_home_summary">What to do when long pressing the home softkey. Reboot required to reflect changes.</string>
+    <string name="long_press_home_title">홈버튼 길게 누르기 동작</string>
+    <string name="long_press_home_summary">홈버튼을 길게 눌렀을 때 수행할 동작 선택. 적용하려면 시스템 재시작 필요.</string>
     
-    <string name="glow_times_title">Button glow animation</string>
+    <string name="glow_times_title">버튼 반짝임 애니매이션</string>
     <string name="glow_times_summary">Adjust how fast your buttons animate after you touch them. Lowering the speed can improve performance.</string>
     
     <!-- UI -->
@@ -110,10 +115,10 @@
     <string name="pref_lockscreen_layout_title">잠금 화면 스타일</string>
     <string name="pref_lockscreen_layout_summary">잠금 화면 스타일을 변경한 뒤 아래로 스크롤 하여 단축 아이콘을 변경하세요.</string>
     
-    <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>	
+    <string name="title_pref_lockscreen_quad_targets">단축 아이콘 4개</string>	
     <string name="summary_pref_lockscreen_quad_targets">잠금 화면에 전화와 메시지 단축 아이콘 추가</string>
 
-    <string name="title_pref_lockscreen_octo_targets">Octo Targets</string>	
+    <string name="title_pref_lockscreen_octo_targets">단축 아이콘 8개</string>	
     <string name="summary_pref_lockscreen_octo_targets">잠금 화면에 매우 많은 단축 아이콘 추가</string>
 
     <string name="title_pref_lockscreen_menu_unlock">메뉴 버튼 해제</string>
@@ -130,8 +135,8 @@
     <string name="volume_wake_summary">전원 버튼 뿐 아니라 볼륨 버튼으로도 화면을 켤 수 있습니다.</string>
     <string name="volume_music_controls_title">볼륨 버튼으로 음악 컨트롤</string>
     <string name="volume_music_controls_summary">화면이 꺼진 상태에서 볼륨 버튼을 길게 누르면 음악을 넘길 수 있습니다. 음악 재생 중엔 볼륨 버튼으로 화면을 켤 수 없습니다.</string>
-    <string name="lockscreen_show_nav_title">Hide nav bar</string>
-    <string name="lockscreen_show_nav_summary">Hide the nav bar (if your device supports it) on the lockscreen.</string>
+    <string name="lockscreen_show_nav_title">네비바 숨김</string>
+    <string name="lockscreen_show_nav_summary">잠금화면에서 네비바를 숨깁니다 (지원하는 기기 필요).</string>
     <string name="custom_app_n_dialog_title">단축 아이콘 %1$s 동작</string>
     <string name="custom_app_n">단축아이콘 %1$s 동작</string>
     <string name="lockscreen_targets">잠금 화면 단축 아이콘</string>
@@ -211,8 +216,10 @@
 
     <string name="title_status_bar_brightness_toggle">상태표시줄 밝기 조절 사용</string>
     <string name="summary_status_bar_brightness_toggle">상태표시줄을 좌우로 천천히 슬라이드하여 화면 밝기 조절</string>
+    
+    <string name="icon_transparency_title">알림 아이콘 투명도</string>
 
-    <string name="statusbar_transparency">투명도</string>
+    <string name="statusbar_transparency">상태표시줄 투명도</string>
     <string name="statusbar_transparency_summary">투명한 상태표시줄은 성능과 배터리에 영향을 줄 수 있습니다. (UI 재시작 필요)</string>
 
     <string name="statusbar_layout">레이아웃 위치</string>
@@ -293,6 +300,11 @@
 	<string name="weather_use_celcius">미터법 사용</string>
 	<string name="weather_use_celcius_summary">화씨가 아닌 섭씨 단위로 온도를 표시하며 풍속을 표시할 때 mph 대신 km/h 단위 사용</string>
 	<string name="weather_statusbar_style">스타일</string>
+	<string name="weather_start_custom_app">커스텀 앱 사용</string>
+	<string name="weather_start_custom_app_summary">날씨 이미지를 터치하면 커스텀 앱이 시작됩니다.</string>
+	<string name="weather_custom_app_title">커스텀 앱</string>
+	<string name="weather_custom_app_dialog_title">사용할 앱을 선택</string>
+	<string name="weather_custom_app_dialog_message">Package name for now.</string>
 	
 	<!-- Dialog Titles -->
 	<string name="dt_free_memory">Minfree Taskkiller</string>
