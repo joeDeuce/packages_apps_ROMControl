@@ -224,6 +224,8 @@
 
     <string name="statusbar_layout">레이아웃 위치</string>
     <string name="statusbar_layout_summary">상태표시줄을 당길 때 나타나는 레이아웃 위치 변경 (UI 재시작 필요)</string>
+    <string name="statusbar_fontsize">상태표시줄 글자 크기</string>
+    <string name="statusbar_fontsize_summary">상태표시줄의 글자 크기 변경</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">배터리 아이콘 스타일 </string>
