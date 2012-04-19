@@ -420,4 +420,63 @@
 	<string name="screen_off_wifi_action_text">화면이 꺼졌을 때 Wi-Fi 정책</string>
 	<string name="sync_data_mode_text">데이터 사용량 동기화</string>
 	<string name="sync_data_mobile_mode_text">데이터 동기화 우선순위</string>
+	
+	<!-- Weather Codes -->
+    <string name="weather_0">토네이도</string>
+    <string name="weather_1">태풍</string>
+    <string name="weather_2">허리케인</string>
+    <string name="weather_3">강한 뇌우</string>
+    <string name="weather_4">뇌우</string>
+    <string name="weather_5">눈, 비</string>
+    <string name="weather_6">비, 진눈깨비</string>
+    <string name="weather_7">눈, 진눈깨비</string>
+    <string name="weather_8">결빙성 진눈깨비</string>
+    <string name="weather_9">이슬비</string>
+    <string name="weather_10">어는 비</string>
+    <string name="weather_11">소나기</string>
+    <string name="weather_12">소나기</string>
+    <string name="weather_13">때때로 눈</string>
+    <string name="weather_14">가벼운 소낙눈</string>
+    <string name="weather_15">날린눈</string>
+    <string name="weather_16">눈</string>
+    <string name="weather_17">우박</string>
+    <string name="weather_18">진눈깨비</string>
+    <string name="weather_19">황사</string>
+    <string name="weather_20">안개</string>
+    <string name="weather_21">옅은 안개</string>
+    <string name="weather_22">짙은 안개</string>
+    <string name="weather_23">강풍</string>
+    <string name="weather_24">바람</string>
+    <string name="weather_25">한파</string>
+    <string name="weather_26">흐림</string>
+    <!-- mostly cloudy (night) -->
+    <string name="weather_27">대체로 흐림</string>
+    <!-- mostly cloudy (day) -->
+    <string name="weather_28">대체로 흐림</string>
+    <!-- partly cloudy (night) -->
+    <string name="weather_29">때때로 흐림</string>
+    <!-- partly cloudy (day) -->
+    <string name="weather_30">때때로 흐림</string>
+    <!-- clear (night) -->
+    <string name="weather_31">갬</string>
+    <string name="weather_32">맑음</string>
+    <!-- fair (night) -->
+    <string name="weather_33">쾌창함</string>
+    <!-- fair (day) -->
+    <string name="weather_34">쾌창함</string>
+    <string name="weather_35">우박을 동반한 비</string>
+    <string name="weather_36">폭염</string>
+    <string name="weather_37">드물게 호우</string>
+    <string name="weather_38">때때로 뇌우</string>
+    <string name="weather_39">때때로 뇌우</string>
+    <string name="weather_40">때때로 소나기</string>
+    <string name="weather_41">함박눈</string>
+    <string name="weather_42">때때로 소낙눈</string>
+    <string name="weather_43">때때로 소낙눈</string>
+    <string name="weather_44">부분적으로 흐림</string>
+    <string name="weather_45">폭우</string>
+    <string name="weather_46">소낙눈</string>
+    <string name="weather_47">드물게 뇌우</string>
+    <!-- Forecase unavailable -->
+    <string name="weather_3200"></string>
 </resources>
