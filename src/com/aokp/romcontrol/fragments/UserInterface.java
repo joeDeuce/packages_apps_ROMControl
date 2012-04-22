@@ -46,7 +46,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
     CheckBoxPreference mEnableVolumeOptions;
     CheckBoxPreference mLongPressToKill;
     CheckBoxPreference mAllow180Rotation;
-    CheckBoxPreference mHorizontalAppSwitcher;
     Preference mCustomLabel;
     ListPreference mAnimationRotationDelay;
     Preference mLcdDensity;
@@ -97,11 +96,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
         mAllow180Rotation = (CheckBoxPreference) findPreference(PREF_180);
         mAllow180Rotation.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.ACCELEROMETER_ROTATION_ANGLES, (1 | 2 | 8)) == (1 | 2 | 4 | 8));
-
-        mHorizontalAppSwitcher = (CheckBoxPreference) findPreference("horizontal_recents_task_panel");
-        mHorizontalAppSwitcher.setChecked(Settings.System.getInt(getActivity()
-                .getContentResolver(),
-                Settings.System.HORIZONTAL_RECENTS_TASK_PANEL, 0) == 1);
 
         mLcdDensity = findPreference("lcd_density_setup");
         String currentProperty = SystemProperties.get("ro.sf.lcd_density");
@@ -209,15 +203,6 @@ public class UserInterface extends AOKPPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACCELEROMETER_ROTATION_ANGLES, checked ? (1 | 2 | 4 | 8)
                             : (1 | 2 | 8));
-            return true;
-
-        } else if (preference == mHorizontalAppSwitcher) {
-
-            boolean checked = ((CheckBoxPreference) preference).isChecked();
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.HORIZONTAL_RECENTS_TASK_PANEL, checked ? 1
-                            : 0);
-            Helpers.restartSystemUI();
             return true;
 
         } else if (preference == mDisableBootAnimation) {
