@@ -40,6 +40,9 @@ public class UserInterface extends AOKPPreferenceFragment implements
     private static final String PREF_ROTATION_ANIMATION = "rotation_animation_delay";
     private static final String PREF_180 = "rotate_180";
 
+    private static final String PREF_HOME_LONGPRESS = "long_press_home";
+    private static final String PREF_RECENT_APP_SWITCHER = "recent_app_switcher";
+
     CheckBoxPreference mCrtOnAnimation;
     CheckBoxPreference mCrtOffAnimation;
     CheckBoxPreference mShowImeSwitcher;
@@ -50,6 +53,9 @@ public class UserInterface extends AOKPPreferenceFragment implements
     ListPreference mAnimationRotationDelay;
     Preference mLcdDensity;
     CheckBoxPreference mDisableBootAnimation;
+
+    ListPreference mRecentAppSwitcher;
+
 
     String mCustomLabelText = null;
     int newDensityValue;
@@ -96,6 +102,13 @@ public class UserInterface extends AOKPPreferenceFragment implements
         mAllow180Rotation = (CheckBoxPreference) findPreference(PREF_180);
         mAllow180Rotation.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.ACCELEROMETER_ROTATION_ANGLES, (1 | 2 | 8)) == (1 | 2 | 4 | 8));
+
+
+        mRecentAppSwitcher = (ListPreference) findPreference(PREF_RECENT_APP_SWITCHER);
+        mRecentAppSwitcher.setOnPreferenceChangeListener(this);
+        mRecentAppSwitcher.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.RECENT_APP_SWITCHER,
+                0)));
 
         mLcdDensity = findPreference("lcd_density_setup");
         String currentProperty = SystemProperties.get("ro.sf.lcd_density");
@@ -243,6 +256,13 @@ public class UserInterface extends AOKPPreferenceFragment implements
                     Settings.System.ACCELEROMETER_ROTATION_SETTLE_TIME,
                     Integer.parseInt((String) newValue));
 
+            return true;
+
+        } else if (preference == mRecentAppSwitcher) {
+            int val = Integer.parseInt((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.RECENT_APP_SWITCHER, val);
+            Helpers.restartSystemUI();
             return true;
         }
         return false;
