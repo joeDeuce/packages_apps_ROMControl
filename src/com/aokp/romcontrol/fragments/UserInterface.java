@@ -42,6 +42,7 @@ public class UserInterface extends AOKPPreferenceFragment implements
 
     private static final String PREF_HOME_LONGPRESS = "long_press_home";
     private static final String PREF_RECENT_APP_SWITCHER = "recent_app_switcher";
+    private static final String PREF_RECENT_KILL_ALL = "recent_kill_all";
 
     CheckBoxPreference mCrtOnAnimation;
     CheckBoxPreference mCrtOffAnimation;
@@ -54,6 +55,7 @@ public class UserInterface extends AOKPPreferenceFragment implements
     Preference mLcdDensity;
     CheckBoxPreference mDisableBootAnimation;
     CheckBoxPreference mDisableBootAudio;
+    CheckBoxPreference mRecentKillAll;
 
     ListPreference mRecentAppSwitcher;
 
@@ -110,6 +112,10 @@ public class UserInterface extends AOKPPreferenceFragment implements
         mRecentAppSwitcher.setValue(Integer.toString(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.RECENT_APP_SWITCHER,
                 0)));
+
+        mRecentKillAll = (CheckBoxPreference) findPreference(PREF_RECENT_KILL_ALL);
+        mRecentKillAll.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.RECENT_KILL_ALL_BUTTON, 0) == 1);
 
         mLcdDensity = findPreference("lcd_density_setup");
         String currentProperty = SystemProperties.get("ro.sf.lcd_density");
@@ -229,6 +235,14 @@ public class UserInterface extends AOKPPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACCELEROMETER_ROTATION_ANGLES, checked ? (1 | 2 | 4 | 8)
                             : (1 | 2 | 8));
+            return true;
+
+        } else if (preference == mRecentKillAll) {
+
+            boolean checked = ((CheckBoxPreference) preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.RECENT_KILL_ALL_BUTTON, checked ? 1 : 0);
+            Helpers.restartSystemUI();
             return true;
 
         } else if (preference == mDisableBootAnimation) {

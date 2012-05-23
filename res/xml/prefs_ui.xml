@@ -23,6 +23,11 @@
 		android:entries="@array/recent_app_switcher_entries"
         android:entryValues="@array/recent_app_switcher_values" />
 
+    <CheckBoxPreference
+		android:key="recent_kill_all"
+		android:title="@string/recent_kill_all"
+		android:summary="@string/recent_kill_all_summary" />
+
 	<Preference
 		android:key="lcd_density_setup"
 		android:title="@string/lcd_density_title"
