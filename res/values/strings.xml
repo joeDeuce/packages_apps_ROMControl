@@ -78,6 +78,9 @@
 	<string name="ime_switcher_summary">In statusbar, while typing (requires reboot)</string>
 
 	<string name="custom_carrier_label_title">Custom carrier label</string>
+        <string name="custom_carrier_label_empty">Please enter a new one!</string>
+        <string name="custom_carrier_label_warning">Custom label currently not set. Once you specify a custom one, there is no way back without doing a data wipe</string>
+   
 	<string name="longpress_to_kill_title">Hold back to kill</string>
 	<string name="longpress_to_kill_summary">Holding back will kill the current activity</string>
         
