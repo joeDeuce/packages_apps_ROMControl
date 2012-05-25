@@ -36,8 +36,13 @@
   <string name="advanced_settings">Paramètres avancés</string>
   <string name="misc_short">Autres</string>
 
+    <!-- Menu Strings -->
+    <string name="menu_lockscreens_remove_wallpaper">Réinitialiser Papier-peint dans écran de verrouillage</string>
+    <string name="menu_main_activity_change_locale">Local</string>
+    <string name="menu_nav_bar_reset">Réinitialiser Barre de navigation</string>
+    <string name="menu_weather_get_weather">Actualiser</string>
 
-  <string name="title_pref_menu_display">Paramètres du menu</string>
+ 	<string name="title_pref_menu_display">Emplacement de Menu</string>
   <string name="summary_pref_menu_display">N\'oubliez pas de supprimer vos boutons de menu si vous utilisez le grand bouton de menu !</string>
   <string name="navigation_bar">Barre de navigation</string>
   <string name="navigation_bar_tint_title">Couleur de la barre de navigation</string>
@@ -68,28 +73,34 @@
   <string name="rotation_animation_delay_title">Délai de rotation</string>
   <string name="rotation_animation_delay_summary">"Nombre de millisecondes durant lesquelles l\'appareil doit rester stable avant la rotation. Par défaut 200 millisecondes."</string>
 
-  <string name="ime_switcher_title">Afficher l\'icône de changement de clavier</string>
-  <string name="ime_switcher_summary">"Dans la barre d\'état, lorsque le clavier est utilisé. Nécessite un redémarrage."</string>
+  <string name="ime_switcher_title">"Afficher l\'icône Clavier"</string>
+  <string name="ime_switcher_summary">"Affiche l\'icône de changement de clavier dans la barre d\'état, lorsque le clavier est utilisé. Nécessite un redémarrage."</string>
 
   <string name="custom_carrier_label_title">Texte Opérateur personnalisé</string>
-  <string name="longpress_to_kill_title">Longue pression sur la touche Retour</string>
-  <string name="longpress_to_kill_summary">"Maintenir la touche Retour appuyée pour quitter l\'application (libérer de la RAM)"</string>
+        <string name="custom_carrier_label_empty">Entrer un nouveau texte!</string>
+        <string name="custom_carrier_label_warning">Le texte personnalisé n\'est pas encore défini. Lorsque vous l\'aurez saisi, il ne sera pas possible de restaurer le texte par défaut sans effacer les données(Wipe Data).</string>
+
+  <string name="longpress_to_kill_title">Arrêt avec touche Retour</string>
+  <string name="longpress_to_kill_summary">"Une pression prolongée sur la touche Retour permet d\'arrêter l\'application"</string>
 
   <string name="enable_volume_options">Activer Options de volume</string>
 
   <string name="rotate_180_title">Autoriser la rotation à 180°</string>
   <string name="rotate_180_summary">"Autoriser l\'appareil à effectuer une rotation complète de l\'écran!"</string>
 
-	<string name="recent_app_switcher_title">Style Fenêtre App récentes</string>
-	<string name="recent_app_switcher_summary">Change le style d\'affichage dans la fenêtre des applications récentes (requiert un redémarrage du système)</string>
+	<string name="recent_app_switcher_title">Style tiroir App récentes</string>
+	<string name="recent_app_switcher_summary">"Changer le style d\'affichage dans le tiroir des applications récentes (requiert un redémarrage du système)"</string>
+
+   <string name="recent_kill_all">Activer le bouton kill-all</string>
+    <string name="recent_kill_all_summary">Afficher le bouton pour arrêter toutes les tâches figurant dans le tiroir Applications récentes (requiert un redémarrage du système)</string>
 
   <string name="disable_bootanimation_title">"Désactiver l\'animation au démarrage"</string>
 
-  <string name="disable_bootanimation_summary">"Démarrage légèrement plus rapide avec l\'animation Android AOSP"</string>
+  <string name="disable_bootanimation_summary">"Démarrage plus rapide avec l\'animation Android AOSP"</string>
 
   <string name="disable_bootaudio_title">Désactiver audio au démarrage</string>
-  <string name="disable_bootaudio_summary">Silencieux.</string>
-  <string name="disable_bootaudio_summary_disabled">Pour activer le son au démarrage, vous devez avoir un fichier MP3 dans \n/system/media/boot_audio.mp3</string>
+  <string name="disable_bootaudio_summary">Silencieux</string>
+  <string name="disable_bootaudio_summary_disabled">Pour obtenir le son au démarrage, vous devez enregistrer votre fichier MP3 comme suit  \n/system/media/boot_audio.mp3</string>
 
   <string name="disable_bugmailer_title">Désactiver bugmailer</string>
 
@@ -102,6 +113,7 @@
   <string name="crt_off_title">"Animation CRT lors de l\'extinction de l\'écran"</string>
 
 
+  <string name="current_lcd_density">"Densité LCD actuelle: "</string>
   <string name="lcd_density_wizard">Assistant Densité LCD</string>
   <string name="follow_through_title">Suivez la procédure!</string>
   <string name="follow_through_summary">Respectez scrupuleusement la procédure, complétez intégralement chaque étape avant de passer à la suivante.</string>
@@ -117,6 +129,7 @@
   <string name="custom_density_summary">Si vous rencontrez des problèmes de compatibilité avec Google Play Store, revenez dans ce menu et recommencez la procédure.</string>
 
 
+
   <string name="pref_lockscreen_layout_title">"Style de l\'écran de verrouillage"</string>
   <string name="pref_lockscreen_layout_summary">"N\'oubliez pas de faire défiler ce menu vers le bas pour définir vos applications."</string>
 
@@ -126,14 +139,14 @@
   <string name="title_pref_lockscreen_octo_targets">Huit raccourcis d\'applications</string>
   <string name="summary_pref_lockscreen_octo_targets">"Trop de raccourcis ajoutés à l\'écran de verrouillage"</string>
 
-  <string name="title_pref_lockscreen_menu_unlock">Déverrouillage avec la touche Menu</string>
+  <string name="title_pref_lockscreen_menu_unlock">Déverrouillage avec touche Menu</string>
   <string name="summary_pref_lockscreen_menu_unlock">"La touche Menu déverrouille l\'écran de verrouillage PIN (requiert un redémarrage)"</string>
   <string name="title_lockscreen_user_timeout_override">Délai de verrouillage</string>
-  <string name="summary_lockscreen_user_timeout_override">Utiliser le délai d\'Android même après avoir éteint l\'écran manuellement. Par défaut, le délai est utilisé seulement lorsque l\'écran s\'éteint automatiquement.</string>
+  <string name="summary_lockscreen_user_timeout_override">"Utiliser le délai d\'Android même après avoir éteint l\'écran manuellement. Par défaut, le délai est utilisé seulement lorsque l\'écran s\'éteint automatiquement."</string>
   <string name="show_lock_before_unlock_title">Ecran avant déverrouillage</string>
   <string name="show_lock_before_unlock_summary">"Afficher l\'écran standard avant le déverrouillage sécurisé"</string>
   <string name="lockscreen_battery_title">Pourcentage Batterie sur écran de verrouillage</string>
-  <string name="lockscreen_battery_summary">Toujours montrer le pourcentage de batterie sur l\'écran de verrouillage</string>
+  <string name="lockscreen_battery_summary">"Toujours montrer le pourcentage de batterie sur l\'écran de verrouillage"</string>
   <string name="lockscreen_weather_title">Météo sur écran de verrouillage</string>
   <string name="lockscreen_weather_summary">Afficher les informations Météo sur l\'écran de verrouillage. Vous devez activer le service de météo dans le poste de pilotage de la ROM</string>
   <string name="volume_wake_title">"Activer l\'écran avec boutons de volume"</string>
@@ -151,6 +164,9 @@
   <string name="lockscreen_action_mms">SMS</string>
   <string name="lockscreen_action_phone">Téléphone</string>
   <string name="lockscreen_action_none">Vide</string>
+    <string name="lockscreen_custom_app_icon_no_sd">Insérer la carte SD pour utiliser cette fonction</string>
+    <string name="lockscreen_custom_app_icon_successfully">"'s icône définie avec succès!"</string>
+    <string name="lockscreen_custom_app_icon_failed">"Impossible de définir l\'icône! Votre carte SD est-elle montée?"</string>
   <string name="lockscreen_landscape_title">"Verrouillage de l\'écran horizontal"</string>
   <string name="lockscreen_landscape_summary">"Active l\'orientation en mode paysage de l\'écran de verrouillage"</string>
   <string name="lockscreen_quick_unlock_control_title">Déverrouillage code PIN rapide</string>
@@ -163,6 +179,8 @@
   <string name="lockscreen_calendar_summary">"Affiche sur l\'écran de verrouillage les événements à venir provenant de vos calendriers."</string>
   <string name="lockscreen_calendar_sources_title">Sélection des calendriers</string>
   <string name="lockscreen_calendar_sources_summary">Sélectionner les calendriers souhaités.</string>
+  <string name="lockscreen_calendar_dialog">Choisissez les calendriers à utiliser</string>
+    <string name="lockscreen_calendar_close">Fermer</string>
   <string name="lockscreen_calendar_range_title">Plage horaire</string>
   <string name="lockscreen_calendar_range_summary">Sélectionner la plage horaire à afficher.</string>
   <string name="lockscreen_calendar_use_colors_title">Utiliser des couleurs</string>
@@ -175,6 +193,10 @@
   <string name="lockscreen_calendar_interval_summary">"Choisir la vitesse en secondes de l\'animation entre chaque événement."</string>
   <string name="lockscreen_wallpaper_title">Choisissez le papier-peint de l\'écran de verrouillage</string>
   <string name="lockscreen_wallpaper_summary">Vous pouvez supprimer le fond d\'écran dans le menu de cette fenêtre</string>
+      <string name="lockscreen_wallpaper_no_external_storage">Pas de stockage externe disponible (/sdcard) pour utiliser cette fonction. Veuillez l\'insérer!</string>
+    <string name="lockscreen_wallpaper_not_set_sd">"Le papier-peint ne peut pas être défini (votre carte SD est-celle montée?)"</string>
+    <string name="lockscreen_wallpaper_set_successfully">"Le papier-peint est défini avec succès"</string>
+    <string name="lockscreen_wallpaper_not_set">"Le papier-peint ne peut pas être définir (!!!)"</string>
 
 
   <string name="title_show_power_saver">"Afficher l\'économiseur d\'énergie"</string>
@@ -263,11 +285,15 @@
   <string name="alternate_button_layout_title">Style alternatif</string>
   <string name="alternate_button_layout_summary">Afficher des interrupteurs au lieu des commutateurs à glissière</string>
 
+	<string name="toggles_layout_title">Agencement des interrupteurs</string>
+
   <string name="enabled_toggles_title">Interrupteurs activés</string>
   <string name="enabled_toggles_summary">Choisissez les interrupteurs à afficher</string>
   <string name="toggles_order_title">Ordre des interrupteurs</string>
   <string name="toggles_order_summary">"Choisissez l\'ordre dans lequel les interrupteurs apparaissent"</string>
   <string name="brightness_location_title">Position du réglage de luminosité</string>
+    <string name="reset_toggles_title">Réinitialiser les interrupteurs</string>
+    <string name="reset_toggles_summary">Réinitialiser tout les interrupteurs et leur ordre</string>
 
     <string name="pt_fast_charge_boot">Charge rapide</string>
     <string name="ps_fast_charge_boot">Activer Charge rapide au démarrage</string>
@@ -310,15 +336,20 @@
   <string name="weather_show_location_title">Afficher la localisation</string>
   <string name="weather_show_location_summary">Afficher votre localisation.</string>
   <string name="weather_refresh_interval">Intervalle de mise à jour</string>
+        <string name="weather_refresh_interval_minutes">" minutes"</string>
   <string name="weather_use_celcius">Unités métriques et degrés</string>
   <string name="weather_use_celcius_summary">"Activer cette option permet d\'afficher la température de la météo en degrés Celsius au lieu des Fahrenheit et la vitesse du vent en km/h au lieu des mph."</string>
   <string name="weather_statusbar_style">"Style de la météo dans la barre d\'état"</string>
         <string name="weather_start_custom_app">Lancer une application</string>
         <string name="weather_start_custom_app_summary">Lance l\'application de votre choix lorsque vous cliquez sur l\'image Météo.</string>
-        <string name="weather_custom_app_title">Application</string>
+        <string name="weather_custom_app_title">Application personnalisée</string>
         <string name="weather_custom_app_dialog_title">Choisissez votre application</string>
 	<string name="weather_custom_app_dialog_message">Nom du package utilisé.</string>
 	<string name="weather_refreshing">Demande de mise à jour de la météo!</string>
+       <string name="weather_loc_warning_title">Impossible de trouver le lieu!</string>
+        <string name="weather_loc_warning_msg">"La localisation par le réseau est actuellement désactivée. Les informations météorologiques actuelles dans votre région ne peuvent pas être obtenues. Veuillez définir un emplacement spécifique ou activer la localisation sur le réseau."</string>
+        <string name="weather_loc_warning_positive">"Activer localisation réseau"</string>
+        <string name="weather_loc_warning_negative">"Pas activé."</string>
 
 
   <string name="dt_free_memory">Minfree Taskkiller</string>
@@ -438,6 +469,8 @@
   <string name="aokp_website_summary">www.aokp.co - Toutes les nouvelles versions y sont.</string>
   <string name="aokp_source_title">Source AOKP</string>
   <string name="aokp_source_summary">AOKP est totalement open source. Vous pouvez trouver en tout temps la version la plus récente sur github.com/aokp</string>
+    <string name="aokp_review_title">AOKP Code Review</string>
+    <string name="aokp_review_summary">AOKP\'s Gerrit Review instance pour patchs fournis et testés</string>
   <string name="aokp_irc_title">Rejoignez-nous sur IRC</string>
   <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
   <string name="about_aokp">"A propos d\'AOKP"</string>
@@ -454,7 +487,7 @@
     <string name="weather_2">Ouragan</string>
     <string name="weather_3">Orage violent</string>
     <string name="weather_4">Orages</string>
-    <string name="weather_5">Pluie et neige mélangées</string>
+    <string name="weather_5">Pluie et neige mêlées</string>
     <string name="weather_6">Pluie et neige fondue</string>
     <string name="weather_7">Neige et neige fondue</string>
     <string name="weather_8">Bruine verglaçante</string>
@@ -462,8 +495,8 @@
     <string name="weather_10">Pluie verglaçante</string>
     <string name="weather_11">Averses</string>
     <string name="weather_12">Précipitations</string>
-    <string name="weather_13">Averses de neige</string>
-    <string name="weather_14">Légères averses de neige</string>
+    <string name="weather_13">Giboulées de neige</string>
+    <string name="weather_14">Légères chutes de neige</string>
     <string name="weather_15">Bourrasques de neige</string>
     <string name="weather_16">Neige</string>
     <string name="weather_17">Grêle</string>
@@ -477,9 +510,9 @@
     <string name="weather_25">Froid</string>
     <string name="weather_26">Nuageux</string>
     <!-- mostly cloudy (night) -->
-    <string name="weather_27">Généralement nuageux</string>
+    <string name="weather_27">"Nuageux dans l\'ensemble"</string>
     <!-- mostly cloudy (day) -->
-    <string name="weather_28">Généralement nuageux</string>
+    <string name="weather_28">"Nuageux dans l\'ensemble"</string>
     <!-- partly cloudy (night) -->
     <string name="weather_29">Partiellement nuageux</string>
     <!-- partly cloudy (day) -->
@@ -491,12 +524,12 @@
     <string name="weather_33">Doux</string>
     <!-- fair (day) -->
     <string name="weather_34">Doux</string>
-    <string name="weather_35">Neige et grêle mélangées</string>
+    <string name="weather_35">Neige et grêle mêlées</string>
     <string name="weather_36">Très chaud</string>
     <string name="weather_37">Orages isolés</string>
     <string name="weather_38">Orages épars</string>
     <string name="weather_39">Orages épars</string>
-    <string name="weather_40">Averses épares</string>
+    <string name="weather_40">Averses éparses</string>
     <string name="weather_41">Fortes chutes de neige</string>
     <string name="weather_42">Chutes de neige éparses</string>
     <string name="weather_43">Chutes de neige éparses</string>
