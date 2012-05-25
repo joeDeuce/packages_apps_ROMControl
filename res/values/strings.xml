@@ -42,6 +42,10 @@
     <string name="menu_nav_bar_reset">Reset nav bar</string>
     <string name="menu_weather_get_weather">Get weather</string>
 
+    <!-- General Strings -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
     <!-- Navigation Bar -->
     <string name="title_pref_menu_display">Menu location</string>
     <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
