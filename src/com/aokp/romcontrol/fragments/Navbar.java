@@ -442,3 +442,4 @@ public class Navbar extends AOKPPreferenceFragment implements
     }
 
 }
+
