@@ -42,6 +42,11 @@
     <string name="menu_nav_bar_reset">Réinitialiser Barre de navigation</string>
     <string name="menu_weather_get_weather">Actualiser</string>
 
+    <!-- General Strings -->
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+
+	
  	<string name="title_pref_menu_display">Emplacement de Menu</string>
   <string name="summary_pref_menu_display">N\'oubliez pas de supprimer vos boutons de menu si vous utilisez le grand bouton de menu !</string>
   <string name="navigation_bar">Barre de navigation</string>
@@ -74,7 +79,7 @@
   <string name="rotation_animation_delay_summary">"Nombre de millisecondes durant lesquelles l\'appareil doit rester stable avant la rotation. Par défaut 200 millisecondes."</string>
 
   <string name="ime_switcher_title">"Afficher l\'icône Clavier"</string>
-  <string name="ime_switcher_summary">"Affiche l\'icône de changement de clavier dans la barre d\'état, lorsque le clavier est utilisé. Nécessite un redémarrage."</string>
+  <string name="ime_switcher_summary">"Affiche l\'icône de changement de clavier dans la barre d\'état, lorsque le clavier est utilisé."</string>
 
   <string name="custom_carrier_label_title">Texte Opérateur personnalisé</string>
         <string name="custom_carrier_label_empty">Entrer un nouveau texte!</string>
@@ -127,7 +132,6 @@
   <string name="open_market_summary">Appuyez sur la touche Retour pour revenir dans ce menu.</string>
   <string name="custom_density_title">5. Définissez la densité à la valeur que vous souhaitez!</string>
   <string name="custom_density_summary">Si vous rencontrez des problèmes de compatibilité avec Google Play Store, revenez dans ce menu et recommencez la procédure.</string>
-
 
 
   <string name="pref_lockscreen_layout_title">"Style de l\'écran de verrouillage"</string>
@@ -253,6 +257,9 @@
   <string name="statusbar_layout_summary">Changer la mise en page dans le tiroir des notifications (requiert un redémarrage)</string>
   <string name="statusbar_fontsize">Taille police barre d\'état</string>
   <string name="statusbar_fontsize_summary">Change la taille des éléments texte dans la barre d\'état</string>
+
+  <string name="status_bar_notif_count_title">Compteur de notifications</string>
+  <string name="status_bar_notif_count_summary">Afficher dans la barre d\'état le nombre de notifications en suspens</string>
 
 
   <string name="battery_icon">"Style de l\'icône de batterie"</string>
@@ -539,4 +546,8 @@
     <string name="weather_47">Orages isolés</string>
     <!-- Forecase unavailable -->
     <string name="weather_3200"></string>
+	
+	<!-- Miscellaneous -->
+    <string name="location_unavailable">Impossible de trouver des informations sur le lieu pour la mise à jour de la météo</string>
+
 </resources>

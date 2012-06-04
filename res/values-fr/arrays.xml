@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string-array name="pref_navigation_menu_entries">
+  
+ <string-array name="pref_navigation_menu_entries">
     <item>Droite</item>
     <item>Gauche</item>
     <item>Les deux</item>
     <item>Enlever</item>
   </string-array>
 
-  
   <string-array name="pref_navigation_menu_values" translatable="false">
     <item>0</item>
     <item>1</item>
@@ -342,19 +342,27 @@
   </string-array>
 
   <string-array name="pref_lockscreen_options_values" translatable="false">
-    <item>2</item>
-    <item>6</item>
-    <item>8</item>
-    <item>1</item>
-    <item>0</item>
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
   </string-array>
 
   <string-array name="pref_lockscreen_options_entries">
-    <item>Original</item>
-    <item>Quatre</item>
-    <item>Huit</item>
-    <item>AOSP</item>
-    <item>Honeycomb</item>
+		<item>Original</item>
+		<item>AOSP</item>
+		<item>Honeycomb</item>
+		<item>3 cibles</item>
+		<item>4 cibles</item>
+		<item>5 cibles</item>
+		<item>6 cibles</item>
+		<item>7 cibles</item>
+		<item>8 cibles</item>
   </string-array>
 
   <string-array name="pref_lockscreen_calendar_interval_values" translatable="false">
