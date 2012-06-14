@@ -1,3 +1,4 @@
+
 package com.aokp.romcontrol.fragments;
 
 import android.os.Bundle;
@@ -36,8 +37,7 @@ public class PowerMenu extends AOKPPreferenceFragment {
                     .getContentResolver(), Settings.Secure.POWER_SAVER_MODE);
         } catch (SettingNotFoundException e) {
             mShowPowerSaver.setEnabled(false);
-            mShowPowerSaver
-                    .setSummary("You need to enable power saver before you can see it in the power menu.");
+            mShowPowerSaver.setSummary(R.string.summary_show_power_saver);
         }
         mShowPowerSaver.setChecked(powerSaverVal != 0);
 
@@ -55,7 +55,7 @@ public class PowerMenu extends AOKPPreferenceFragment {
         mShowAirplaneToggle.setChecked(Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.POWER_DIALOG_SHOW_AIRPLANE_TOGGLE,
                 1) == 1);
-        
+
     }
 
     @Override
