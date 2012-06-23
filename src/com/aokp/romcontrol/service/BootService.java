@@ -139,10 +139,6 @@ public class BootService extends Service {
             nm.notify(1337, n);
         }
 
-        // Let's restore color & gamma settings
-        restoreColor();
-        restoreGamma();
-
         if (Settings.System.getInt(getContentResolver(), Settings.System.USE_WEATHER, 0) != 0) {
             sendLastWeatherBroadcast();
             Intent startRefresh = new Intent(getApplicationContext(),
