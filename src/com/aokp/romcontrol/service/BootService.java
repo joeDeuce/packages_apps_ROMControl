@@ -144,6 +144,7 @@ public class BootService extends Service {
         restoreGamma();
 
         if (Settings.System.getInt(getContentResolver(), Settings.System.USE_WEATHER, 0) != 0) {
+            sendLastWeatherBroadcast();
             Intent startRefresh = new Intent(getApplicationContext(),
                     WeatherRefreshService.class);
             getApplicationContext().startService(startRefresh);
@@ -154,56 +155,27 @@ public class BootService extends Service {
         stopSelf();
     }
 
-    public static void restoreColor() {
-        int iValue, iValue2;
-        if (!isSupported(colorFILE_PATH)) {
+    private void sendLastWeatherBroadcast() {
+        SharedPreferences settings = 
+            getApplicationContext().getSharedPreferences(WeatherService.PREFS_NAME, 0);
+
+        Intent broadcast = new Intent(WeatherService.INTENT_WEATHER_UPDATE);
+        try {
+            broadcast.putExtra(WeatherService.EXTRA_CITY, settings.getString("city", ""));
+            broadcast.putExtra(WeatherService.EXTRA_CONDITION, settings.getString("condition", ""));
+            broadcast.putExtra(WeatherService.EXTRA_LAST_UPDATE, settings.getString("timestamp", ""));
+            broadcast.putExtra(WeatherService.EXTRA_CONDITION_CODE, settings.getString("condition_code", ""));
+            broadcast.putExtra(WeatherService.EXTRA_FORECAST_DATE, settings.getString("forecast_date", ""));
+            broadcast.putExtra(WeatherService.EXTRA_HUMIDITY, settings.getString("humidity", ""));
+            broadcast.putExtra(WeatherService.EXTRA_TEMP, settings.getString("temp", ""));
+            broadcast.putExtra(WeatherService.EXTRA_WIND, settings.getString("wind", ""));
+            broadcast.putExtra(WeatherService.EXTRA_LOW, settings.getString("low", ""));
+            broadcast.putExtra(WeatherService.EXTRA_HIGH, settings.getString("high", ""));
+        } catch (Exception e) {
+            e.printStackTrace();
             return;
         }
-
-        for (String filePath : colorFILE_PATH) {
-            String sDefaultValue = KernelUtils.readOneLine(filePath);
-            Log.d(TAG, "INIT: " + sDefaultValue);
-            try {
-                iValue2 = Integer.parseInt(sDefaultValue);
-            } catch (NumberFormatException e) {
-                iValue2 = colorMAX_VALUE;
-            }
-            try {
-                iValue = preferences.getInt(filePath, iValue2);
-                Log.d(TAG, "restore: iValue: " + iValue + " File: " + filePath);
-            } catch (NumberFormatException e) {
-                iValue = iValue2;
-                Log.e(TAG, "restore ERROR: iValue: " + iValue + " File: " + filePath);
-            }
-            KernelUtils.writeColor(filePath, (int) iValue);
-        }
-    }
-
-    public static void restoreGamma() {
-        if (!isSupported(gammaFILE_PATH)) {
-            return;
-        }
-        for (String filePath : gammaFILE_PATH) {
-            String sDefaultValue = KernelUtils.readOneLine(filePath);
-            int iValue = preferences.getInt(filePath, Integer.valueOf(sDefaultValue));
-            KernelUtils.writeValue(filePath, String.valueOf((long) iValue));
-        }
-    }
-
-    /**
-     * Check whether the running kernel supports color/gamma tuning or not.
-     * 
-     * @return Whether color/gamma tuning is supported or not
-     */
-    public static boolean isSupported(String[] filecheck) {
-        boolean supported = true;
-        for (String filePath : filecheck) {
-            if (!KernelUtils.fileExists(filePath)) {
-                supported = false;
-            }
-        }
-
-        return supported;
+        getApplicationContext().sendBroadcast(broadcast);
     }
 
     @Override
