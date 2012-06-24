@@ -108,7 +108,7 @@
 
 	<string name="disable_bootaudio_title">Disable boot audio</string>
 	<string name="disable_bootaudio_summary">Quiet.</string>
-	<string name="disable_bootaudio_summary_disabled">To enable boot audio, you must have an MP3 file at \n/system/media/boot_audio.mp3</string>
+	<string name="disable_bootaudio_summary_disabled">To enable boot audio, you must have an MP3 file at \n/system/media/android_audio.mp3</string>
 
 	<string name="disable_bugmailer_title">Disable bugmailer</string>
 

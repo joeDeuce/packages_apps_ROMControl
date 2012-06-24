@@ -147,12 +147,12 @@ public class UserInterface extends AOKPPreferenceFragment implements
 
         mDisableBootAudio = (CheckBoxPreference) findPreference("disable_bootaudio");
         
-        if(!new File("/system/media/boot_audio.mp3").exists() &&
-                !new File("/system/media/boot_audio.unicorn").exists() ) {
+        if(!new File("/system/media/android_audio.mp3").exists() &&
+                !new File("/system/media/android_audio.unicorn").exists() ) {
             mDisableBootAudio.setEnabled(false);
             mDisableBootAudio.setSummary(R.string.disable_bootaudio_summary_disabled);
         } else {
-            mDisableBootAudio.setChecked(!new File("/system/media/boot_audio.mp3").exists());
+            mDisableBootAudio.setChecked(!new File("/system/media/android_audio.mp3").exists());
             if (mDisableBootAudio.isChecked())
                 mDisableBootAudio.setSummary(R.string.disable_bootaudio_summary);
         }
@@ -279,13 +279,13 @@ public class UserInterface extends AOKPPreferenceFragment implements
             if (checked) {
                 Helpers.getMount("rw");
                 new CMDProcessor().su
-                        .runWaitFor("mv /system/media/boot_audio.mp3 /system/media/boot_audio.unicorn");
+                        .runWaitFor("mv /system/media/android_audio.mp3 /system/media/android_audio.unicorn");
                 Helpers.getMount("ro");
                 preference.setSummary(R.string.disable_bootaudio_summary);
             } else {
                 Helpers.getMount("rw");
                 new CMDProcessor().su
-                        .runWaitFor("mv /system/media/boot_audio.unicorn /system/media/boot_audio.mp3");
+                        .runWaitFor("mv /system/media/android_audio.unicorn /system/media/android_audio.mp3");
                 Helpers.getMount("ro");
             }
             return true;
