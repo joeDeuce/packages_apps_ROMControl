@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <resources>
   
  <string-array name="pref_navigation_menu_entries">
@@ -8,6 +7,7 @@
     <item>Les deux</item>
     <item>Enlever</item>
   </string-array>
+
 
   <string-array name="pref_navigation_menu_values" translatable="false">
     <item>0</item>
@@ -282,6 +282,7 @@
   </string-array>
 
 
+  
   <string-array name="brightness_location_entries">
     <item>Au-dessus</item>
     <item>Au-dessous</item>
@@ -742,4 +743,15 @@
 	    <item>0</item>
 	    <item>1</item>
 	</string-array>
-</resources>
+
+    <string-array name="pref_lockscreen_weather_type_entries">
+        <item>Panneau Météo</item>
+        <item>Texte</item>
+    </string-array>
+
+    <string-array name="pref_lockscreen_weather_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+	</resources>

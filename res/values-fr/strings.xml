@@ -153,10 +153,14 @@
   <string name="lockscreen_battery_summary">"Toujours montrer le pourcentage de batterie sur l\'écran de verrouillage"</string>
   <string name="lockscreen_weather_title">Météo sur écran de verrouillage</string>
   <string name="lockscreen_weather_summary">Afficher les informations Météo sur l\'écran de verrouillage. Vous devez activer le service de météo dans le poste de pilotage de la ROM</string>
+  <string name="lockscreen_weather_type_title">Style Météo sur écran de verrouillage</string>
+  <string name="lockscreen_weather_type_summary">Définir si les informations Météo sont affichées sous forme graphique ou textuelle.</string>
   <string name="volume_wake_title">"Activer l\'écran avec boutons de volume"</string>
   <string name="volume_wake_summary">"Appuyer sur les boutons de volume lorsque le téléphone est éteint activera l\'écran"</string>
   <string name="volume_music_controls_title">Contrôle du lecteur audio avec les boutons de volume</string>
   <string name="volume_music_controls_summary">Une pression longue sur les boutons de volume permettra de passer à la chanson précédente ou suivante</string>
+  <string name="lockscreen_stock_music_layout_title">Disposition native Musique</string>
+  <string name="lockscreen_stock_music_layout_summary">Utiliser la disposition native pour afficher le lecteur Musique.</string>
   <string name="lockscreen_show_nav_title">Masquer la barre de nav</string>
   <string name="lockscreen_show_nav_summary">"Cache la barre de navigation (si votre appareil le permet) sur l\'écran de verrouillage de l\'écran."</string>
   <string name="custom_app_n_dialog_title">Choisissez la cible pour la cible %1$s</string>
@@ -204,11 +208,15 @@
 
 
   <string name="title_show_power_saver">"Afficher l\'économiseur d\'énergie"</string>
+    <string name="summary_show_power_saver">Vous devez avoir activé l\'économiseur d\'énergie pour le voir dans le menu du bouton Alimentation.</string>
   <string name="title_show_screenshot">"Afficher la capture d\'écran"</string>
   <string name="title_show_torch_toggle">Afficher la lampe de poche</string>
   <string name="title_show_airplane_toggle">"Afficher l\'interrupteur Mode Avion"</string>
 
+  <!-- Share to Clipboard -->
+  <string name="clipboard_notification">Copier dans le presse-papier.</string>
 
+  
   <string name="title_pref_powersaving_pref_mode">"Activer l\'économiseur d\'énergie"</string>
   <string name="summary_pref_powersaving_pref_mode">@null</string>
 
@@ -287,20 +295,20 @@
 
   <string name="toggle_style_title">Style des interrupteurs</string>
   <string name="toggle_style_summary">"Mode d\'affichage des interrupteurs: texte ou icône"</string>
-  <string name="toggle_reset">Réinitialiser les interrupteurs</string>
 
-  <string name="alternate_button_layout_title">Style alternatif</string>
-  <string name="alternate_button_layout_summary">Afficher des interrupteurs au lieu des commutateurs à glissière</string>
-
-	<string name="toggles_layout_title">Agencement des interrupteurs</string>
+  <string name="toggles_layout_title">Agencement des interrupteurs</string>
 
   <string name="enabled_toggles_title">Interrupteurs activés</string>
   <string name="enabled_toggles_summary">Choisissez les interrupteurs à afficher</string>
+
+  <string name="toggles_display_dialog">Choisissez les interrupteurs à utiliser</string>
+  <string name="toggles_display_close">Fermer</string>
+	
   <string name="toggles_order_title">Ordre des interrupteurs</string>
   <string name="toggles_order_summary">"Choisissez l\'ordre dans lequel les interrupteurs apparaissent"</string>
   <string name="brightness_location_title">Position du réglage de luminosité</string>
     <string name="reset_toggles_title">Réinitialiser les interrupteurs</string>
-    <string name="reset_toggles_summary">Réinitialiser tout les interrupteurs et leur ordre</string>
+    <string name="reset_toggles_summary">Réinitialiser tous les interrupteurs et leur ordre</string>
 
     <string name="pt_fast_charge_boot">Charge rapide</string>
     <string name="ps_fast_charge_boot">Activer Charge rapide au démarrage</string>
