@@ -615,12 +615,14 @@
 	</string-array>
 	
 	<string-array name="lcd_density_stock_entries">
+		<item>120 -- tablet</item>
 		<item>160 -- mdpi</item>
 		<item>240 -- hdpi</item>
 		<item>320 -- xhdpi</item>
 	</string-array>
 
 	<string-array name="lcd_density_stock_values" translatable="false">
+		<item>120</item>
 		<item>160</item>
 		<item>240</item>
 		<item>320</item>
