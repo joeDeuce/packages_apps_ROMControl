@@ -62,7 +62,7 @@ public class Led extends AOKPPreferenceFragment implements OnPreferenceChangeLis
 
 				mLedScreenOn = (CheckBoxPreference) findPreference(PREF_LED_SCREEN_ON);
 				mLedScreenOn.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(),
-					Settings.Secure.LED_SCREEN_ON, 0) == 1);
+					Settings.Secure.LED_SCREEN_ON, 1) == 1);
 		mUseBln = (CheckBoxPreference) findPreference(PREF_USE_BLN);
 		mUseBln.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.NOTIFICATION_USE_BUTTON_BACKLIGHT, 0) == 1);
