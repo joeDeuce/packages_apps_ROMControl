@@ -175,7 +175,7 @@
     <string name="lockscreen_custom_app_icon_no_sd">Insérer la carte SD pour utiliser cette fonction</string>
     <string name="lockscreen_custom_app_icon_successfully">"'s icône définie avec succès!"</string>
     <string name="lockscreen_custom_app_icon_failed">"Impossible de définir l\'icône! Votre carte SD est-elle montée?"</string>
-  <string name="lockscreen_landscape_title">"Verrouillage de l\'écran horizontal"</string>
+  <string name="lockscreen_landscape_title">"Mode paysage sur l\'écran horizontal"</string>
   <string name="lockscreen_landscape_summary">"Active l\'orientation en mode paysage de l\'écran de verrouillage"</string>
   <string name="lockscreen_quick_unlock_control_title">Déverrouillage code PIN rapide</string>
   <string name="lockscreen_quick_unlock_control_summary">"Déverrouille l\'écran protégé par code PIN sans devoir appuyer sur OK ou Entrée"</string>
@@ -557,5 +557,15 @@
 	
 	<!-- Miscellaneous -->
     <string name="location_unavailable">Impossible de trouver des informations sur le lieu pour la mise à jour de la météo</string>
+
+    <!-- cardinal directions -->
+    <string name="direction_north">N</string>
+    <string name="direction_north_east">NE</string>
+    <string name="direction_east">E</string>
+    <string name="direction_south_east">SE</string>
+    <string name="direction_south">S</string>
+    <string name="direction_south_west">SO</string>
+    <string name="direction_west">O</string>
+    <string name="direction_north_west">NO</string>
 
 </resources>
