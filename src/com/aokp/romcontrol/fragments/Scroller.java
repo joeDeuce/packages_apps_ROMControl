@@ -39,7 +39,7 @@ public class Scroller extends AOKPPreferenceFragment implements
 
         float defaultFriction = Settings.System.getFloat(getActivity()
                 .getContentResolver(), Settings.System.SCROLL_FRICTION,
-                0.015f);
+                0.001f);
 
         mScrollFriction = (SeekBarPreference) findPreference(PREF_SCROLL_FRICTION);
         mScrollFriction.setInitValue((int) (defaultFriction * 5000));
@@ -47,7 +47,7 @@ public class Scroller extends AOKPPreferenceFragment implements
 
         int defaultVelocity = Settings.System.getInt(getActivity()
                 .getContentResolver(), Settings.System.CUSTOM_FLING_VELOCITY,
-                8000);
+                9500);
 
         mCustomFlingVelocity = (SeekBarPreference) findPreference(PREF_CUSTOM_FLING_VELOCITY);
         mCustomFlingVelocity.setInitValue((int) (defaultVelocity / 100));
