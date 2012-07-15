@@ -403,6 +403,10 @@
     <item>TORCH</item>
     <item>SYNC</item>
     <item>FCHARGE</item>
+                <item>BLN</item>
+		<item>2G</item>
+		<item>AP</item>
+		<item>TETHER</item>
   </string-array>
   <string-array name="available_toggles_values">
     <item>Auto-rotate</item>
@@ -416,6 +420,10 @@
     <item>Torch</item>
     <item>Sync</item>
     <item>Fast charge</item>
+                <item>BLN</item>
+		<item>2G</item>
+		<item>AP</item>
+		<item>TETHER</item>
   </string-array>
   <string-array name="lockscreen_choice_entries">
     <item>Разблокировать</item>

@@ -228,9 +228,7 @@ public class ROMControlActivity extends PreferenceActivity implements ButtonBarH
                     }
                 } catch (RemoteException e) {
                 }
-            } else if (id == R.id.power_saver && mTablet)
-                target.remove(header);
-            else if (id == R.id.functionality & mTablet)
+            } else if (id == R.id.functionality & mTablet)
                 target.remove(header);
 
             // Increment if the current one wasn't removed by the Utils code.
